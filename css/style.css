@@ -1,0 +1,231 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Archivo', sans-serif;
+}
+a, a:hover, a:visited {
+    color: #0071bc;
+}
+#map {
+    top:0;
+    height: 100vh;
+    width:100vw;
+    position: fixed;
+}
+#mapInset {
+    bottom:50px;
+    right:30px;
+    height: 180px;
+    width:250px;
+    max-width:100%;
+    position: fixed;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+}
+#mapInset .mapboxgl-ctrl-bottom-left{
+    display: none;
+}
+@media (max-width: 500px) {
+    #mapInset {
+        display: none;
+    }
+}
+#header {
+        margin: auto;
+        width: 100%;
+        position: relative;
+        z-index: 5;
+        background: #21242a;
+        color: #b73636;
+        /* padding: 1vh 2vw; */
+    }
+    #header img {
+      padding: 2vh 2vw;
+    }
+    #header h1, #header h2, #header p {
+        margin: 0;
+        padding: 2vh 2vw;
+        text-align: left;
+        font-family: 'Archivo', sans-serif;
+    }
+    h2.liftout {
+        font-size: 2.6em;
+        font-family: 'Archivo', sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .step.active h3:after {
+        width: 80px;
+    }
+    .step.active h3:after, .step h3:after {
+        -webkit-transition: width 1s ease-in-out;
+        transition: width 1s ease-in-out;
+    }
+
+    .step h3:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0;
+    background-color: #fff;
+    margin-top: 12px;
+    opacity: .4;
+}
+
+#footer {
+    width: 100%;
+    min-height: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+    position: relative;
+    z-index: 5;
+}
+#features {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.hidden {
+    visibility: hidden;
+}
+.centered {
+    width: 50vw;
+    margin: 0 auto;
+}
+.lefty {
+    width: 33vw;
+    margin-left: 5vw;
+}
+.righty {
+    width: 33vw;
+    margin-left: 62vw;
+}
+.fully {
+    width: 100%;
+    margin: auto;
+}
+.light {
+    color: #444;
+    background-color: #fafafa;
+}
+.dark {
+    color: #fafafa;
+    background-color: #101820;
+}
+.step {
+    padding-bottom: 50vh;
+    /* margin-bottom: 10vh; */
+    opacity: 0.25;
+}
+.step.active {
+    opacity: 0.9;
+}
+
+.step div {
+    padding:  25px 50px;
+    font: 18px 'Archivo', sans-serif;
+}
+
+.step p {
+    line-height: 32px;
+}
+
+.step img {
+    width: 100%;
+}
+
+/* Progress Bar CSS */
+
+.progress-container {
+    width: 100%;
+    height: 4px;
+    background: #717C7D;
+    position: fixed;
+    z-index: 9999;
+}
+
+.progress-bar {
+    height: 4px;
+    background: #E37F1C;
+    width: 0%;
+    top: 0;
+    position: fixed;
+}
+
+@media (max-width: 750px) {
+    .centered, .lefty, .righty, .fully {
+        width: 90vw;
+        margin: 0 auto;
+    }
+}
+
+/* Fix issue on mobile browser where scroll breaks  */
+.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan,
+.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
+    touch-action: unset;
+}
+
+/* Legend CSS */
+
+  .legend {
+      position: fixed;
+      bottom: 30px;
+      color: #E4E4E4;
+      background-color: rgba(0, 0, 0, 0.6);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.10);
+      padding: 10px;
+      display:none;
+      z-index: 1;
+      margin-left: 25vw;
+      border-radius: 5px;
+      font-family: 'Archivo', sans-serif;
+      font-weight: 400;
+      font-size: small;
+  }
+
+  .legend h4 {
+      margin: 0 0 10px;
+  }
+
+  ul.legend-ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  ul.legend-ul li {
+    float: left;
+    padding-right: 10px;
+  }
+
+  .legend div span {
+      display: inline-block;
+      height: 10px;
+      width: 10px;
+      margin-right: 5px;
+      border: solid 1px #e37f1c;
+      border-radius: 10px;
+  }
+
+/* Footer CSS */
+
+p.footnote {
+  font-size: 14px;
+  font-family: 'Archivo', sans-serif;
+  font-style: italic;
+}
+#footer {
+    width: 100%;
+    min-height: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vh;
+    text-align: left;
+    line-height: 25px;
+    font-size: 13px;
+    position: relative;
+    z-index: 5;
+}

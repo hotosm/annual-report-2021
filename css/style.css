@@ -37,7 +37,7 @@ a, a:hover, a:visited {
         width: 100%;
         position: relative;
         z-index: 5;
-        background: #21242a;
+        background: #fff;
         color: #b73636;
         /* padding: 1vh 2vw; */
     }
@@ -46,16 +46,31 @@ a, a:hover, a:visited {
     }
     #header h1, #header h2, #header p {
         margin: 0;
-        padding: 2vh 2vw;
+        padding: 2vh 3vw;
         text-align: left;
         font-family: 'Archivo', sans-serif;
+    }
+    h1 {
+      font-size: 6em;
+      padding-top: 8vh !important;
+    }
+    #intro-text {
+      font-style: italic;
+      font-size: 1.5em;
+      width: 25%;
+    }
+    #chapter-1 {
+      margin-top: 20%;
     }
     h2.liftout {
         font-size: 2.6em;
         font-family: 'Archivo', sans-serif;
         letter-spacing: 1px;
     }
-
+    h3 {
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
     .step.active h3:after {
         width: 80px;
     }
@@ -73,6 +88,19 @@ a, a:hover, a:visited {
     margin-top: 12px;
     opacity: .4;
 }
+@keyframes extend {
+  from {width: 0;}
+  to {width: 25%;}
+}
+
+#separator {
+  background: #459ca0;
+  height: 16px;
+  width: 25%;
+  animation-name: extend;
+  animation-duration: 2s;
+}
+
 
 #footer {
     width: 100%;
@@ -84,6 +112,8 @@ a, a:hover, a:visited {
     font-size: 13px;
     position: relative;
     z-index: 5;
+    background: #fff;
+    color: #68707F;
 }
 #features {
     padding-top: 10vh;

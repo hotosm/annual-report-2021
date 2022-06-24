@@ -316,12 +316,10 @@
           }
           if (chapter.rotateAnimation) {
               map.once('moveend', () => {
-                  const rotateNumber = map.getBearing();
-                  map.rotateTo(rotateNumber + 180, {
-                      duration: 30000, easing: function (t) {
-                          return t;
-                      }
-                  });
+                const center = map.getCenter();
+  const newCenter = [center.lng + 360, center.lat];
+  map.easeTo({ center: newCenter, duration: 240000, easing: n => n });
+
               });
           }
       })

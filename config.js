@@ -7,7 +7,7 @@ var config = {
     projection: 'globe',
     theme: 'dark',
     use3dTerrain: true,
-    title: '<a href="https://www.hotosm.org/" target="_blank"><img src="images/logo.png" width="450" height="150" /></a><br /><div id="separator"></div><h1>The HOTOSM 2022 Annual Report</h1><h2>A Look Back at Community Mapping: How We Made Local Stories Global</h2><p id="intro-text">We are improving the wellbeing of people and the health of our planet through growing and sustaining the open mapping movement. See how and what we achieved this year. 🠓</p><a id="freeExplore" href="#chapter-1"><img src="images/arrow-down.gif" /></a>',
+    title: '<a href="https://www.hotosm.org/" target="_blank"><img src="images/logo.png" width="450" height="150" /></a><br /><div id="separator"></div><h1>The HOTOSM 2022 Annual Report</h1><h2>A Look Back at Community Mapping: How We Made Local Stories Global</h2><p id="intro-text">We are improving the wellbeing of people and the health of our planet through growing and sustaining the open mapping movement.</p><br /><p id="intro-text">See how and what we achieved this year. 🠓</p><a id="freeExplore" href="#chapter-1"><img src="images/arrow-down.gif" /></a>',
     subtitle: '',
     byline: '',
     footer: '<a href="https://www.hotosm.org/" target="_blank"><img src="images/logo.png" width="150" height="50" /></a><br /><h4>Credits</h4><strong>Visualizations</strong>: Paul Franz<br /><br /><h4>Special Thanks</h4> <div class="data-sources"><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>',

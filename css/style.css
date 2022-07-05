@@ -66,6 +66,7 @@ a, a:hover, a:visited {
         font-size: 2.6em;
         font-family: 'Archivo', sans-serif;
         letter-spacing: 1px;
+        line-height: 1.6em;
     }
     h3 {
       text-transform: uppercase;

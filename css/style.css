@@ -108,6 +108,10 @@ a, a:hover, a:visited {
   to {width: 25%;}
 }
 
+h4.impact-head {
+  margin-bottom: .1em;
+}
+
 #separator {
   background: #459ca0;
   height: 16px;

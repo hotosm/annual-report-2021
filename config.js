@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/hot/cl5b8ole5000n14k11hb28yc9',
+    style: 'mapbox://styles/hot/cl5bcbrm3000q18lapftfxoch',
     accessToken: 'pk.eyJ1IjoiaG90IiwiYSI6IlBtUmNiR1kifQ.dCS1Eu9DIRNZGktc24IwtA',
     showMarkers: false,
     inset: true,
@@ -229,15 +229,15 @@ var config = {
         },
         {
             id: 'chapter-7',
-            alignment: 'full',
+            alignment: 'right',
             hidden: false,
-            title: '',
+            title: 'West and Northern Africa Hub Launch',
             image: '',
-            description: '<h2 class="liftout"><u>To scale and sustain the movement</u>, we need to create the space to <span style="color: #D73F3F;">connect, convene, and amplify</span> community and partner work; providing excellent collaboration spaces and virtuous circles for Partner to Community and Community to Community sharing and learning.</h2>',
+            description: 'Continuing the rolling out of its Regional Open Mapping Hubs, the West and Northern Africa Open Mapping Hub (the Hub) opened its doors in March 2022 to support open mapping activities in the region, led by Regional Director, Ibrahima Cisse.' + '<br /><br />' + '<iframe width="100%" height="540" src="https://www.youtube.com/embed/NFjREalqx48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' + '<br /><br />' + 'The Hub will focus on humanitarian and community development mapping and will work with humanitarian organizations, governments, civil society, private operators, institutions, and other actors on the use of OpenStreetMap tools that support disaster risk reduction and response, gender equality, sustainable cities, public health, and displacement and safe migration.' + '<br /><br />' + 'The Hub will also support local mapping communities in the region by facilitating knowledge exchanges, distributing funding, and providing training and support with the goal of massively scaling local edits to OpenStreetMap.',
             location: {
-              center: [-58.401371, 4.361681],
-              zoom: 2.5,
-              pitch: 0,
+              center: [10.26877, 22.46840],
+              zoom: 4.77,
+              pitch: 21.00,
               bearing: 0.00
             },
             mapAnimation: 'flyTo',
@@ -248,6 +248,47 @@ var config = {
             ],
             onChapterExit: [
 
+            ]
+        },
+        {
+            id: 'chapter-8',
+            alignment: 'right',
+            hidden: false,
+            title: 'She Leads and She Inspires',
+            image: '',
+            description: 'The She Leads and She Inspires Project is an initiative of the OpenMapping Hub - Asia Pacific and was designed to increase women’s representation in the geospatial ecosystem by supporting the emergence and evolution of women leaders within the OSM ecosystem and beyond. The long term vision is that the participants will continue to grow, get more deeply involved and champion similar initiatives in their communities beyond the scope of the project.' + '<br /><br />' + 'Over the course of six months, women from Nepal, India, Philippines, Bangladesh, Bhutan, Tajikistan, Indonesia, Pakistan, Sri Lanka, Cambodia, Fiji, Kiribati, Vietnam, Papua New Guinea were led through a structured programme supporting them to become OSM community leaders by gaining skills in geospatial data and technologies, decision making, digital leadership, needs identification and networking.' + '<br /><br />' + 'Out of the 99 women trained, 74 completed the program and 19 will be carrying out 10 projects in 10 countries. The projects will address local challenges related to Disaster Resilience, Environment, Gender Equality, Health, Heritage, Inclusion, and Sustainable Cities, adding value to local action in Asia Pacific.' + '<br /><br />' + '<iframe width="100%" height="540" src="https://www.youtube.com/embed/NFjREalqx48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' + '<br /><br />' + 'The project confirmed what we already knew; that there is a lack of female representation in the geospatial sector. It also became clear that it is important to connect women in the OSM ecosystem to experienced project coordinators/experts to further expand and implement their project ideas. The project also helped us learn about the need to include men allies for sustainable growth and empowerment. She Leads and She Inspires is a first of many initiatives planned by HOT’s and the Open Mapping Hubs and demonstrates our commitment to helping women carve out their own destinies as inspiring OSM leaders.',
+            location: {
+              center: [130.707133, 0.333292],
+              zoom: 3,
+              pitch: 0,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+              {
+                layer: 'she_leads',
+                opacity: 1,
+                duration: 2000
+              },
+              {
+                layer: 'she_leads2',
+                opacity: 1,
+                duration: 2000
+              }
+            ],
+            onChapterExit: [
+              {
+                layer: 'she_leads',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'she_leads2',
+                opacity: 0,
+                duration: 2000
+              }
             ]
         }
     ]

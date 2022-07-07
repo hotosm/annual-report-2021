@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/hot/cl59mj84w000815pk1pizae6r',
+    style: 'mapbox://styles/hot/cl5b0c2s4000c14pm2szt3je4',
     accessToken: 'pk.eyJ1IjoiaG90IiwiYSI6IlBtUmNiR1kifQ.dCS1Eu9DIRNZGktc24IwtA',
     showMarkers: false,
     inset: true,
@@ -7,9 +7,10 @@ var config = {
     projection: 'globe',
     theme: 'dark',
     use3dTerrain: true,
-    title: '<a href="https://www.hotosm.org/" target="_blank"><img src="images/logo.png" width="450" height="150" /></a><br /><div id="separator"></div><h1>The HOTOSM 2022 Annual Report</h1><h2>A Look Back at Community Mapping: How We Made Local Stories Global</h2><p id="intro-text">We are improving the wellbeing of people and the health of our planet through growing and sustaining the open mapping movement.</p><br /><p id="intro-text">See how and what we achieved this year. 🠓</p><a id="freeExplore" href="#chapter-1"><img src="images/arrow-down.gif" /></a>',
+    title: '<a href="https://www.hotosm.org/" target="_blank"><img src="images/logo.png" width="450" height="150" /></a><br /><div id="separator"></div><h1>The HOTOSM 2022 Annual Report</h1><h2>A Look Back at Community Mapping: How We Made Local Stories Global</h2><p id="intro-text">We are improving the wellbeing of people and the health of our planet through growing and sustaining the open mapping movement.</p><br /><p id="intro-text">See how and what we achieved this year. 🠓</p><a id="freeExplore" href="#letter-0"><img src="images/arrow-down.gif" /></a>',
     subtitle: '',
     byline: '',
+    mobileview: '<div id="rotate-mobile"><em>For optimal viewing of this storytelling map on mobile, rotate your device to a horizontal orientation.</em><br><br><img src="images/device.png">',
     footer: '<a href="https://www.hotosm.org/" target="_blank"><img src="images/logo.png" width="150" height="50" /></a><br /><h4>Credits</h4><strong>Visualizations</strong>: Paul Franz<br /><br /><h4>Special Thanks</h4> <div class="data-sources"><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>',
     chapters: [
         {
@@ -20,10 +21,10 @@ var config = {
             image: '',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
-                center: [-98.766667, 38.466667],
-                zoom: 3.5,
-                pitch: 0,
-                bearing: 0
+              center: [-8.68740, 23.01151],
+              zoom: 3,
+              pitch: 1.67,
+              bearing: 0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
@@ -33,47 +34,6 @@ var config = {
             ],
             onChapterExit: [
 
-            ]
-        },
-        {
-            id: 'spacer-1',
-            alignment: 'full',
-            hidden: false,
-            title: '',
-            image: '',
-            description: '<h2 class="liftout">Eastern & Southern Africa</h2>',
-            location: {
-              center: [29.7219314, -1.3045366],
-              zoom: 4,
-              pitch: 0,
-              bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [
-              {
-                  layer: 'country-kenya',
-                  opacity: 1,
-                  duration: 1000
-              },
-              {
-                  layer: 'country-africa',
-                  opacity: 1,
-                  duration: 1000
-              }
-            ],
-            onChapterExit: [
-              {
-                  layer: 'country-kenya',
-                  opacity: 0,
-                  duration: 1000
-              },
-              {
-                  layer: 'country-africa',
-                  opacity: 0,
-                  duration: 1000
-              }
             ]
         },
         {
@@ -93,11 +53,7 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-              {
-                  layer: 'satellite',
-                  opacity: 1,
-                  duration: 1000
-              }
+
             ],
             onChapterExit: [
 
@@ -167,42 +123,58 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'spacer-3',
-            alignment: 'full',
-            hidden: false,
-            title: '',
-            image: '',
-            description: '<h2 class="liftout">South Asia</h2>',
-            location: {
-              center: [88.039, 24.156],
-              zoom: 4.3,
-              pitch: 0,
-              bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
             id: 'chapter-5',
-            alignment: 'center',
+            alignment: 'left',
             hidden: false,
             title: 'Mapping Chepang',
             image: '',
             description: 'The project centered around mapping in the remote hills of central Nepal and sought to generate data to assess the needs of the Chepang community. Chepangs are one of the most marginalized Indigenous communities in Nepal. Traditionally nomadic people who relied on hunting, fishing and the products of the forest, these  ways of life were brought to an end by the introduction of new government policies.' + '<br /><br />' + 'Restrictions on hunting, gathering and clearing of forest patches have forced the Chepangs to adopt a settled way of life. This change of lifestyle has brought extreme poverty in their community and made it difficult for the Chepangs to access basic amenities such as nutritious food, proper housing, safe drinking water, education and healthcare.' + '<br /><br />' + 'During the mapping, validation, field verification, output and data dissemination, the Geomatics Engineering Society team was able to actively include the needs of the Chepang communities in the project design using surveys and direct conversations.' + '<br /><br />' + 'In line with the project’s poverty reduction and access to basic amenities, they engaged with various donor organizations and the local government. They simultaneously conducted several trainings on OSM to GES members and various OSM  communities in Nepal. They also collaborated with Kathmandu Living Labs, Youth Innovation Lab, Naxa, Department of Geomatics Engineering,  Kathmandu University, and several governmental bodies. The team collaborated with 19 ward presidents and trained them locally to read and visualize the printed satellite imagery maps.' + '<br /><br />' + 'Maps and data that include buildings, roads, land use, and other critical types of infrastructure will be used to access basic amenities for the Chepang and also to analyze areas vulnerable to disaster, agricultural areas, and to assess the need for schools and health posts in the community.' + '<br /><br />' + 'The data and maps generated from the project are being shared with various humanitarian agencies and stakeholders such as  Shanti Griha Nepal, Planete Enfants & Développement, Save the Children, Save Our Soul, Child Workers in Nepal (CWIN), USAID, Leo Club, the Rotaract Club, and various other local authorities for uplifting their communities.',
             location: {
-              center: [88.039, 24.156],
-              zoom: 4.3,
-              pitch: 0,
-              bearing: 0
+              center: [82.81188, 28.28352],
+              zoom: 6.94,
+              pitch: 1.67,
+              bearing: 0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-
+                {
+                  layer: 'nepal',
+                  opacity: 1,
+                  duration: 4000
+                }
+            ],
+            onChapterExit: [
+              {
+                layer: 'nepal',
+                opacity: 0,
+                duration: 1000
+              }
+            ]
+        },
+        {
+            id: 'chapter-5',
+            alignment: 'left',
+            hidden: false,
+            title: 'Disaster Activations',
+            image: '',
+            description: 'Location is critical to disaster response: first responders need fast, reliable information to reach affected areas post-disaster and prioritize aid. Through rapid response activations, the HOT community works together online using satellite and drone imagery to rapidly generate map data in OpenStreetMap. The resulting data is made available via the Humanitarian Data Exchange (HDX) and can be used to create printed maps, for analysis, or for navigation on the ground.',
+            location: {
+              center: [82.81188, 28.28352],
+              zoom: 6.94,
+              pitch: 1.67,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                  layer: 'nepal',
+                  opacity: 1,
+                  duration: 1000
+                }
             ],
             onChapterExit: []
         }

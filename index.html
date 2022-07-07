@@ -37,7 +37,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" />
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link href='css/cookies.css' rel='stylesheet' />
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
     <!-- GA CODE NEEDED -->
 
@@ -82,6 +83,11 @@
 	</div>
 
   <div id="mapInset"></div>
+
+  <div id="loader">
+      <div id="loaderSpin"></div>
+  </div>
+
   <div id="story"></div>
 
   <script src="./config.js"></script>
@@ -252,6 +258,7 @@
 
 
   map.on("load", function() {
+    console.log('loaded');
       if (config.use3dTerrain) {
           map.addSource('mapbox-dem', {
               'type': 'raster-dem',
@@ -305,6 +312,12 @@
 
 
           response.element.classList.add('active');
+          if (chapter.id === 'letter-0' || chapter.id === 'chapter-1') {
+            document.getElementById('loader').style.opacity = 0;
+          }
+          else {
+            document.getElementById('loader').style.opacity = 0;
+          }
           map[chapter.mapAnimation || 'flyTo'](chapter.location);
           // Incase you do not want to have a dynamic inset map,
           // rather want to keep it a static view but still change the
@@ -424,12 +437,46 @@
       insetMap.getSource('boundsSource').setData(bounds);
   }
 
+  function customizeChapters(chap) {
+      if (chap === 'letter-0') {
+          map.on('render', removeLoader);
+      } else {
+          map.off('render', removeLoader);
+      }
+  }
 
+  function removeLoader() {
+      document.getElementById('loader').style.opacity = 0;
+      document.getElementById('loaderSpin').style.opacity = 0;
+  }
 
   // setup resize event
   window.addEventListener('resize', scroller.resize);
 
+// GDPR box behavior
+
+$(document).ready(function(){
+  $("#cn-accept-cookie").click(function(){
+    $("#cookie-notice").hide("slow");
+  });
+	$("#cn-close-notice").click(function(){
+		$("#cookie-notice").hide("slow");
+	});
+});
+
   </script>
+
+  <div id="cookie-notice" role="dialog" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom" aria-label="Cookie Notice" style="background-color: #68707F;">
+  	<div class="cookie-notice-container" style="color: #fff;">
+  		<span id="cn-notice-text" class="cn-text-container">This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies. Review our privacy policy for more details.</span>
+
+  		<span id="cn-notice-buttons" class="cn-buttons-container"><a id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button" aria-label="YES, I AGREE" style="background-color: #6C2020">YES, I AGREE</a>
+  			<a href="https://www.hotosm.org/privacy" target="_blank" id="cn-more-info" class="cn-more-info cn-button" aria-label="PRIVACY POLICY" style="background-color: #6C2020">PRIVACY POLICY</a>
+  		</span>
+
+  		<span id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" title="No"></span>
+  	</div>
+  </div>
 
 </body>
 </html>

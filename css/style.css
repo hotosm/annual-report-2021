@@ -37,25 +37,16 @@ a, a:hover, a:visited {
         margin: auto;
         width: 100%;
         position: relative;
-        z-index: 5;
+        z-index: 1000;
         background: #fff;
+        background-image: url('../images/contours4.png');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-opacity: .1;
+        background-size: cover;
         color: #b73636;
         /* padding: 1vh 2vw; */
     }
-    #header:before {
-  content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.05;
-  background-image: url('../images/contours2.png');
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
-}
 
     }
     #header img {
@@ -107,7 +98,33 @@ a, a:hover, a:visited {
   from {width: 0;}
   to {width: 25%;}
 }
-
+#loader {
+    top:0;
+    height: 100vh;
+    width:100vw;
+    position: fixed;
+    z-index: 0;
+    background: #000;
+    opacity: .9;
+    transition: opacity 1s ease-out;
+    pointer-events: none;
+}
+#loaderSpin {
+    border: 5px solid #333;
+    border-top: 5px solid #d3d3d3;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: loadSpin 2s linear infinite;
+    transition: opacity 0.5s ease-out;
+    position: relative;
+    top: 41%;
+    margin: auto;
+}
+@keyframes loadSpin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
 h4.impact-head {
   margin-bottom: .1em;
 }

@@ -199,6 +199,13 @@
 
   var footer = document.createElement('div');
 
+  // add prefix content for mobile view
+  if (config.mobileview) {
+  	var mobileText = document.createElement('p');
+  	mobileText.innerHTML = config.mobileview;
+  	header.appendChild(mobileText);
+  }
+
   if (config.footer) {
       var footerText = document.createElement('p');
       footerText.innerHTML = config.footer;

@@ -4,8 +4,15 @@ body {
     font-family: 'Archivo', sans-serif;
     overflow-x: hidden;
 }
+
+a {
+  color: #D73F3F;
+  font-weight: bold;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.2em;
+}
 a, a:hover, a:visited {
-    color: #0071bc;
+    color: #459ca0;
 }
 #map {
     top:0;
@@ -306,3 +313,17 @@ p.footnote {
 /* #chapter-3 .dark {
   background-color: red !important;
 } */
+
+/* Mobile fallback */
+
+@media (min-width: 450px)  {
+#rotate-mobile {
+    display: none;
+    margin-top: 25px;
+}
+}
+
+#rotate-mobile p {
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+}

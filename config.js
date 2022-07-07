@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/hot/cl5b0c2s4000c14pm2szt3je4',
+    style: 'mapbox://styles/hot/cl5b8ole5000n14k11hb28yc9',
     accessToken: 'pk.eyJ1IjoiaG90IiwiYSI6IlBtUmNiR1kifQ.dCS1Eu9DIRNZGktc24IwtA',
     showMarkers: false,
     inset: true,
@@ -10,7 +10,7 @@ var config = {
     title: '<a href="https://www.hotosm.org/" target="_blank"><img src="images/logo.png" width="450" height="150" /></a><br /><div id="separator"></div><h1>The HOTOSM 2022 Annual Report</h1><h2>A Look Back at Community Mapping: How We Made Local Stories Global</h2><p id="intro-text">We are improving the wellbeing of people and the health of our planet through growing and sustaining the open mapping movement.</p><br /><p id="intro-text">See how and what we achieved this year. 🠓</p><a id="freeExplore" href="#letter-0"><img src="images/arrow-down.gif" /></a>',
     subtitle: '',
     byline: '',
-    mobileview: '<div id="rotate-mobile"><em>For optimal viewing of this storytelling map on mobile, rotate your device to a horizontal orientation.</em><br><br><img src="images/device.png">',
+    mobileview: '<div id="rotate-mobile"><strong>For optimal viewing of this report on a mobile device, rotate to a landscape orientation. ⭯</strong></div>',
     footer: '<a href="https://www.hotosm.org/" target="_blank"><img src="images/logo.png" width="150" height="50" /></a><br /><h4>Credits</h4><strong>Visualizations</strong>: Paul Franz<br /><br /><h4>Special Thanks</h4> <div class="data-sources"><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>',
     chapters: [
         {
@@ -154,29 +154,101 @@ var config = {
             ]
         },
         {
-            id: 'chapter-5',
+            id: 'chapter-6',
             alignment: 'left',
             hidden: false,
             title: 'Disaster Activations',
             image: '',
-            description: 'Location is critical to disaster response: first responders need fast, reliable information to reach affected areas post-disaster and prioritize aid. Through rapid response activations, the HOT community works together online using satellite and drone imagery to rapidly generate map data in OpenStreetMap. The resulting data is made available via the Humanitarian Data Exchange (HDX) and can be used to create printed maps, for analysis, or for navigation on the ground.',
+            description: 'Location is critical to disaster response: first responders need fast, reliable information to reach affected areas post-disaster and prioritize aid. Through <a href="https://www.hotosm.org/hot-activation-protocol" target="_blank">rapid response activations</a>, the HOT community works together online using satellite and drone imagery to rapidly generate map data in OpenStreetMap. The resulting data is made available via the <a href="https://data.humdata.org/organization/hot" target="_blank">Humanitarian Data Exchange (HDX)</a> and can be used to create printed maps, for analysis, or for navigation on the ground.',
             location: {
-              center: [82.81188, 28.28352],
-              zoom: 6.94,
-              pitch: 1.67,
+              center: [-58.401371, 4.361681],
+              zoom: 2.75,
+              pitch: 0,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+              {
+                layer: 'satellite',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'activations',
+                opacity: 1,
+                duration: 2000
+              },
+              {
+                layer: 'activations_label',
+                opacity: 1,
+                duration: 2000
+              }
+            ],
+            onChapterExit: [
+              {
+                layer: 'satellite',
+                opacity: 1,
+                duration: 4000
+              },
+              {
+                layer: 'activations',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'activations_label',
+                opacity: 0,
+                duration: 2000
+              }
+            ]
+        },
+        {
+            id: 'spacer-1',
+            alignment: 'full',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<h2 class="liftout"><u>To scale and sustain the movement</u>, we need to create the space to <span style="color: #D73F3F;">connect, convene, and amplify</span> community and partner work; providing excellent collaboration spaces and virtuous circles for Partner to Community and Community to Community sharing and learning.</h2>',
+            location: {
+              center: [-58.401371, 4.361681],
+              zoom: 2.5,
+              pitch: 0,
               bearing: 0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                {
-                  layer: 'nepal',
-                  opacity: 1,
-                  duration: 1000
-                }
+
             ],
-            onChapterExit: []
+            onChapterExit: [
+
+            ]
+        },
+        {
+            id: 'chapter-7',
+            alignment: 'full',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<h2 class="liftout"><u>To scale and sustain the movement</u>, we need to create the space to <span style="color: #D73F3F;">connect, convene, and amplify</span> community and partner work; providing excellent collaboration spaces and virtuous circles for Partner to Community and Community to Community sharing and learning.</h2>',
+            location: {
+              center: [-58.401371, 4.361681],
+              zoom: 2.5,
+              pitch: 0,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+            ]
         }
     ]
 };

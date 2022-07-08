@@ -79,6 +79,8 @@ a, a:hover, a:visited {
         font-family: 'Archivo', sans-serif;
         letter-spacing: 1px;
         line-height: 1.6em;
+        text-align: center;
+        font-weight: 300;
     }
     h3 {
       text-transform: uppercase;

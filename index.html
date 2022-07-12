@@ -319,7 +319,7 @@
 
 
           response.element.classList.add('active');
-          if (chapter.id === 'letter-0' || chapter.id === 'chapter-1') {
+          if (chapter.id === 'chapter-1' || chapter.id === 'chapter-2') {
             document.getElementById('loader').style.opacity = 0;
           }
           else {
@@ -350,7 +350,7 @@
               map.once('moveend', () => {
                 const center = map.getCenter();
                 const newCenter = [center.lng + 360, center.lat];
-                  map.easeTo({ center: newCenter, duration: 240000, easing: n => n });
+                  map.easeTo({ center: newCenter, duration: 180000, easing: n => n });
               });
           }
       })
@@ -444,6 +444,21 @@
       insetMap.getSource('boundsSource').setData(bounds);
   }
 
+  // Setup free freeExplore
+
+  function disableFreetime() {
+    let windowWidth = window.innerWidth;
+    if (windowWidth >= 1020) {
+      document.getElementById('map').style['z-index'] = -5;
+      if (map.hasControl(nav)) {
+          map.removeControl(nav);
+  				map.dragPan.disable();
+      }
+    }
+  }
+
+  // Setup preloader animations
+
   function customizeChapters(chap) {
       if (chap === 'letter-0') {
           map.on('render', removeLoader);
@@ -459,6 +474,16 @@
 
   // setup resize event
   window.addEventListener('resize', scroller.resize);
+
+  var nav = new mapboxgl.NavigationControl({visualizePitch: true});
+  function enableFreetime() {
+    let windowWidth = window.innerWidth;
+    if (windowWidth >= 1020) {
+      document.getElementById('map').style['z-index'] = 0;
+      map.addControl(nav, 'top-right');
+  		map.dragPan.enable();
+    }
+  }
 
 // GDPR box behavior
 

@@ -7,7 +7,7 @@ var config = {
     projection: 'globe',
     theme: 'dark',
     use3dTerrain: true,
-    title: '<a href="https://www.hotosm.org/" target="_blank"><img src="images/logo.png" width="450" height="150" /></a><br /><div id="separator"></div><h1>The HOTOSM 2022 Annual Report</h1><h2>A Look Back at Community Mapping: How We Made Local Stories Global</h2><p id="intro-text">We are improving the wellbeing of people and the health of our planet through growing and sustaining the open mapping movement.</p><br /><p id="intro-text">See how and what we achieved this year. 🠓</p><a id="freeExplore" href="#letter-0"><img src="images/arrow-down.gif" /></a>',
+    title: '<a href="https://www.hotosm.org/" target="_blank"><img style="padding:25px;" src="images/logo_white.png" width="356" height="88" /></a><br /><div id="separator"></div><h1>ANNUAL REPORT</h1><h2>Improving the wellbeing of people and the health of our planet through growing and sustaining an open mapping movement.</h2><p id="intro-text">HOT and the Regional Open Mapping Hubs support, motivate and enable people to contribute to OpenStreetMap; an open-source, free, and a digital public good and ensure map data is accessible and used in decisions that save and improve lives in countries at high risk of disaster, humanitarian crises, or experiencing multidimensional poverty, while making sure communities are visible on the map in the way they choose and included in decisions that affect their lives.</p><p id="intro-text">July 2021 - June 2022</p><br /><a id="freeExplore" href="#letter-0">BEGIN STORY 🠓 </a>',
     subtitle: '',
     byline: '',
     mobileview: '<div id="rotate-mobile"><strong>For optimal viewing of this report on a mobile device, rotate to a landscape orientation. ⭯</strong></div>',
@@ -65,7 +65,7 @@ var config = {
             hidden: false,
             title: 'Mapping Sustainable Cities in Kampala, Uganda',
             image: '',
-            description: 'Resilience Mappers took up the challenge to address the lack of complete spatial data in the informal settlements of Kampala. The community mapped out all the buildings and roads in these settlements and shared the data with Actogether and the Kampala Capital City Authority. The data will be used to identify potential treatment and evacuation sites and also approximate the population of the people affected in case of an outbreak of COVID-19. In addition to the buildings and roads mapped, data users also required updated information on service points, specifically health facilities, education facilities and solid waste dumping points (both legal and illegal).<h3></h3><strong>This project was supported by ESRI</strong>',
+            description: 'Resilience Mappers took up the challenge to address the lack of complete spatial data in the informal settlements of Kampala. The community mapped out all the buildings and roads in these settlements and shared the data with Actogether and the Kampala Capital City Authority. The data will be used to identify potential treatment and evacuation sites and also approximate the population of the people affected in case of an outbreak of Covid-19. In addition to the buildings and roads mapped, data users also required updated information on service points, specifically health facilities, education facilities and solid waste dumping points (both legal and illegal).<h3></h3><strong>This project was supported by ESRI</strong>',
             location: {
               center: [32.58118, 0.34707],
               zoom: 16.48,

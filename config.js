@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/hot/cl5i5qyeb000b14nxd1ablsng',
+    style: 'mapbox://styles/hot/cl5iak0ke000114qfn1ijgpja',
     accessToken: 'pk.eyJ1IjoiaG90IiwiYSI6IlBtUmNiR1kifQ.dCS1Eu9DIRNZGktc24IwtA',
     showMarkers: false,
     inset: true,
@@ -106,6 +106,11 @@ var config = {
                 layer: 'kenya-outline',
                 opacity: 1,
                 duration: 2000
+              },
+              {
+                layer: 'africa_labels',
+                opacity: 1,
+                duration: 2000
               }
             ],
             onChapterExit: [
@@ -116,6 +121,11 @@ var config = {
               },
               {
                 layer: 'kenya-outline',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'africa_labels',
                 opacity: 0,
                 duration: 2000
               }

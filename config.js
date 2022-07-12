@@ -547,19 +547,27 @@ var config = {
             image: '',
             description: 'Continuing the rolling out of its Regional Open Mapping Hubs, the West and Northern Africa Open Mapping Hub (the Hub) opened its doors in March 2022 to support open mapping activities in the region, led by Regional Director, Ibrahima Cisse.' + '<br /><br />' + '<img src="images/placeholder.jpg" />' + '<br /><br />' + 'The Hub will focus on humanitarian and community development mapping and will work with humanitarian organizations, governments, civil society, private operators, institutions, and other actors on the use of OpenStreetMap tools that support disaster risk reduction and response, gender equality, sustainable cities, public health, and displacement and safe migration.' + '<br /><br />' + 'The Hub will also support local mapping communities in the region by facilitating knowledge exchanges, distributing funding, and providing training and support with the goal of massively scaling local edits to OpenStreetMap.',
             location: {
-              center: [-17.57109, 14.91929],
-              zoom: 5.20,
-              pitch: 41.13,
+              center: [-1.701088, 13.784610],
+              zoom: 4.1,
+              pitch: 0,
               bearing: 0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-
+              {
+                layer: 'wnaf_2',
+                opacity: .6,
+                duration: 2000
+              }
             ],
             onChapterExit: [
-
+              {
+                layer: 'wnaf_2',
+                opacity: 0,
+                duration: 2000
+              }
             ]
         },
         {

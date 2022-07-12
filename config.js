@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/hot/cl5iak0ke000114qfn1ijgpja',
+    style: 'mapbox://styles/hot/cl5iav5kr000k15pexna2x0ma',
     accessToken: 'pk.eyJ1IjoiaG90IiwiYSI6IlBtUmNiR1kifQ.dCS1Eu9DIRNZGktc24IwtA',
     showMarkers: false,
     inset: true,
@@ -398,6 +398,57 @@ var config = {
               },
               {
                 layer: 'she_leads_countries',
+                opacity: 0,
+                duration: 2000
+              }
+            ]
+        },
+        {
+            id: 'chapter-9',
+            alignment: 'left',
+            hidden: false,
+            title: 'The Data Quality Internship',
+            image: '',
+            description: 'HOT coordinated a 12-week Data Quality Internship from September to November 2021 designed to  give participants the opportunity to gain readily transferable geospatial skills.' + '<br /><br />' + 'The 19 interns, hailing from 14 countries, were led through a series of webinars hosted by a range of professionals in the humanitarian mapping sector. They received live in-depth training in a wide range of geospatial tools culminating in their ability to confidently validate the work of other mappers.' + '<br /><br />' + 'Together they validated a large amount of OpenStreetMap data across 12 countries to ensure its readiness for disaster response and field mapping activities. This involved working remotely in teams of 4-5 and coordinating approaches and sharing best practices.' + '<br /><br />' + 'The Data Quality Internship is part of HOT’s commitment to ensuring high quality data for humanitarian and development use and also recognizes our role in closing the digital divide, including acknowledging obstacles that certain groups, such as women, nationals of low and middle-income countries, and members of other underrepresented groups, face in developing skills needed for roles in the humanitarian & technology sectors.',
+            location: {
+              center: [19.661,-25.060],
+              zoom: 2.1,
+              pitch: 0,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+              {
+                layer: 'data_intern_countries1',
+                opacity: 1,
+                duration: 2000
+              },
+              {
+                layer: 'data_intern_countries2',
+                opacity: 1,
+                duration: 2000
+              },
+              {
+                layer: 'data_intern_labels',
+                opacity: 1,
+                duration: 2000
+              }
+            ],
+            onChapterExit: [
+              {
+                layer: 'data_intern_countries1',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'data_intern_countries2',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'data_intern_labels',
                 opacity: 0,
                 duration: 2000
               }

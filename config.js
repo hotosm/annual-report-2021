@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/hot/cl5iav5kr000k15pexna2x0ma',
+    style: 'mapbox://styles/hot/cl5ih5i43001415pevodr6bop',
     accessToken: 'pk.eyJ1IjoiaG90IiwiYSI6IlBtUmNiR1kifQ.dCS1Eu9DIRNZGktc24IwtA',
     showMarkers: false,
     inset: true,
@@ -22,18 +22,76 @@ var config = {
             description: '<img style="float:right; width: auto; padding: 0 0 25px 25px;" src="images/tyler2.jpg" />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
               center: [-8.68740, 23.01151],
-              zoom: 3,
-              pitch: 1.67,
+              zoom: 2.5,
+              pitch: 0,
               bearing: 0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
-
+              {
+                layer: 'latam',
+                opacity: .8,
+                duration: 2000
+              },
+              {
+                layer: 'asiapac',
+                opacity: .8,
+                duration: 2000
+              },
+              {
+                layer: 'asiapac2',
+                opacity: .8,
+                duration: 2000
+              },
+              {
+                layer: 'wnaf',
+                opacity: .8,
+                duration: 2000
+              },
+              {
+                layer: 'esaf',
+                opacity: .8,
+                duration: 2000
+              },
+              {
+                layer: 'esaf2',
+                opacity: .8,
+                duration: 2000
+              }
             ],
             onChapterExit: [
-
+              {
+                layer: 'latam',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'asiapac',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'asiapac2',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'wnaf',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'esaf',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'esaf2',
+                opacity: 0,
+                duration: 2000
+              }
             ]
         },
         {

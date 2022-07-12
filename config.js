@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/hot/cl5ih5i43001415pevodr6bop',
+    style: 'mapbox://styles/hot/cl5ij2ot9000j14ny38aay5q0',
     accessToken: 'pk.eyJ1IjoiaG90IiwiYSI6IlBtUmNiR1kifQ.dCS1Eu9DIRNZGktc24IwtA',
     showMarkers: false,
     inset: true,
@@ -95,6 +95,52 @@ var config = {
             ]
         },
         {
+            id: 'prelude-1',
+            alignment: 'center',
+            hidden: false,
+            title: 'Impact Areas',
+            image: '',
+            description: 'Impact Areas connect open mapping with real world applications through spatial data use in the humanitarian and development sectors. Each impact area at HOT provides a framework for technical and subject matter expertise for partnerships, grantee projects, and community support.',
+            location: {
+              center: [-8.68740, 23.01151],
+              zoom: 2.5,
+              pitch: 0,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+            ]
+        },
+        {
+            id: 'prelude-2',
+            alignment: 'center',
+            hidden: false,
+            title: 'Key Milestones',
+            image: '',
+            description: '# people living in an area where buildings and roads have been mapped and validated # of mappers # partner NGO staff (men and women) trained and received at least one follow up by HOT and partners # of downloads at HDX # Exports generated # of names of places mapped # of amenities mapped',
+            location: {
+              center: [-8.68740, 23.01151],
+              zoom: 2.5,
+              pitch: 0,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+            ]
+        },
+        {
             id: 'chapter-1',
             alignment: 'left',
             hidden: false,
@@ -118,12 +164,118 @@ var config = {
             ]
         },
         {
+            id: 'chapter-1b',
+            alignment: 'left',
+            hidden: false,
+            title: 'Scaling Missing Maps in Africa’s Great Lakes Region',
+            image: '',
+            description: 'HOT carried out two separate data collection activities which began in Kisoro district and continued to Zombo District. The fieldwork included the collection of geographic information of different amenities located in these two districts.' + '<br /><br />' + 'A total of 30 surveyors were trained on OpenDataKit and OpenMapKit to carry out the data collection on village locations, education facilities, health facilities, water points, places of worship, market places, and offices, including government and non-government offices.' + '<br /><br />' + 'Remote mapping and validation exercises were carried out in the priority districts of Kisoro, Zombo, Kanungu, Rubirizi, Rukungiri, Isingiro, Kamwenge, Kyegegwa, Ntoroko, Bundibugyo, Kikuube, Kasese, Hoima, Kiryandongo, Maracha, Nebbi, and Koboko. Over 2.5 million building footprints were added to OpenStreetMap (OSM).',
+            location: {
+                center: [29.217162, 0.871755],
+                zoom: 6.15,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+              {
+                layer: 'uganda-outline',
+                opacity: 1,
+                duration: 2000
+              }
+            ],
+            onChapterExit: [
+              {
+                layer: 'uganda-outline',
+                opacity: 0,
+                duration: 2000
+              }
+            ]
+        },
+        {
+            id: 'chapter-1c',
+            alignment: 'center',
+            hidden: false,
+            title: 'The Impact of the Mapping',
+            image: '',
+            description: 'The HOT team collaborated with the district health team to design and produce village-level, book-sized maps. These book-sized maps were distributed to the village community health workers to help them navigate, locate, and record their movements even without using smartphones. The aim is to develop district-level gazetteers that will be shared with health centers across the district to assist in reducing the time spent on patient tracing.' + '<br /><br />' + 'Increased access to smartphones among Village Health Workers (VHWs) in Kisoro and Zombo districts improved digital access and through the data collection training and landmarks mapping, the VHWs acquired digital navigation and mapping skills that led them to acquire their own smartphones to continue mapping and sharing their locations with colleagues when in the field using free and open source software (OSMand) with OSM data offline on their phones.' + '<br /><br />' + 'The team in Uganda is planning to work closer with the district health management team specifically with the Assistant District Health Officer to continue championing and training community health workers.',
+            location: {
+                center: [29.217162, 0.871755],
+                zoom: 6.15,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+            ]
+        },
+        {
+            id: 'chapter-1d',
+            alignment: 'left',
+            hidden: false,
+            title: 'Democratic Republic of the Congo',
+            image: '',
+            description: 'HOT carried out four separate data collection activities which began in Kalungunta and continued in Beni, Butembo and Katwa. The fieldwork included the collection of geographic information of different amenities located in these four districts, including data on village locations, education facilities, health facilities, water points, places of worship, market places, and offices, including government and non-government offices.' + '<br /><br />' + 'Data collectors were paired with District Health Officers to ensure that local health staff would be trained, and ensure security of the HOT staff during data collection. At the end of the field mapping period, the data was reviewed, validated, and uploaded to the OSM platform.' + '<br /><br />' + 'Following data collection, data and maps were presented to the health officials and training were carried out. Over 400 district health officials were trained on data collection using OpenStreetMap tools, and basic GIS.',
+            location: {
+                center: [9.369040, -4.818064],
+                zoom: 4.6,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+              {
+                layer: 'drc-outline',
+                opacity: 1,
+                duration: 2000
+              }
+            ],
+            onChapterExit: [
+              {
+                layer: 'drc-outline',
+                opacity: 0,
+                duration: 2000
+              }
+            ]
+        },
+        {
             id: 'chapter-2',
             alignment: 'left',
             hidden: false,
             title: 'Mapping Sustainable Cities in Kampala, Uganda',
             image: '',
-            description: 'Resilience Mappers took up the challenge to address the lack of complete spatial data in the informal settlements of Kampala. The community mapped out all the buildings and roads in these settlements and shared the data with Actogether and the Kampala Capital City Authority. The data will be used to identify potential treatment and evacuation sites and also approximate the population of the people affected in case of an outbreak of Covid-19. In addition to the buildings and roads mapped, data users also required updated information on service points, specifically health facilities, education facilities and solid waste dumping points (both legal and illegal).<h3></h3><strong>This project was supported by ESRI</strong>',
+            description: 'Resilience Mappers, a local GIS and mapping community in Uganda, took up the challenge to address the lack of complete spatial data in the informal settlements of Kampala in order to provide relief to the people in these settlements. The main aim was to map out health facilities, education facilities and waste dumping sites in 11 informal settlements in Kawempe division to meet the following objectives:' + '<ul><li>Engage settlement leaders, community NGOs and other OSM communities in Uganda in the project activities</li><li>Train 10 OSM communities in Uganda and teams in the settlements to assist in the field work activities, including in field mapping tools like ODK and OMK</li><li>Generate print maps for stakeholders and update the web map repository and the infographic dashboard</li></ul>' + 'Resilience Mappers mapped all the buildings and roads in the settlements and shared the data with stakeholders including Actogether and the urban authorities such as Kampala Capital City Authority. In addition to the buildings and roads mapped, data users also requested updated information on service points, specifically health facilities, education facilities and solid waste dumping points (both legal and illegal).<h3></h3><strong>This project was supported by ESRI</strong>',
+            location: {
+              center: [32.58118, 0.34707],
+              zoom: 16.48,
+              pitch: 27.00,
+              bearing: -12.80
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'chapter-2b',
+            alignment: 'left',
+            hidden: false,
+            title: 'Mapping Sustainable Cities in Kampala, Uganda',
+            image: '',
+            description: 'The project started with meetings with settlement leaders, local NGOs and OSM communities to promote collaboration and prepare inception reports and training materials and introduce project activities to community leaders.' + '<br /><br />' + 'Training sessions were then conducted to introduce the different methodologies of data collection to volunteers. A total of 30 volunteers were recruited: 20 from OSM communities and 10 residents from the settlements. Experienced OSM mappers were paired with inexperienced mappers and a resident from the settlements guided each pair to ensure the information generated was an accurate representation of the realities there.' + '<br /><br />' + 'The next step was quality assurance. The data collected from field mapping was validated and cleaned by a team of experienced mappers and uploaded to OpenStreetMap.' + '<br /><br />' + 'The web map repository was updated with the new data and statistics relating to the data visualized on the dashboard where it can be accessed by locals in the community, NGOs, and government agencies.' + '<br /><br />' + 'The final stage included coordinating with data users through feedback sessions and presentation of the newly created maps.',
             location: {
               center: [32.58118, 0.34707],
               zoom: 16.48,
@@ -143,8 +295,8 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Protecting the Frontline',
-            image: 'images/placeholder.jpg',
-            description: '' + 'Across the world, the supply chains that the humanitarian sector relies on were badly affected by the Covid-19 pandemic. Huge spikes in demand depleted personal protection equipment (PPE) and infection control supplies for frontline workers in the health and relief sectors. It has had an  especially devastating impact among populations already affected by conflict.' + '<br /><br />' + 'In response to this need, HOT partnered with Field Ready and NeedsList on the ‘Protecting the Frontline’ project to connect frontline workers and manufacturers in conflict-affected areas. including both IDPs (internally displaced people) and refugees in Kenya and Uganda by identifying potential suppliers that are capable of manufacturing PPE and infection control items. This was achieved by mapping the manufacturing capabilities (supply and demand of PPEs) in Kenya and Uganda.' + '<br /><br />' + 'HOT collected geospatial data and tailored responses in both countries using its open-source apps, data model development,  tools for collaborative mapping, mapping in OpenStreetMap, data import and data management systems. NeedsList’s software collected data on manufacturing capabilities and Field Ready conducted quality-assurance tests on the items and helped match local manufacturers and groups to deliver the PPE. The outcome was a searchable platform that matches needs for supplies and services with offers of in-kind products or services, and information resources.',
+            image: '',
+            description: '' + 'Across the world, the supply chains that the humanitarian sector relies on were badly affected by the Covid-19 pandemic. Huge spikes in demand depleted personal protection equipment (PPE) and infection control supplies for frontline workers in the health and relief sectors. It has had an  especially devastating impact among populations already affected by conflict.' + '<br /><br />' + '<img src="images/placeholder.jpg" />' + '<br /><br />' + 'In response to this need, HOT partnered with Field Ready and NeedsList on the ‘Protecting the Frontline’ project to connect frontline workers and manufacturers in conflict-affected areas. including both IDPs (internally displaced people) and refugees in Kenya and Uganda by identifying potential suppliers that are capable of manufacturing PPE and infection control items. This was achieved by mapping the manufacturing capabilities (supply and demand of PPEs) in Kenya and Uganda.' + '<br /><br />' + 'HOT collected geospatial data and tailored responses in both countries using its open-source apps, data model development,  tools for collaborative mapping, mapping in OpenStreetMap, data import and data management systems. NeedsList’s software collected data on manufacturing capabilities and Field Ready conducted quality-assurance tests on the items and helped match local manufacturers and groups to deliver the PPE. The outcome was a searchable platform that matches needs for supplies and services with offers of in-kind products or services, and information resources.',
             location: {
               center: [37.84560, 0.83084],
               zoom: 5,
@@ -245,8 +397,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Mapping Chepang',
-            image: 'images/placeholder.jpg',
-            description: 'The project centered around mapping in the remote hills of central Nepal and sought to generate data to assess the needs of the Chepang community. Chepangs are one of the most marginalized Indigenous communities in Nepal. Traditionally nomadic people who relied on hunting, fishing and the products of the forest, these  ways of life were brought to an end by the introduction of new government policies.' + '<br /><br />' + 'Restrictions on hunting, gathering and clearing of forest patches have forced the Chepangs to adopt a settled way of life. This change of lifestyle has brought extreme poverty in their community and made it difficult for the Chepangs to access basic amenities such as nutritious food, proper housing, safe drinking water, education and healthcare.' + '<br /><br />' + 'During the mapping, validation, field verification, output and data dissemination, the Geomatics Engineering Society team was able to actively include the needs of the Chepang communities in the project design using surveys and direct conversations.' + '<br /><br />' + 'In line with the project’s poverty reduction and access to basic amenities, they engaged with various donor organizations and the local government. They simultaneously conducted several trainings on OSM to GES members and various OSM  communities in Nepal. They also collaborated with Kathmandu Living Labs, Youth Innovation Lab, Naxa, Department of Geomatics Engineering,  Kathmandu University, and several governmental bodies. The team collaborated with 19 ward presidents and trained them locally to read and visualize the printed satellite imagery maps.',
+            image: '',
+            description: 'The project centered around mapping in the remote hills of central Nepal and sought to generate data to assess the needs of the Chepang community. Chepangs are one of the most marginalized Indigenous communities in Nepal. Traditionally nomadic people who relied on hunting, fishing and the products of the forest, these  ways of life were brought to an end by the introduction of new government policies.' + '<br /><br />' + '<img src="images/placeholder.jpg" />' + 'Restrictions on hunting, gathering and clearing of forest patches have forced the Chepangs to adopt a settled way of life. This change of lifestyle has brought extreme poverty in their community and made it difficult for the Chepangs to access basic amenities such as nutritious food, proper housing, safe drinking water, education and healthcare.' + '<br /><br />' + 'During the mapping, validation, field verification, output and data dissemination, the Geomatics Engineering Society team was able to actively include the needs of the Chepang communities in the project design using surveys and direct conversations.' + '<br /><br />' + 'In line with the project’s poverty reduction and access to basic amenities, they engaged with various donor organizations and the local government. They simultaneously conducted several trainings on OSM to GES members and various OSM  communities in Nepal. They also collaborated with Kathmandu Living Labs, Youth Innovation Lab, Naxa, Department of Geomatics Engineering,  Kathmandu University, and several governmental bodies. The team collaborated with 19 ward presidents and trained them locally to read and visualize the printed satellite imagery maps.',
             location: {
               center: [82.81188, 28.28352],
               zoom: 6.94,

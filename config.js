@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/hot/cl5ij2ot9000j14ny38aay5q0',
+    style: 'mapbox://styles/hot/cl5izketj002214p6rg07rt7x',
     accessToken: 'pk.eyJ1IjoiaG90IiwiYSI6IlBtUmNiR1kifQ.dCS1Eu9DIRNZGktc24IwtA',
     showMarkers: false,
     inset: true,
@@ -7,7 +7,7 @@ var config = {
     projection: 'globe',
     theme: 'dark',
     use3dTerrain: true,
-    title: '<a href="https://www.hotosm.org/" target="_blank"><img style="padding:25px;" src="images/logo_white.png" width="356" height="88" /></a><br /><div id="separator"></div><h1>ANNUAL REPORT</h1><h2>Improving the wellbeing of people and the health of our planet through growing and sustaining an open mapping movement.</h2><p id="intro-text">HOT and the Regional Open Mapping Hubs support, motivate and enable people to contribute to OpenStreetMap; an open-source, free, and a digital public good and ensure map data is accessible and used in decisions that save and improve lives in countries at high risk of disaster, humanitarian crises, or experiencing multidimensional poverty, while making sure communities are visible on the map in the way they choose and included in decisions that affect their lives.</p><p id="intro-text">July 2021 - June 2022</p><br /><a id="freeExplore" href="#letter-0">BEGIN STORY 🠓 </a>',
+    title: '<a href="https://www.hotosm.org/" target="_blank"><img style="padding:25px;" src="images/logo_white.png" width="356" height="88" /></a><br /><div id="separator"></div><h1>ANNUAL REPORT</h1><p id="dash-text">Humanitarian OpenStreetMap Team</p><p id="dash-text2">July 2021 &dash; June 2022</p><h2>Improving the wellbeing of people and the health of our planet through growing and sustaining an open mapping movement.</h2><p id="intro-text">Humanitarian OpenStreetMap Team (HOT) and the Regional Open Mapping Hubs support, motivate and enable people to contribute to OpenStreetMap; an open-source, free, and a digital public good and ensure map data is accessible and used in decisions that save and improve lives in countries at high risk of disaster, humanitarian crises, or experiencing multidimensional poverty, while making sure communities are visible on the map in the way they choose and included in decisions that affect their lives.</p><p style="font-size: .9em;">Photo: <em>An urban center in Kampala, Uganda</em>  |  © Mapbox Satellite</p><br /><a id="freeExplore" href="#letter-0">BEGIN 🠓 </a>',
     subtitle: '',
     byline: '',
     mobileview: '<div id="rotate-mobile"><strong>For optimal viewing of this report on a mobile device, rotate to a landscape orientation. ⭯</strong></div>',
@@ -17,9 +17,9 @@ var config = {
             id: 'letter-0',
             alignment: 'left',
             hidden: false,
-            title: 'A Letter From the Executive Director',
+            title: 'A Letter From Tyler Radford, HOT’s Executive Director',
             image: '',
-            description: '<img style="float:right; width: auto; padding: 0 0 25px 25px;" src="images/tyler2.jpg" />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            description: '<img style="float:right; width: auto; padding: 0 0 25px 25px;" src="images/tyler2.jpg" />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,
@@ -59,6 +59,26 @@ var config = {
                 layer: 'esaf2',
                 opacity: .8,
                 duration: 2000
+              },
+              {
+                layer: 'asiapac_intro',
+                opacity: 1,
+                duration: 2000
+              },
+              {
+                layer: 'eaf_intro',
+                opacity: 1,
+                duration: 2000
+              },
+              {
+                layer: 'waf_intro',
+                opacity: 1,
+                duration: 2000
+              },
+              {
+                layer: 'latam_intro',
+                opacity: 1,
+                duration: 2000
               }
             ],
             onChapterExit: [
@@ -91,6 +111,26 @@ var config = {
                 layer: 'esaf2',
                 opacity: 0,
                 duration: 2000
+              },
+              {
+                layer: 'asiapac_intro',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'eaf_intro',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'waf_intro',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'latam_intro',
+                opacity: 0,
+                duration: 2000
               }
             ]
         },
@@ -98,7 +138,7 @@ var config = {
             id: 'prelude-1',
             alignment: 'center',
             hidden: false,
-            title: 'Impact Areas',
+            title: 'Impact Areas (SECTION IN PROGRESS)',
             image: '',
             description: 'Impact Areas connect open mapping with real world applications through spatial data use in the humanitarian and development sectors. Each impact area at HOT provides a framework for technical and subject matter expertise for partnerships, grantee projects, and community support.',
             location: {
@@ -121,7 +161,7 @@ var config = {
             id: 'prelude-2',
             alignment: 'center',
             hidden: false,
-            title: 'Key Milestones',
+            title: 'Key Milestones (SECTION IN PROGRESS)',
             image: '',
             description: '# people living in an area where buildings and roads have been mapped and validated # of mappers # partner NGO staff (men and women) trained and received at least one follow up by HOT and partners # of downloads at HDX # Exports generated # of names of places mapped # of amenities mapped',
             location: {
@@ -146,7 +186,7 @@ var config = {
             hidden: false,
             title: 'Scaling Missing Maps in Africa’s Great Lakes Region',
             image: '',
-            description: '<h4 class="impact-head">Impact Areas:</h4> <strong>Public Health</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/health.svg" height="35" width="35" />' + '<h3></h3>' + 'Patient tracking is a crucial public health activity that contributes to reducing the spread of highly contagious diseases. However, patient tracing, tracking, and monitoring in low-and middle-income countries is a complex process as most of the geographical, navigational, and landmark features are not fully digitized. With funding from the Humanitarian Grand Challenge, the Humanitarian OpenStreetMap Team (HOT) embarked on a project to scale the Missing Maps initiative across the public health and disease surveillance sector in Uganda and the Democratic Republic of Congo (DRC).' + '<br /> <br />' + 'HOT partnered with district and community health teams to design a community participatory mapping exercise. In Uganda, HOT partnered with community health workers across Kisoro and Zombo districts; and in DRC, HOT partnered with community health workers in Kalunguta, Beni, Butembo and Katwa.  This mapping exercise included locating and mapping all geographical and human-made features within the districts that would enable community health workers to easily find, locate, and trace patients quicker and more efficiently.',
+            description: '<h4 class="impact-head">Impact Areas:</h4> <strong>Public Health</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/health.svg" height="35" width="35" />' + '<h3></h3>' + 'Patient tracking is a crucial public health activity that contributes to reducing the spread of highly contagious diseases. However, patient tracing, tracking, and monitoring in low-and middle-income countries is a complex process as most of the geographical, navigational, and landmark features are not fully digitized. In 2019, with funding from the Humanitarian Grand Challenge, the Humanitarian OpenStreetMap Team (HOT) embarked on a project to scale the Missing Maps initiative across the public health and disease surveillance sector in Uganda and the Democratic Republic of Congo (DRC).' + '<br /> <br />' + 'HOT partnered with district and community health teams to design a community participatory mapping exercise. In Uganda, HOT partnered with community health workers across Kisoro and Zombo districts; and in DRC, HOT partnered with community health workers in Kalunguta, Beni, Butembo and Katwa.  This mapping exercise included locating and mapping all geographical and human-made features within the districts that would enable community health workers to easily find, locate, and trace patients quicker and more efficiently.',
             location: {
                 center: [29.7219314, -1.3045366],
                 zoom: 16.48,
@@ -167,7 +207,7 @@ var config = {
             id: 'chapter-1b',
             alignment: 'left',
             hidden: false,
-            title: 'Scaling Missing Maps in Africa’s Great Lakes Region',
+            title: 'Uganda',
             image: '',
             description: 'HOT carried out two separate data collection activities which began in Kisoro district and continued to Zombo District. The fieldwork included the collection of geographic information of different amenities located in these two districts.' + '<br /><br />' + 'A total of 30 surveyors were trained on OpenDataKit and OpenMapKit to carry out the data collection on village locations, education facilities, health facilities, water points, places of worship, market places, and offices, including government and non-government offices.' + '<br /><br />' + 'Remote mapping and validation exercises were carried out in the priority districts of Kisoro, Zombo, Kanungu, Rubirizi, Rukungiri, Isingiro, Kamwenge, Kyegegwa, Ntoroko, Bundibugyo, Kikuube, Kasese, Hoima, Kiryandongo, Maracha, Nebbi, and Koboko. Over 2.5 million building footprints were added to OpenStreetMap (OSM).',
             location: {
@@ -184,11 +224,21 @@ var config = {
                 layer: 'uganda-outline',
                 opacity: 1,
                 duration: 2000
+              },
+              {
+                layer: 'uganda_label',
+                opacity: 1,
+                duration: 2000
               }
             ],
             onChapterExit: [
               {
                 layer: 'uganda-outline',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'uganda_label',
                 opacity: 0,
                 duration: 2000
               }
@@ -238,6 +288,78 @@ var config = {
                 layer: 'drc-outline',
                 opacity: 1,
                 duration: 2000
+              },
+              {
+                layer: 'drc_label',
+                opacity: 1,
+                duration: 2000
+              }
+            ],
+            onChapterExit: [
+              {
+                layer: 'drc-outline',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'drc_label',
+                opacity: 0,
+                duration: 2000
+              }
+            ]
+        },
+        {
+            id: 'chapter-1e',
+            alignment: 'center',
+            hidden: false,
+            title: 'Impact of the Mapping',
+            image: '',
+            description: '<ul><li>The maps have improved disease surveillance planning and sensitization campaigns (COVID-19, Ebola, Malaria, Tuberculosis), with improved risk communication and more targeted messages.</li><li>Health workers are able to find patients through locally-defined and well-known landmarks.</li><li>Health workers use the maps for directions, measuring distances and planning routes. They can better plan activities as they understand why some people in a health district are able or not to access a particular health center.</li><li>The atlases and gazetteer documents provided to the health areas improved the ability to accurately trace patients, particularly for follow-up treatment.</li><li>In October 2021, a new wave of Ebola in the province of Beni, DRC during which health boundaries and points of interest data collected through this project were used to trace patient contacts. Data was directly distributed to the health area of Beni and uploaded on HDX with more than 100 downloads reported. International organizations such as OCHA and WHO were able use the data for their outbreak response.</li><li>In the Health zone of Butembo, DRC, the health areas of Vuvatsi and Kyangike were able to visualize the limits of their respective zones and found an area with 54 households not counted in either. Those households will now be counted in the health area of Vuvatsi, Mabuku and Kalunguta.</li></ul>',
+            location: {
+                center: [9.369040, -4.818064],
+                zoom: 4.6,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+              {
+                layer: 'drc-outline',
+                opacity: 1,
+                duration: 2000
+              }
+            ],
+            onChapterExit: [
+              {
+                layer: 'drc-outline',
+                opacity: 0,
+                duration: 2000
+              }
+            ]
+        },
+        {
+            id: 'chapter-1f',
+            alignment: 'center',
+            hidden: false,
+            title: 'Data and Support',
+            image: '',
+            description: '<div class="flourish-embed" data-src="visualisation/10617075"></div>' + '<ul><li><span style="font-weight: bold; color: #D73F3F;">44</span> in-person outreach and awareness activities were conducted. These include training workshops and dissemination sessions.</li><li>A total of <span style="font-weight: bold; color: #D73F3F;">1,262</span> maps were printed, <span style="font-weight: bold; color: #D73F3F;">1,188</span> were distributed in villages, 68 in the sub-counties and 14 within the districts.</li><li>A total of <span style="font-weight: bold; color: #D73F3F;">115</span> facilities/sites are now using the maps; these include: health facilities, humanitarian aid organizations, community-based organizations, and government bodies using OSM for operations in the project area.</li><li>A total of <span style="font-weight: bold; color: #D73F3F;">832</span> participants (health workers, humanitarian aid workers and service providers) were trained.</li>' + '<h3></h3><strong>The project was supported by <a href="https://humanitariangrandchallenge.org/" target="_blank">Creating Hope in Conflict: a Humanitarian Grand Challenge project</a>. HOT led the design and implementation of the project in conjunction with local healthcare authorities, the district health teams in Uganda and the DRC.</strong>',
+            location: {
+                center: [9.369040, -4.818064],
+                zoom: 4.6,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+              {
+                layer: 'drc-outline',
+                opacity: 1,
+                duration: 2000
               }
             ],
             onChapterExit: [
@@ -254,7 +376,7 @@ var config = {
             hidden: false,
             title: 'Mapping Sustainable Cities in Kampala, Uganda',
             image: '',
-            description: 'Resilience Mappers, a local GIS and mapping community in Uganda, took up the challenge to address the lack of complete spatial data in the informal settlements of Kampala in order to provide relief to the people in these settlements. The main aim was to map out health facilities, education facilities and waste dumping sites in 11 informal settlements in Kawempe division to meet the following objectives:' + '<ul><li>Engage settlement leaders, community NGOs and other OSM communities in Uganda in the project activities</li><li>Train 10 OSM communities in Uganda and teams in the settlements to assist in the field work activities, including in field mapping tools like ODK and OMK</li><li>Generate print maps for stakeholders and update the web map repository and the infographic dashboard</li></ul>' + 'Resilience Mappers mapped all the buildings and roads in the settlements and shared the data with stakeholders including Actogether and the urban authorities such as Kampala Capital City Authority. In addition to the buildings and roads mapped, data users also requested updated information on service points, specifically health facilities, education facilities and solid waste dumping points (both legal and illegal).<h3></h3><strong>This project was supported by ESRI</strong>',
+            description: 'Resilience Mappers, a local GIS and mapping community in Uganda, took up the challenge to address the lack of complete spatial data in the informal settlements of Kampala in order to provide relief to the people in these settlements. The main aim was to map out health facilities, education facilities and waste dumping sites in 11 informal settlements in Kawempe division to meet the following objectives:' + '<ul><li>Engage settlement leaders, community NGOs and other OSM communities in Uganda in the project activities</li><li>Train 10 OSM communities in Uganda and teams in the settlements to assist in the field work activities, including in field mapping tools like ODK and OMK</li><li>Generate print maps for stakeholders and update the web map repository and the infographic dashboard</li></ul>' + 'Resilience Mappers mapped all the buildings and roads in the settlements and shared the data with stakeholders including Actogether and the urban authorities such as Kampala Capital City Authority. In addition to the buildings and roads mapped, data users also requested updated information on service points, specifically health facilities, education facilities and solid waste dumping points (both legal and illegal).',
             location: {
               center: [32.58118, 0.34707],
               zoom: 16.48,
@@ -271,11 +393,53 @@ var config = {
         },
         {
             id: 'chapter-2b',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
-            title: 'Mapping Sustainable Cities in Kampala, Uganda',
+            title: '',
             image: '',
             description: 'The project started with meetings with settlement leaders, local NGOs and OSM communities to promote collaboration and prepare inception reports and training materials and introduce project activities to community leaders.' + '<br /><br />' + 'Training sessions were then conducted to introduce the different methodologies of data collection to volunteers. A total of 30 volunteers were recruited: 20 from OSM communities and 10 residents from the settlements. Experienced OSM mappers were paired with inexperienced mappers and a resident from the settlements guided each pair to ensure the information generated was an accurate representation of the realities there.' + '<br /><br />' + 'The next step was quality assurance. The data collected from field mapping was validated and cleaned by a team of experienced mappers and uploaded to OpenStreetMap.' + '<br /><br />' + 'The web map repository was updated with the new data and statistics relating to the data visualized on the dashboard where it can be accessed by locals in the community, NGOs, and government agencies.' + '<br /><br />' + 'The final stage included coordinating with data users through feedback sessions and presentation of the newly created maps.',
+            location: {
+              center: [32.58118, 0.34707],
+              zoom: 16.48,
+              pitch: 27.00,
+              bearing: -12.80
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'chapter-2c',
+            alignment: 'left',
+            hidden: false,
+            title: 'Impact of Mapping in Kampala',
+            image: '',
+            description: 'The project developed the technical capacity of 30 community volunteers and other OSM communities in field mapping techniques. The new skills will enable volunteers to participate in  future mapping projects. A larger community means a greater impact created in informal settlements and more contributions to OSM.' + '<br /><br />' + 'Over 20 women and girls participated in the project activities thus providing them with the opportunity to impact their communities while contributing to OSM. Additionally, this will ensure that the services that are important to women and girls are more likely to be mapped.' + '<br /><br />' + 'The maps will play an important role in:' + '<ul><li>Identifying potential treatment, immunization and evacuation sites within the settlements in cases of pandemics</li><li>Advocating for healthcare services where they are not sufficient or where none exist</li><li>Making informed administrative decisions for the communities in these settlements</li><li>Identifying and cleaning up illegal waste dumpsites around the villages within the settlements</li></ul>',
+            location: {
+              center: [32.58118, 0.34707],
+              zoom: 16.48,
+              pitch: 27.00,
+              bearing: -12.80
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'chapter-2c',
+            alignment: 'left',
+            hidden: false,
+            title: 'Metrics and Supporters',
+            image: '',
+            description: '<ul><li><span style="font-weight: bold; color: #D73F3F;">30></span> community volunteers trained</li><li><span style="font-weight: bold; color: #D73F3F;">20</span> from OSM communities</li><li><span style="font-weight: bold; color: #D73F3F;">10</span> residents of settlements (20 women and girls engaged in project)</li><li><span style="font-weight: bold; color: #D73F3F;">30</span> new field mappers</li><li>A total of <span style="font-weight: bold; color: #D73F3F;">162</span> health facilities within 11 settlements were mapped</li></ul>' + '<h3></h3>' + '<strong>The project was supported by Humanitarian OpenStreetMap Team (HOT) and <a href="https://www.esri.com/en-us/home" target="_blank">Esri</a>. Partners: Actogether, Africa Geoportal, Somero Uganda, OpenStreetMap Uganda, GeoYouthMappers, Kyambogo YouthMappers, Vision Mappers, Team Good Mappers, and CSGU YouthMappers</strong>.',
             location: {
               center: [32.58118, 0.34707],
               zoom: 16.48,
@@ -296,7 +460,7 @@ var config = {
             hidden: false,
             title: 'Protecting the Frontline',
             image: '',
-            description: '' + 'Across the world, the supply chains that the humanitarian sector relies on were badly affected by the Covid-19 pandemic. Huge spikes in demand depleted personal protection equipment (PPE) and infection control supplies for frontline workers in the health and relief sectors. It has had an  especially devastating impact among populations already affected by conflict.' + '<br /><br />' + '<img src="images/placeholder.jpg" />' + '<br /><br />' + 'In response to this need, HOT partnered with Field Ready and NeedsList on the ‘Protecting the Frontline’ project to connect frontline workers and manufacturers in conflict-affected areas. including both IDPs (internally displaced people) and refugees in Kenya and Uganda by identifying potential suppliers that are capable of manufacturing PPE and infection control items. This was achieved by mapping the manufacturing capabilities (supply and demand of PPEs) in Kenya and Uganda.' + '<br /><br />' + 'HOT collected geospatial data and tailored responses in both countries using its open-source apps, data model development,  tools for collaborative mapping, mapping in OpenStreetMap, data import and data management systems. NeedsList’s software collected data on manufacturing capabilities and Field Ready conducted quality-assurance tests on the items and helped match local manufacturers and groups to deliver the PPE. The outcome was a searchable platform that matches needs for supplies and services with offers of in-kind products or services, and information resources.',
+            description: 'Across the world, the supply chains that the  humanitarian sector relies on were badly affected by the Covid-19 pandemic. Huge spikes in demand depleted personal protection equipment (PPE) and infection control supplies for frontline workers in the health and relief sectors. It has had an  especially devastating impact among populations already affected by conflict.' + '<br /><br />' + 'In response to this need, HOT partnered with <a href="https://www.fieldready.org/" target="_blank">Field Ready</a> and <a href="https://needslist.co/" target="_blank">NeedsList</a> on the ‘Protecting the Frontline’ project to connect frontline workers and manufacturers in conflict-affected areas. including both IDPs (internally displaced people) and refugees in Kenya and Uganda by identifying potential suppliers that are capable of manufacturing PPE and infection control items. This was achieved by mapping the manufacturing capabilities (supply and demand of PPEs) in Kenya and Uganda.' + '<img src="images/placeholder.jpg" />' + '<br /><br />' + 'HOT collected geospatial data and tailored responses in both countries using its open-source apps, data model development,  tools for collaborative mapping, mapping in OpenStreetMap, data import and data management systems. NeedsList’s software collected data on manufacturing capabilities and Field Ready conducted quality-assurance tests on the items and helped match local manufacturers and groups to deliver the PPE. The outcome was a <a href="https://fieldready.app.needslist.co/login" target="_blank">searchable platform</a> that matches needs for supplies and services with offers of in-kind products or services, and information resources.',
             location: {
               center: [37.84560, 0.83084],
               zoom: 5,
@@ -342,12 +506,35 @@ var config = {
             ]
         },
         {
+            id: 'chapter-3b',
+            alignment: 'center',
+            hidden: false,
+            title: 'Metrics and Partners',
+            image: '',
+            description: '<div class="flourish-embed" data-src="visualisation/10617361"></div>' + '<h3></h3>' + '<a href="https://www.fieldready.org/" target="_blank">Field Ready</a> teamed up with the Humanitarian OpenStreetMap Team (HOT) and <a href="https://needslist.co/" target="_blank">NeedsList</a> to help get PPE and other medical supplies to those frontline workers in four of the hardest-hit countries through our “Protecting the Frontline” program.' + '<br /><br />' + 'The project was supported by <a href="https://humanitariangrandchallenge.org/" target="_blank">Creating Hope in Conflict: a Humanitarian Grand Challenge</a> project. ',
+            location: {
+              center: [37.84560, 0.83084],
+              zoom: 5,
+              pitch: 0.00,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+            ]
+        },
+        {
             id: 'chapter-4',
             alignment: 'left',
             hidden: false,
             title: 'Fighting GBV using OSM tools in Western Uganda',
             image: '',
-            description: 'Center for Life Change Development (CLCD) developed a project to fight gender-based violence (GBV) using OSM tools in Bushenyi District, Western Uganda. The aims of the project were to reduce GBV in Bushenyi district through sensitization and awareness in communities, to introduce OSM tools to social workers, police and other stakeholders, and generate maps of administrative boundaries, police stations and health centers.' + '<br /><br />' + 'Sensitization activities took place in three sub counties of Bushenyi district, namely Nyabubare, Kakanju and Bumbaire. This was done via local village councils together with sub county community development officers, stakeholders, village health technicians (VHTs) and para-social workers. Sensitization included three radio talk shows about GBV and activities were further extended to churches where CLCD worked with religious leaders. CLCD also worked with Bushenyi HIV & AIDS Network forum and Bushenyi district local leaders on GBV sensitization and awareness in communities and extended activities to Sheema district where there are high rates of HIV & AIDS.' + '<br /><br />' + 'CLCD collaborated with MapUganda to conduct online and in-person training for volunteers from Bushenyi district communities on GBV issues. Fifteen volunteers were trained to use ODK for data collection, iD Editor and JOSM for remote mapping as well as Maps.me to add points of interest on OSM, and as a navigation tool to respond to GBV calls, and all sub counties in Bushenyi were mapped. Twenty-five maps were printed and given to police police officials in Bushenyi.' + '<br /><br />' + 'Collaborations were formed with MapUganda in organizing mapathons and mobilizing volunteers to map remotely and CLCD was introduced to other OSM communities through events like the OSM Africa monthly mapathon that was key in completing the mapping and validation of the project.',
+            description: 'Center for Life Change Development (CLCD) developed a project to fight gender-based violence (GBV) using OSM tools in Bushenyi District, Western Uganda. The aims of the project were to reduce GBV in Bushenyi district through sensitization and awareness in communities, to introduce OSM tools to social workers, police and other stakeholders, and generate maps of administrative boundaries, police stations and health centers.' + '<br /><br />' + 'Sensitization activities took place in three sub counties of Bushenyi district, namely Nyabubare, Kakanju and Bumbaire. This was done via local village councils together with sub county community development officers, stakeholders, village health technicians (VHTs) and para-social workers. Sensitization included three radio talk shows about GBV and activities were further extended to churches where CLCD worked with religious leaders. CLCD also worked with Bushenyi HIV & AIDS Network forum and Bushenyi district local leaders on GBV sensitization and awareness in communities and extended activities to Sheema district where there are high rates of HIV & AIDS.' + '<img src="images/placeholder.jpg" />' + '<br /><br />' + 'CLCD collaborated with MapUganda to conduct online and in-person training for volunteers from Bushenyi district communities on GBV issues. Fifteen volunteers were trained to use ODK for data collection, iD Editor and JOSM for remote mapping as well as Maps.me to add points of interest on OSM, and as a navigation tool to respond to GBV calls, and all sub counties in Bushenyi were mapped. Twenty-five maps were printed and given to police police officials in Bushenyi.' + '<br /><br />' + 'Collaborations were formed with MapUganda in organizing mapathons and mobilizing volunteers to map remotely and CLCD was introduced to other OSM communities through events like the OSM Africa monthly mapathon that was key in completing the mapping and validation of the project.',
             location: {
               center: [30.113618, -0.555984],
               zoom: 12.40,
@@ -393,6 +580,29 @@ var config = {
             ]
         },
         {
+            id: 'chapter-4b',
+            alignment: 'center',
+            hidden: false,
+            title: 'Metrics and Supporters',
+            image: '',
+            description: '(PLACEHOLDER FOR DATAVIZ, TK)' + '<h3></h3>' + 'This project was funded by a Facebook Community Impact Grant, managed by HOT.',
+            location: {
+              center: [30.113618, -0.555984],
+              zoom: 12.40,
+              pitch: 35.00,
+              bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+            ]
+        },
+        {
             id: 'chapter-5',
             alignment: 'left',
             hidden: false,
@@ -428,7 +638,7 @@ var config = {
             id: 'chapter-5b',
             alignment: 'left',
             hidden: false,
-            title: 'Mapping Chepang',
+            title: '',
             image: 'images/nepal_school_map.jpg',
             description: 'Maps and data that include buildings, roads, land use, and other critical types of infrastructure will be used to access basic amenities for the Chepang and also to analyze areas vulnerable to disaster, agricultural areas, and to assess the need for schools and health posts in the community.' + '<br /><br />' + 'The data and maps generated from the project are being shared with various humanitarian agencies and stakeholders such as  Shanti Griha Nepal, Planete Enfants & Développement, Save the Children, Save Our Soul, Child Workers in Nepal (CWIN), USAID, Leo Club, the Rotaract Club, and various other local authorities for uplifting their communities.',
             location: {
@@ -471,7 +681,7 @@ var config = {
             hidden: false,
             title: 'Disaster Activations',
             image: '',
-            description: 'Location is critical to disaster response: first responders need fast, reliable information to reach affected areas post-disaster and prioritize aid. Through <a href="https://www.hotosm.org/hot-activation-protocol" target="_blank">rapid response activations</a>, the HOT community works together online using satellite and drone imagery to rapidly generate map data in OpenStreetMap. The resulting data is made available via the <a href="https://data.humdata.org/organization/hot" target="_blank">Humanitarian Data Exchange (HDX)</a> and can be used to create printed maps, for analysis, or for navigation on the ground.',
+            description: 'Location is critical to disaster response: first responders need fast, reliable information to reach affected areas post-disaster and prioritize aid. Through <a href="https://www.hotosm.org/hot-activation-protocol" target="_blank">rapid response activations</a>, the HOT community works together online using satellite and drone imagery to rapidly generate map data in OpenStreetMap. The resulting data is made available via the <a href="https://data.humdata.org/organization/hot" target="_blank">Humanitarian Data Exchange (HDX)</a> and can be used to create printed maps, for analysis, or for navigation on the ground.' + '<br /><br />' + '<ul><li>Earthquake Afghanistan June 2022</li><li>Bangladesh Floods May 2022</li><li>OSM Brazil Activation for Floods</li><li>Cyclones Ana Batsirai and Emnati 2022</li><li>South Sudan Floods 2022</li><li>Tropical Storm Agaton 2022</li><li>Odette Typhon 2021</li><li>Haiti Earthquake 2021</li><li><Mediterranean Wildfires 2021</li><li>Canchaque Landslides 2021</li><li>Nyiragongo Volcano 2021</li></ul>',
             location: {
               center: [-58.401371, 4.361681],
               zoom: 2.75,
@@ -558,7 +768,7 @@ var config = {
             onChapterEnter: [
               {
                 layer: 'wnaf_2',
-                opacity: .6,
+                opacity: .4,
                 duration: 2000
               }
             ],

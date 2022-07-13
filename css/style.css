@@ -78,9 +78,9 @@ a:visited {
   font-size: 4rem;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: .045em;
+  letter-spacing: .075em;
   line-height: 1.15;
-	padding: 6vh 3vw;
+	padding: 6vh 3vw 1vh 3vw;
   text-align: left;
   margin: 0;
   font-family: 'Barlow Condensed', sans-serif;
@@ -94,10 +94,23 @@ a:visited {
   width: 35%;
 }
 
+#dash-text {
+  font-size: 1.6em;
+  width: 35%;
+  font-weight: bold;
+  padding: 0 3vw 1vh 3vw !important;
+}
+
+#dash-text2 {
+  font-weight: 500;
+  font-size: 1.2em;
+  width: 35%;
+  padding: 0 3vw 1vh 3vw !important;
+}
+
 #intro-text {
-	font-style: italic;
-	font-size: 1.5em;
-	width: 35%;
+  font-size: 1.2em;
+  width: 35%;
 }
 
 #freeExplore {

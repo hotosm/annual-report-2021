@@ -7,7 +7,7 @@ var config = {
     projection: 'globe',
     theme: 'dark',
     use3dTerrain: true,
-    title: '<a href="https://www.hotosm.org/" target="_blank"><img style="padding:25px;" src="images/logo_white.png" width="356" height="88" /></a><br /><div id="separator"></div><h1>ANNUAL REPORT</h1><p id="dash-text">Humanitarian OpenStreetMap Team</p><p id="dash-text2">July 2021 &dash; June 2022</p><h2>Improving the wellbeing of people and the health of our planet through growing and sustaining an open mapping movement.</h2><p id="intro-text">Humanitarian OpenStreetMap Team (HOT) and the Regional Open Mapping Hubs support, motivate and enable people to contribute to OpenStreetMap; an open-source, free, and a digital public good and ensure map data is accessible and used in decisions that save and improve lives in countries at high risk of disaster, humanitarian crises, or experiencing multidimensional poverty, while making sure communities are visible on the map in the way they choose and included in decisions that affect their lives.</p><p style="font-size: .9em;">Photo: <em>An urban center in Kampala, Uganda</em>  |  © Mapbox Satellite</p><br /><a id="freeExplore" href="#letter-0">BEGIN 🠓 </a>',
+    title: '<a href="https://www.hotosm.org/" target="_blank"><img style="padding:25px;" src="images/logo_white.png" width="356" height="88" /></a><br /><div id="separator"></div><h1>ANNUAL REPORT</h1><p id="dash-text">Humanitarian OpenStreetMap Team</p><p id="dash-text2">July 2021 &dash; June 2022</p><h2>Improving the wellbeing of people and the health of our planet through growing and sustaining an open mapping movement.</h2><p id="intro-text">Humanitarian OpenStreetMap Team (HOT) and the Regional Open Mapping Hubs support, motivate and enable people to contribute to OpenStreetMap; an open-source, free, and a digital public good and ensure map data is accessible and used in decisions that save and improve lives in countries at high risk of disaster, humanitarian crises, or experiencing multidimensional poverty, while making sure communities are visible on the map in the way they choose and included in decisions that affect their lives.</p><p style="font-size: .9em;">Cover image: <em>An urban center in Kampala, Uganda</em>  |  © Mapbox Satellite</p><br /><a id="freeExplore" href="#letter-0">BEGIN 🠓 </a>',
     subtitle: '',
     byline: '',
     mobileview: '<div id="rotate-mobile"><strong>For optimal viewing of this report on a mobile device, rotate to a landscape orientation. ⭯</strong></div>',
@@ -681,7 +681,7 @@ var config = {
             hidden: false,
             title: 'Disaster Activations',
             image: '',
-            description: 'Location is critical to disaster response: first responders need fast, reliable information to reach affected areas post-disaster and prioritize aid. Through <a href="https://www.hotosm.org/hot-activation-protocol" target="_blank">rapid response activations</a>, the HOT community works together online using satellite and drone imagery to rapidly generate map data in OpenStreetMap. The resulting data is made available via the <a href="https://data.humdata.org/organization/hot" target="_blank">Humanitarian Data Exchange (HDX)</a> and can be used to create printed maps, for analysis, or for navigation on the ground.' + '<br /><br />' + '<ul><li>Earthquake Afghanistan June 2022</li><li>Bangladesh Floods May 2022</li><li>OSM Brazil Activation for Floods</li><li>Cyclones Ana Batsirai and Emnati 2022</li><li>South Sudan Floods 2022</li><li>Tropical Storm Agaton 2022</li><li>Odette Typhon 2021</li><li>Haiti Earthquake 2021</li><li><Mediterranean Wildfires 2021</li><li>Canchaque Landslides 2021</li><li>Nyiragongo Volcano 2021</li></ul>',
+            description: 'Location is critical to disaster response: first responders need fast, reliable information to reach affected areas post-disaster and prioritize aid. Through <a href="https://www.hotosm.org/hot-activation-protocol" target="_blank">rapid response activations</a>, the HOT community works together online using satellite and drone imagery to rapidly generate map data in OpenStreetMap. The resulting data is made available via the <a href="https://data.humdata.org/organization/hot" target="_blank">Humanitarian Data Exchange (HDX)</a> and can be used to create printed maps, for analysis, or for navigation on the ground.' + '<br /><br />' + '<ul><li>Earthquake Afghanistan June 2022</li><li>Bangladesh Floods May 2022</li><li>OSM Brazil Activation for Floods</li><li>Cyclones Ana Batsirai and Emnati 2022</li><li>South Sudan Floods 2022</li><li>Tropical Storm Agaton 2022</li><li>Odette Typhon 2021</li><li>Haiti Earthquake 2021</li><li>Mediterranean Wildfires 2021</li><li>Canchaque Landslides 2021</li><li>Nyiragongo Volcano 2021</li></ul>',
             location: {
               center: [-58.401371, 4.361681],
               zoom: 2.75,
@@ -770,11 +770,62 @@ var config = {
                 layer: 'wnaf_2',
                 opacity: .4,
                 duration: 2000
+              },
+              {
+                layer: 'wnaf_labels',
+                opacity: 1,
+                duration: 2000
               }
             ],
             onChapterExit: [
               {
                 layer: 'wnaf_2',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'wnaf_labels',
+                opacity: 0,
+                duration: 2000
+              }
+            ]
+        },
+        {
+            id: 'chapter-7b',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<h2 class="liftout">“We want to be closer to the communities so that the data and maps can be tools for analysis and decision-making that will <span style="color: #D73F3F; font-weight: bold;">help improve the living conditions of the people</span>. We stimulate and strengthen the leadership of communities to protect their livelihoods, improve their resilience, and preserve their way of life by promoting social justice in accessing open data and free software for their own purposes.”</h2>' + '<p style="text-align: right; font-weight: bold; color: #D73F3F;">&dash; Ibrahima Cisse, Regional Director of the West and Northern Africa Open Mapping Hub</p>' + 'In 2021 HOT established regional Open Mapping Hubs in Asia-Pacific and Eastern and Southern Africa, with plans to open a fourth in Latin America and the Caribbean. The regional hubs will engage with local mapping communities helping to foster a global open mapping movement to ensure that missing maps are no longer a factor in human suffering.',
+            location: {
+              center: [-1.701088, 13.784610],
+              zoom: 4.1,
+              pitch: 0,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+              {
+                layer: 'wnaf_2',
+                opacity: .4,
+                duration: 2000
+              },
+              {
+                layer: 'wnaf_labels',
+                opacity: 1,
+                duration: 2000
+              }
+            ],
+            onChapterExit: [
+              {
+                layer: 'wnaf_2',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'wnaf_labels',
                 opacity: 0,
                 duration: 2000
               }
@@ -842,7 +893,9 @@ var config = {
               center: [-58.401371, 4.361681],
               zoom: 2.75,
               pitch: 0,
-              bearing: 0.00
+              bearing: 0.00,
+              speed: 0.7,
+              curve: 1
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
@@ -880,6 +933,139 @@ var config = {
                 opacity: 0,
                 duration: 2000
               }
+            ]
+          },
+              {
+                  id: 'chapter-10',
+                  alignment: 'right',
+                  hidden: false,
+                  title: 'Devolved Grantmaking',
+                  image: '',
+                  description: 'Part of HOT and the Open Mapping Hubs’ goal to support a movement of individuals and communities who create and use OSM data to improve lives and livelihoods in places vulnerable to crisis or experiencing poverty, is to move decision-making, resource allocation, support and engagement closer to these places.' + '<br /><br />' + 'One way of doing this is to entrust the awarding of grants to a local partner with a deeper understanding of the local context, and therefore the challenges, opportunities and constraints, in the countries where our OSM partners operate.' + '<br /><br />' + 'Modeled on HOT’s successful microgrants programme, a devolved community investment programme was piloted in Tanzania with OpenMap Development Tanzania (OMDTZ), an established organization and trusted partner with a significant focus on leveraging OSM data to improve lives and livelihoods. OMDTZ was free to design a programme of community support and investment that works for Tanzanian contributors, communities and organizations.' + '<br /><br />' + 'OMDTZ awarded microgrants to seven OSM communities in Tanzania from seven different regions — Kagera, Dodoma, Mara, Katavi, Mwanza, Morogoro, and Zanzibar. The grants supported these communities to leverage the use of OSM and mapping to help solve different community challenges, facilitate training/workshop, purchase tools and equipment, support staff and other logistics.' + '<br /><br />' + 'The selected communities implemented their projects over three to six months. The projects included mapping schools to improve the education system in Zanzibar, solid waste mapping for flood resilience, community mapping to improve nutrition status in Bukoba, community mapping for gender-based violence, community mapping for disease outbreaks such as. Ebola, Infrastructural mapping, and health facilities mapping.' + '<br /><br />' + 'The intention is to replicate or adapt a similar strategy in other countries with strong OSM community organizations so that the funds will be more accessible and have greater local reach, relevance and impact and that HOT and others can learn from OMDTZ’s experience.',
+                  location: {
+                    center: [42.655560, -7.451355],
+                    zoom: 5.75,
+                    pitch: 0,
+                    bearing: 0.00,
+                  },
+                  mapAnimation: 'flyTo',
+                  rotateAnimation: false,
+                  callback: '',
+                  onChapterEnter: [
+                    {
+                      layer: 'tanzania-outline',
+                      opacity: 1,
+                      duration: 2000
+                    },
+                    {
+                      layer: 'tanzania_label',
+                      opacity: 1,
+                      duration: 2000
+                    }
+                  ],
+                  onChapterExit: [
+                    {
+                      layer: 'tanzania-outline',
+                      opacity: 0,
+                      duration: 2000
+                    },
+                    {
+                      layer: 'tanzania_label',
+                      opacity: 0,
+                      duration: 2000
+                    }
+            ]
+        },
+        {
+            id: 'spacer-2',
+            alignment: 'center',
+            hidden: false,
+            title: 'Devolved Grantmaking',
+            image: '',
+            description: '<h2 class="liftout">To achieve our impact, we need to offer reliable, high quality services and technology to the communities and partners we work with. These services need to be designed for their users needs, and be delivered <span style="color: #D73F3F; font-weight: bold;">quickly, reliably, and at scale.</span></h2>',
+            location: {
+              center: [42.655560, -7.451355],
+              zoom: 5.75,
+              pitch: 0,
+              bearing: 0.00,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+            ]
+        },
+        {
+            id: 'chapter-11',
+            alignment: 'center',
+            hidden: false,
+            title: 'The Galaxy Project',
+            image: '',
+            description: 'HOT Tech aims to provide tools that enable anyone to edit and use open map data in an accessible and inclusive way.' + '<br /><br />' + 'The Galaxy project aims to get OSM map data and map data insights, like statistics and data quality, into the right hands at the right time.' + '<br /><br />' + 'For our least technical users, Galaxy delivers a lightweight web portal to map data customizable for download in multiple formats for any user, anywhere in the world.' + '<br /><br />' + 'Users can explore mapathon leaderboards, mapper statistics and data quality to track and motivate their own OSM journey.' + '<br /><br />' + 'The galaxy project also enables us to continuously improve existing tools, such as HOT’s Export tool. Most recently, components of Galaxy have contributed to faster results, seamless integrations and data that users can depend on.' + '<img src="images/placeholder.jpg" />',
+            location: {
+              center: [42.655560, -7.451355],
+              zoom: 5.75,
+              pitch: 0,
+              bearing: 0.00,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+            ]
+        },
+        {
+            id: 'chapter-11',
+            alignment: 'center',
+            hidden: false,
+            title: 'Tasking Manager Tomorrow, a Collective Effort',
+            image: '',
+            description: 'The HOT tech team is committed to a future of more collective and localized technologies.To put our words into action we want to nurture and invest in the contributors, makers, tinkerers and users to maintain, evolve and grow just and collective humanitarian open mapping tech. By igniting a community of techies, we strive for better tools created for, with and by local mappers and map users. We work collectively with partners and communities globally, and emphasize collaboration with organizations and groups within HOT’s priority countries.' + '<br /><br />' + 'In 2021, Kathmandu Living Labs (KLL) joined us to pioneer this collective approach. KLL is a leading civic-tech company based out of Nepal and has been working in the Open Mapping movement since 2013. As a social enterprise, KLL provides data and technology solutions to governments, development partners, business and civil society. In collaboration with the HOT tech team and the Tasking Manager community, KLL contributes to the maintenance and evolution of HOT’s most well-known product, the HOT Tasking Manager. Each month, we sit down with KLL to identify and prioritize the issues the Tasking Manager collective feel will best stabilize, secure and  strengthen the product for its global community of mapping volunteers. These issues are publicly available for comment and conversation through a public project repository through github. KLL then tackles and resolves these issues to deliver fixes, features and enhancements before they are deployed for the Tasking Manager collective and the wider HOT and OSM communities.' + '<img src="images/placeholder.jpg" />',
+            location: {
+              center: [42.655560, -7.451355],
+              zoom: 5.75,
+              pitch: 0,
+              bearing: 0.00,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+            ]
+        },
+        {
+            id: 'chapter-12',
+            alignment: 'full',
+            hidden: false,
+            title: 'Partnerships',
+            image: '',
+            description: '(CONTENT TK, PLACEHOLDER -- PLACEHOLDER) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            location: {
+              center: [42.655560, -7.451355],
+              zoom: 5.75,
+              pitch: 0,
+              bearing: 0.00,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
             ]
         }
     ]

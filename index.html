@@ -336,6 +336,9 @@
               insetMap.flyTo({center: chapter.location.center, zoom: 3});
             }
           }
+          if (chapter.id === null){
+            document.getElementById('mapInset').style.opacity = 0;
+          }
           if (config.showMarkers) {
               marker.setLngLat(chapter.location.center);
           }
@@ -479,6 +482,7 @@
     let windowWidth = window.innerWidth;
     if (windowWidth >= 1020) {
       document.getElementById('map').style['z-index'] = 0;
+      document.getElementById('map').style['cursor'] = "grab";
       map.addControl(nav, 'top-right');
   		map.dragPan.enable();
     }

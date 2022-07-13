@@ -113,6 +113,12 @@ a:visited {
   width: 35%;
 }
 
+@media (max-width: 425px) {
+  #header h2, #dash-text, #dash-text2, #intro-text {
+    width: 100%;
+  }
+}
+
 #freeExplore {
       border: solid 2px #6C2020;
       color: #E1E0E0;
@@ -122,15 +128,19 @@ a:visited {
       text-decoration: none;
       display: inline-block;
       font-size: 20px;
-      cursor: pointer;
       display: block;
       margin: 2vh 3vw;
+}
+
+@media (max-width: 425px) {
+  #freeExplore {
+    margin: auto;
+  }
 }
 
 #freeExplore:hover {
     background-color: #E1E0E0;
     color: #000;
-    cursor: pointer;
     transition: 1s;
 }
 
@@ -146,6 +156,12 @@ h2.liftout {
 	line-height: 1.6em;
 	text-align: center;
 	font-weight: 300;
+}
+
+@media (max-width: 1350px) {
+  h2.liftout {
+    font-size: 1.6em
+  }
 }
 
 h3 {

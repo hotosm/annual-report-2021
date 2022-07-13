@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/hot/cl5izketj002214p6rg07rt7x',
+    style: 'mapbox://styles/hot/cl5j3xv8w003214l1m14ha4m2',
     accessToken: 'pk.eyJ1IjoiaG90IiwiYSI6IlBtUmNiR1kifQ.dCS1Eu9DIRNZGktc24IwtA',
     showMarkers: false,
     inset: true,
@@ -28,7 +28,7 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
-            callback: '',
+            callback: 'enableFreetime',
             onChapterEnter: [
               {
                 layer: 'latam',
@@ -149,7 +149,7 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-            callback: '',
+            callback: 'disableFreetime',
             onChapterEnter: [
 
             ],
@@ -186,7 +186,7 @@ var config = {
             hidden: false,
             title: 'Scaling Missing Maps in Africa’s Great Lakes Region',
             image: '',
-            description: '<h4 class="impact-head">Impact Areas:</h4> <strong>Public Health</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/health.svg" height="35" width="35" />' + '<h3></h3>' + 'Patient tracking is a crucial public health activity that contributes to reducing the spread of highly contagious diseases. However, patient tracing, tracking, and monitoring in low-and middle-income countries is a complex process as most of the geographical, navigational, and landmark features are not fully digitized. In 2019, with funding from the Humanitarian Grand Challenge, the Humanitarian OpenStreetMap Team (HOT) embarked on a project to scale the Missing Maps initiative across the public health and disease surveillance sector in Uganda and the Democratic Republic of Congo (DRC).' + '<br /> <br />' + 'HOT partnered with district and community health teams to design a community participatory mapping exercise. In Uganda, HOT partnered with community health workers across Kisoro and Zombo districts; and in DRC, HOT partnered with community health workers in Kalunguta, Beni, Butembo and Katwa.  This mapping exercise included locating and mapping all geographical and human-made features within the districts that would enable community health workers to easily find, locate, and trace patients quicker and more efficiently.',
+            description: '<h4 class="impact-head">Impact Areas:</h4> <strong>Public Health</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/health.png" height="35" width="35" />' + '<h3></h3>' + 'Patient tracking is a crucial public health activity that contributes to reducing the spread of highly contagious diseases. However, patient tracing, tracking, and monitoring in low-and middle-income countries is a complex process as most of the geographical, navigational, and landmark features are not fully digitized. In 2019, with funding from the Humanitarian Grand Challenge, the Humanitarian OpenStreetMap Team (HOT) embarked on a project to scale the Missing Maps initiative across the public health and disease surveillance sector in Uganda and the Democratic Republic of Congo (DRC).' + '<br /> <br />' + 'HOT partnered with district and community health teams to design a community participatory mapping exercise. In Uganda, HOT partnered with community health workers across Kisoro and Zombo districts; and in DRC, HOT partnered with community health workers in Kalunguta, Beni, Butembo and Katwa.  This mapping exercise included locating and mapping all geographical and human-made features within the districts that would enable community health workers to easily find, locate, and trace patients quicker and more efficiently.',
             location: {
                 center: [29.7219314, -1.3045366],
                 zoom: 16.48,
@@ -376,7 +376,7 @@ var config = {
             hidden: false,
             title: 'Mapping Sustainable Cities in Kampala, Uganda',
             image: '',
-            description: 'Resilience Mappers, a local GIS and mapping community in Uganda, took up the challenge to address the lack of complete spatial data in the informal settlements of Kampala in order to provide relief to the people in these settlements. The main aim was to map out health facilities, education facilities and waste dumping sites in 11 informal settlements in Kawempe division to meet the following objectives:' + '<ul><li>Engage settlement leaders, community NGOs and other OSM communities in Uganda in the project activities</li><li>Train 10 OSM communities in Uganda and teams in the settlements to assist in the field work activities, including in field mapping tools like ODK and OMK</li><li>Generate print maps for stakeholders and update the web map repository and the infographic dashboard</li></ul>' + 'Resilience Mappers mapped all the buildings and roads in the settlements and shared the data with stakeholders including Actogether and the urban authorities such as Kampala Capital City Authority. In addition to the buildings and roads mapped, data users also requested updated information on service points, specifically health facilities, education facilities and solid waste dumping points (both legal and illegal).',
+            description: '<h4 class="impact-head">Impact Areas:</h4> <strong>Sustainable Cities and Communities</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/city.png" height="35" width="35" />' + '<h3></h3>' + 'Resilience Mappers, a local GIS and mapping community in Uganda, took up the challenge to address the lack of complete spatial data in the informal settlements of Kampala in order to provide relief to the people in these settlements. The main aim was to map out health facilities, education facilities and waste dumping sites in 11 informal settlements in Kawempe division to meet the following objectives:' + '<ul><li>Engage settlement leaders, community NGOs and other OSM communities in Uganda in the project activities</li><li>Train 10 OSM communities in Uganda and teams in the settlements to assist in the field work activities, including in field mapping tools like ODK and OMK</li><li>Generate print maps for stakeholders and update the web map repository and the infographic dashboard</li></ul>' + 'Resilience Mappers mapped all the buildings and roads in the settlements and shared the data with stakeholders including Actogether and the urban authorities such as Kampala Capital City Authority. In addition to the buildings and roads mapped, data users also requested updated information on service points, specifically health facilities, education facilities and solid waste dumping points (both legal and illegal).',
             location: {
               center: [32.58118, 0.34707],
               zoom: 16.48,
@@ -460,7 +460,7 @@ var config = {
             hidden: false,
             title: 'Protecting the Frontline',
             image: '',
-            description: 'Across the world, the supply chains that the  humanitarian sector relies on were badly affected by the Covid-19 pandemic. Huge spikes in demand depleted personal protection equipment (PPE) and infection control supplies for frontline workers in the health and relief sectors. It has had an  especially devastating impact among populations already affected by conflict.' + '<br /><br />' + 'In response to this need, HOT partnered with <a href="https://www.fieldready.org/" target="_blank">Field Ready</a> and <a href="https://needslist.co/" target="_blank">NeedsList</a> on the ‘Protecting the Frontline’ project to connect frontline workers and manufacturers in conflict-affected areas. including both IDPs (internally displaced people) and refugees in Kenya and Uganda by identifying potential suppliers that are capable of manufacturing PPE and infection control items. This was achieved by mapping the manufacturing capabilities (supply and demand of PPEs) in Kenya and Uganda.' + '<img src="images/placeholder.jpg" />' + '<br /><br />' + 'HOT collected geospatial data and tailored responses in both countries using its open-source apps, data model development,  tools for collaborative mapping, mapping in OpenStreetMap, data import and data management systems. NeedsList’s software collected data on manufacturing capabilities and Field Ready conducted quality-assurance tests on the items and helped match local manufacturers and groups to deliver the PPE. The outcome was a <a href="https://fieldready.app.needslist.co/login" target="_blank">searchable platform</a> that matches needs for supplies and services with offers of in-kind products or services, and information resources.',
+            description: '<h4 class="impact-head">Impact Areas:</h4> <strong>Public Health</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/health.png" height="35" width="35" />' + '<h3></h3>' + 'Across the world, the supply chains that the  humanitarian sector relies on were badly affected by the Covid-19 pandemic. Huge spikes in demand depleted personal protection equipment (PPE) and infection control supplies for frontline workers in the health and relief sectors. It has had an  especially devastating impact among populations already affected by conflict.' + '<br /><br />' + 'In response to this need, HOT partnered with <a href="https://www.fieldready.org/" target="_blank">Field Ready</a> and <a href="https://needslist.co/" target="_blank">NeedsList</a> on the ‘Protecting the Frontline’ project to connect frontline workers and manufacturers in conflict-affected areas. including both IDPs (internally displaced people) and refugees in Kenya and Uganda by identifying potential suppliers that are capable of manufacturing PPE and infection control items. This was achieved by mapping the manufacturing capabilities (supply and demand of PPEs) in Kenya and Uganda.' + '<img src="images/placeholder.jpg" />' + '<br /><br />' + 'HOT collected geospatial data and tailored responses in both countries using its open-source apps, data model development,  tools for collaborative mapping, mapping in OpenStreetMap, data import and data management systems. NeedsList’s software collected data on manufacturing capabilities and Field Ready conducted quality-assurance tests on the items and helped match local manufacturers and groups to deliver the PPE. The outcome was a <a href="https://fieldready.app.needslist.co/login" target="_blank">searchable platform</a> that matches needs for supplies and services with offers of in-kind products or services, and information resources.',
             location: {
               center: [37.84560, 0.83084],
               zoom: 5,
@@ -534,12 +534,12 @@ var config = {
             hidden: false,
             title: 'Fighting GBV using OSM tools in Western Uganda',
             image: '',
-            description: 'Center for Life Change Development (CLCD) developed a project to fight gender-based violence (GBV) using OSM tools in Bushenyi District, Western Uganda. The aims of the project were to reduce GBV in Bushenyi district through sensitization and awareness in communities, to introduce OSM tools to social workers, police and other stakeholders, and generate maps of administrative boundaries, police stations and health centers.' + '<br /><br />' + 'Sensitization activities took place in three sub counties of Bushenyi district, namely Nyabubare, Kakanju and Bumbaire. This was done via local village councils together with sub county community development officers, stakeholders, village health technicians (VHTs) and para-social workers. Sensitization included three radio talk shows about GBV and activities were further extended to churches where CLCD worked with religious leaders. CLCD also worked with Bushenyi HIV & AIDS Network forum and Bushenyi district local leaders on GBV sensitization and awareness in communities and extended activities to Sheema district where there are high rates of HIV & AIDS.' + '<img src="images/placeholder.jpg" />' + '<br /><br />' + 'CLCD collaborated with MapUganda to conduct online and in-person training for volunteers from Bushenyi district communities on GBV issues. Fifteen volunteers were trained to use ODK for data collection, iD Editor and JOSM for remote mapping as well as Maps.me to add points of interest on OSM, and as a navigation tool to respond to GBV calls, and all sub counties in Bushenyi were mapped. Twenty-five maps were printed and given to police police officials in Bushenyi.' + '<br /><br />' + 'Collaborations were formed with MapUganda in organizing mapathons and mobilizing volunteers to map remotely and CLCD was introduced to other OSM communities through events like the OSM Africa monthly mapathon that was key in completing the mapping and validation of the project.',
+            description: '<h4 class="impact-head">Impact Areas:</h4> <strong>Gender Equality</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/gender.png" height="35" width="35" />' + '<h3></h3>' + 'Center for Life Change Development (CLCD) developed a project to fight gender-based violence (GBV) using OSM tools in Bushenyi District, Western Uganda. The aims of the project were to reduce GBV in Bushenyi district through sensitization and awareness in communities, to introduce OSM tools to social workers, police and other stakeholders, and generate maps of administrative boundaries, police stations and health centers.' + '<br /><br />' + 'Sensitization activities took place in three sub counties of Bushenyi district, namely Nyabubare, Kakanju and Bumbaire. This was done via local village councils together with sub county community development officers, stakeholders, village health technicians (VHTs) and para-social workers. Sensitization included three radio talk shows about GBV and activities were further extended to churches where CLCD worked with religious leaders. CLCD also worked with Bushenyi HIV & AIDS Network forum and Bushenyi district local leaders on GBV sensitization and awareness in communities and extended activities to Sheema district where there are high rates of HIV & AIDS.' + '<img src="images/placeholder.jpg" />' + '<br /><br />' + 'CLCD collaborated with MapUganda to conduct online and in-person training for volunteers from Bushenyi district communities on GBV issues. Fifteen volunteers were trained to use ODK for data collection, iD Editor and JOSM for remote mapping as well as Maps.me to add points of interest on OSM, and as a navigation tool to respond to GBV calls, and all sub counties in Bushenyi were mapped. Twenty-five maps were printed and given to police police officials in Bushenyi.' + '<br /><br />' + 'Collaborations were formed with MapUganda in organizing mapathons and mobilizing volunteers to map remotely and CLCD was introduced to other OSM communities through events like the OSM Africa monthly mapathon that was key in completing the mapping and validation of the project.',
             location: {
-              center: [30.113618, -0.555984],
+              center: [30.156900, -0.524528],
               zoom: 12.40,
-              pitch: 35.00,
-              bearing: 0
+              pitch: 67,
+              bearing: 16.80
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -608,7 +608,7 @@ var config = {
             hidden: false,
             title: 'Mapping Chepang',
             image: '',
-            description: 'The project centered around mapping in the remote hills of central Nepal and sought to generate data to assess the needs of the Chepang community. Chepangs are one of the most marginalized Indigenous communities in Nepal. Traditionally nomadic people who relied on hunting, fishing and the products of the forest, these  ways of life were brought to an end by the introduction of new government policies.' + '<br /><br />' + '<img src="images/placeholder.jpg" />' + 'Restrictions on hunting, gathering and clearing of forest patches have forced the Chepangs to adopt a settled way of life. This change of lifestyle has brought extreme poverty in their community and made it difficult for the Chepangs to access basic amenities such as nutritious food, proper housing, safe drinking water, education and healthcare.' + '<br /><br />' + 'During the mapping, validation, field verification, output and data dissemination, the Geomatics Engineering Society team was able to actively include the needs of the Chepang communities in the project design using surveys and direct conversations.' + '<br /><br />' + 'In line with the project’s poverty reduction and access to basic amenities, they engaged with various donor organizations and the local government. They simultaneously conducted several trainings on OSM to GES members and various OSM  communities in Nepal. They also collaborated with Kathmandu Living Labs, Youth Innovation Lab, Naxa, Department of Geomatics Engineering,  Kathmandu University, and several governmental bodies. The team collaborated with 19 ward presidents and trained them locally to read and visualize the printed satellite imagery maps.',
+            description: '<h4 class="impact-head">Impact Areas:</h4> <strong>Sustainable Cities and communities, Disasters and climate resilence, Public Health</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/city.png" height="35" width="35" /><img style="width: auto; vertical-align: middle;" src="images/icons/disaster.png" height="35" width="35" /><img style="width: auto; vertical-align: middle;" src="images/icons/health.png" height="35" width="35" />' + '<h3></h3>' + 'The project centered around mapping in the remote hills of central Nepal and sought to generate data to assess the needs of the Chepang community. Chepangs are one of the most marginalized Indigenous communities in Nepal. Traditionally nomadic people who relied on hunting, fishing and the products of the forest, these  ways of life were brought to an end by the introduction of new government policies.' + '<br /><br />' + '<img src="images/placeholder.jpg" />' + 'Restrictions on hunting, gathering and clearing of forest patches have forced the Chepangs to adopt a settled way of life. This change of lifestyle has brought extreme poverty in their community and made it difficult for the Chepangs to access basic amenities such as nutritious food, proper housing, safe drinking water, education and healthcare.' + '<br /><br />' + 'During the mapping, validation, field verification, output and data dissemination, the Geomatics Engineering Society team was able to actively include the needs of the Chepang communities in the project design using surveys and direct conversations.' + '<br /><br />' + 'In line with the project’s poverty reduction and access to basic amenities, they engaged with various donor organizations and the local government. They simultaneously conducted several trainings on OSM to GES members and various OSM  communities in Nepal. They also collaborated with Kathmandu Living Labs, Youth Innovation Lab, Naxa, Department of Geomatics Engineering,  Kathmandu University, and several governmental bodies. The team collaborated with 19 ward presidents and trained them locally to read and visualize the printed satellite imagery maps.',
             location: {
               center: [82.81188, 28.28352],
               zoom: 6.94,
@@ -681,7 +681,7 @@ var config = {
             hidden: false,
             title: 'Disaster Activations',
             image: '',
-            description: 'Location is critical to disaster response: first responders need fast, reliable information to reach affected areas post-disaster and prioritize aid. Through <a href="https://www.hotosm.org/hot-activation-protocol" target="_blank">rapid response activations</a>, the HOT community works together online using satellite and drone imagery to rapidly generate map data in OpenStreetMap. The resulting data is made available via the <a href="https://data.humdata.org/organization/hot" target="_blank">Humanitarian Data Exchange (HDX)</a> and can be used to create printed maps, for analysis, or for navigation on the ground.' + '<br /><br />' + '<ul><li>Earthquake Afghanistan June 2022</li><li>Bangladesh Floods May 2022</li><li>OSM Brazil Activation for Floods</li><li>Cyclones Ana Batsirai and Emnati 2022</li><li>South Sudan Floods 2022</li><li>Tropical Storm Agaton 2022</li><li>Odette Typhon 2021</li><li>Haiti Earthquake 2021</li><li>Mediterranean Wildfires 2021</li><li>Canchaque Landslides 2021</li><li>Nyiragongo Volcano 2021</li></ul>',
+            description: 'Location is critical to disaster response: first responders need fast, reliable information to reach affected areas post-disaster and prioritize aid. Through <a href="https://www.hotosm.org/hot-activation-protocol" target="_blank">rapid response activations</a>, the HOT community works together online using satellite and drone imagery to rapidly generate map data in OpenStreetMap. The resulting data is made available via the <a href="https://data.humdata.org/organization/hot" target="_blank">Humanitarian Data Exchange (HDX)</a> and can be used to create printed maps, for analysis, or for navigation on the ground.' + '<br /><br />' + '<ul><li>Earthquake Afghanistan June 2022</li><li>Bangladesh Floods May 2022</li><li>OSM Brazil Activation for Floods</li><li>Cyclones Ana Batsirai and Emnati 2022</li><li>South Sudan Floods 2022</li><li>Tropical Storm Agaton 2022</li><li>Odette Typhon 2021</li><li>Haiti Earthquake 2021</li><li>Mediterranean Wildfires 2021</li><li>Canchaque Landslides 2021</li><li>Nyiragongo Volcano 2021</li></ul>' + '<strong>Explore the globe by clicking and dragging your pointer, or use the controls in the top right.</strong> →',
             location: {
               center: [-58.401371, 4.361681],
               zoom: 2.75,
@@ -837,7 +837,7 @@ var config = {
             hidden: false,
             title: 'She Leads and She Inspires',
             image: '',
-            description: 'The She Leads and She Inspires Project is an initiative of the OpenMapping Hub - Asia Pacific and was designed to increase women’s representation in the geospatial ecosystem by supporting the emergence and evolution of women leaders within the OSM ecosystem and beyond. The long term vision is that the participants will continue to grow, get more deeply involved and champion similar initiatives in their communities beyond the scope of the project.' + '<br /><br />' + 'Over the course of six months, women from Nepal, India, Philippines, Bangladesh, Bhutan, Tajikistan, Indonesia, Pakistan, Sri Lanka, Cambodia, Fiji, Kiribati, Vietnam, Papua New Guinea were led through a structured programme supporting them to become OSM community leaders by gaining skills in geospatial data and technologies, decision making, digital leadership, needs identification and networking.' + '<br /><br />' + 'Out of the 99 women trained, 74 completed the program and 19 will be carrying out 10 projects in 10 countries. The projects will address local challenges related to Disaster Resilience, Environment, Gender Equality, Health, Heritage, Inclusion, and Sustainable Cities, adding value to local action in Asia Pacific.' + '<br /><br />' + '<img src="images/placeholder.jpg" />' + '<br /><br />' + 'The project confirmed what we already knew; that there is a lack of female representation in the geospatial sector. It also became clear that it is important to connect women in the OSM ecosystem to experienced project coordinators/experts to further expand and implement their project ideas. The project also helped us learn about the need to include men allies for sustainable growth and empowerment. She Leads and She Inspires is a first of many initiatives planned by HOT’s and the Open Mapping Hubs and demonstrates our commitment to helping women carve out their own destinies as inspiring OSM leaders.',
+            description: '<h4 class="impact-head">Impact Areas:</h4> <strong>Gender Equality</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/gender.png" height="35" width="35" />' + '<h3></h3>' + 'The She Leads and She Inspires Project is an initiative of the OpenMapping Hub - Asia Pacific and was designed to increase women’s representation in the geospatial ecosystem by supporting the emergence and evolution of women leaders within the OSM ecosystem and beyond. The long term vision is that the participants will continue to grow, get more deeply involved and champion similar initiatives in their communities beyond the scope of the project.' + '<br /><br />' + 'Over the course of six months, women from Nepal, India, Philippines, Bangladesh, Bhutan, Tajikistan, Indonesia, Pakistan, Sri Lanka, Cambodia, Fiji, Kiribati, Vietnam, Papua New Guinea were led through a structured programme supporting them to become OSM community leaders by gaining skills in geospatial data and technologies, decision making, digital leadership, needs identification and networking.' + '<br /><br />' + 'Out of the 99 women trained, 74 completed the program and 19 will be carrying out 10 projects in 10 countries. The projects will address local challenges related to Disaster Resilience, Environment, Gender Equality, Health, Heritage, Inclusion, and Sustainable Cities, adding value to local action in Asia Pacific.' + '<br /><br />' + '<img src="images/placeholder.jpg" />' + '<br /><br />' + 'The project confirmed what we already knew; that there is a lack of female representation in the geospatial sector. It also became clear that it is important to connect women in the OSM ecosystem to experienced project coordinators/experts to further expand and implement their project ideas. The project also helped us learn about the need to include men allies for sustainable growth and empowerment. She Leads and She Inspires is a first of many initiatives planned by HOT’s and the Open Mapping Hubs and demonstrates our commitment to helping women carve out their own destinies as inspiring OSM leaders.',
             location: {
               center: [85.403328, 5.058386],
               zoom: 3.5,
@@ -877,6 +877,47 @@ var config = {
               },
               {
                 layer: 'she_leads_countries',
+                opacity: 0,
+                duration: 2000
+              }
+            ]
+        },
+        {
+            id: 'chapter-8b',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Out of the 99 women trained, 74 completed the program and 19 will be carrying out 10 projects in 10 countries. The projects will address local challenges related to Disaster Resilience, Environment, Gender Equality, Health, Heritage, Inclusion, and Sustainable Cities, adding value to local action in Asia Pacific.' + '<br /><br />' + '<img src="images/placeholder.jpg" />' + '<br /><br />' + 'The project confirmed what we already knew; that there is a lack of female representation in the geospatial sector. It also became clear that it is important to connect women in the OSM ecosystem to experienced project coordinators/experts to further expand and implement their project ideas. The project also helped us learn about the need to include men allies for sustainable growth and empowerment. She Leads and She Inspires is a first of many initiatives planned by HOT’s and the Open Mapping Hubs and demonstrates our commitment to helping women carve out their own destinies as inspiring OSM leaders.',
+            location: {
+              center: [111.499644, 16.932757],
+              zoom: 3.35,
+              pitch: 0,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+              {
+                layer: 'she_leads_10',
+                opacity: 1,
+                duration: 2000
+              },
+              {
+                layer: 'she_leads_10-ALT',
+                opacity: 1,
+                duration: 2000
+              }
+            ],
+            onChapterExit: [
+              {
+                layer: 'she_leads_10',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'she_leads_10-ALT',
                 opacity: 0,
                 duration: 2000
               }
@@ -980,7 +1021,7 @@ var config = {
             id: 'spacer-2',
             alignment: 'center',
             hidden: false,
-            title: 'Devolved Grantmaking',
+            title: 'The Importance of Technology',
             image: '',
             description: '<h2 class="liftout">To achieve our impact, we need to offer reliable, high quality services and technology to the communities and partners we work with. These services need to be designed for their users needs, and be delivered <span style="color: #D73F3F; font-weight: bold;">quickly, reliably, and at scale.</span></h2>',
             location: {

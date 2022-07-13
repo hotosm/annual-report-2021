@@ -435,6 +435,10 @@ p.footnote {
    background-size: cover;
 }
 
+.flourish-credit {
+	opacity: 0;
+}
+
 /* Mobile fallback */
 
 @media (min-width: 450px) {
@@ -447,8 +451,4 @@ p.footnote {
 #rotate-mobile p {
 	font-weight: bold !important;
 	text-transform: uppercase !important;
-}
-
-.flourish-credit {
-	display: none !important;
 }

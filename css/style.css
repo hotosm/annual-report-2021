@@ -190,6 +190,10 @@ h3 {
 	opacity: .4;
 }
 
+.step h3.contrib:after {
+	margin: auto auto 40px auto;
+}
+
 @keyframes extend {
 	from {
 		width: 0;

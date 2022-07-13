@@ -585,7 +585,7 @@ var config = {
             hidden: false,
             title: 'Metrics and Supporters',
             image: '',
-            description: '(PLACEHOLDER FOR DATAVIZ, TK)' + '<h3></h3>' + 'This project was funded by a Facebook Community Impact Grant, managed by HOT.',
+            description: '<div class="flourish-embed" data-src="visualisation/10621260"></div>' + '<h3></h3>' + '<strong>This project was funded by a Facebook Community Impact Grant, managed by HOT.</strong>',
             location: {
               center: [30.113618, -0.555984],
               zoom: 12.40,

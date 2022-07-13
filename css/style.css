@@ -448,3 +448,7 @@ p.footnote {
 	font-weight: bold !important;
 	text-transform: uppercase !important;
 }
+
+.flourish-credit {
+	display: none !important;
+}

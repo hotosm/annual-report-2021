@@ -19,7 +19,7 @@ var config = {
             hidden: false,
             title: 'A Letter From Tyler Radford, HOT’s Executive Director',
             image: '',
-            description: '<img style="float:right; width: auto; padding: 0 0 25px 25px;" src="images/tyler2.jpg" />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            description: '<img style="float:right; width: auto; padding: 0 0 25px 25px;" src="images/tyler2.jpg" />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + '<strong>Explore the globe by clicking and dragging your pointer, or use the controls in the top right.</strong> &#8594;',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,
@@ -79,6 +79,11 @@ var config = {
                 layer: 'latam_intro',
                 opacity: 1,
                 duration: 2000
+              },
+              {
+                layer: 'satellite',
+                opacity: .7,
+                duration: 2000
               }
             ],
             onChapterExit: [
@@ -130,6 +135,11 @@ var config = {
               {
                 layer: 'latam_intro',
                 opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'satellite',
+                opacity: 1,
                 duration: 2000
               }
             ]
@@ -418,7 +428,7 @@ var config = {
             hidden: false,
             title: 'Impact of Mapping in Kampala',
             image: '',
-            description: 'The project developed the technical capacity of 30 community volunteers and other OSM communities in field mapping techniques. The new skills will enable volunteers to participate in  future mapping projects. A larger community means a greater impact created in informal settlements and more contributions to OSM.' + '<br /><br />' + '<span style="font-weight: bold; color: #D73F3F;">Over 20 women and girls</span> participated in the project activities thus providing them with the opportunity to impact their communities while contributing to OSM. Additionally, this will ensure that the services that are important to women and girls are more likely to be mapped.' + '<br /><br />' + 'The maps will play an important role in:' + '<ul><li>Identifying potential treatment, immunization and evacuation sites within the settlements in cases of pandemics</li><li>Advocating for healthcare services where they are not sufficient or where none exist</li><li>Making informed administrative decisions for the communities in these settlements</li><li>Identifying and cleaning up illegal waste dumpsites around the villages within the settlements</li></ul>',
+            description: 'The project developed the technical capacity of <span style="font-weight: bold; color: #D73F3F;">30 community volunteers</span> and other OSM communities in field mapping techniques. The new skills will enable volunteers to participate in  future mapping projects. A larger community means a greater impact created in informal settlements and more contributions to OSM.' + '<br /><br />' + '<span style="font-weight: bold; color: #D73F3F;">Over 20 women and girls</span> participated in the project activities thus providing them with the opportunity to impact their communities while contributing to OSM. Additionally, this will ensure that the services that are important to women and girls are more likely to be mapped.' + '<br /><br />' + 'The maps will play an important role in:' + '<ul><li>Identifying potential treatment, immunization and evacuation sites within the settlements in cases of pandemics</li><li>Advocating for healthcare services where they are not sufficient or where none exist</li><li>Making informed administrative decisions for the communities in these settlements</li><li>Identifying and cleaning up illegal waste dumpsites around the villages within the settlements</li></ul>',
             location: {
               center: [32.58118, 0.34707],
               zoom: 16.48,
@@ -439,7 +449,7 @@ var config = {
             hidden: false,
             title: 'KEY RESULTS',
             image: '',
-            description: '<ul><li><span style="font-weight: bold; color: #D73F3F;">30></span> community volunteers trained</li><li><span style="font-weight: bold; color: #D73F3F;">20</span> from OSM communities</li><li><span style="font-weight: bold; color: #D73F3F;">10</span> residents of settlements (20 women and girls engaged in project)</li><li><span style="font-weight: bold; color: #D73F3F;">30</span> new field mappers</li><li>A total of <span style="font-weight: bold; color: #D73F3F;">162</span> health facilities within 11 settlements were mapped</li></ul>' + '<h3 class="contrib"></h3>' + 'The project was supported by HOT and <a href="https://www.esri.com/en-us/home" target="_blank">Esri</a>. Partners: Actogether, Africa Geoportal, Somero Uganda, OpenStreetMap Uganda, GeoYouthMappers, Kyambogo YouthMappers, Vision Mappers, Team Good Mappers, and CSGU YouthMappers.',
+            description: '<ul><li><span style="font-weight: bold; color: #D73F3F;">30</span> community volunteers trained</li><li><span style="font-weight: bold; color: #D73F3F;">20</span> from OSM communities</li><li><span style="font-weight: bold; color: #D73F3F;">10</span> residents of settlements (20 women and girls engaged in project)</li><li><span style="font-weight: bold; color: #D73F3F;">30</span> new field mappers</li><li>A total of <span style="font-weight: bold; color: #D73F3F;">162</span> health facilities within 11 settlements were mapped</li></ul>' + '<h3 class="contrib"></h3>' + 'The project was supported by HOT and <a href="https://www.esri.com/en-us/home" target="_blank">Esri</a>. Partners: Actogether, Africa Geoportal, Somero Uganda, OpenStreetMap Uganda, GeoYouthMappers, Kyambogo YouthMappers, Vision Mappers, Team Good Mappers, and CSGU YouthMappers.',
             location: {
               center: [32.58118, 0.34707],
               zoom: 16.48,
@@ -511,7 +521,7 @@ var config = {
             hidden: false,
             title: 'KEY RESULTS',
             image: '',
-            description: '<div class="flourish-embed" data-src="visualisation/10617361"></div>' + '<h3></h3>' + '<a href="https://www.fieldready.org/" target="_blank">Field Ready</a> teamed up with HOT and <a href="https://needslist.co/" target="_blank">NeedsList</a> to help get PPE and other medical supplies to those frontline workers in four of the hardest-hit countries through our “Protecting the Frontline” program.' + '<br /><br />' + '<h3 class="contrib"></h3>' + 'The project was supported by <a href="https://humanitariangrandchallenge.org/" target="_blank">Creating Hope in Conflict: a Humanitarian Grand Challenge</a> project. ',
+            description: '<div class="flourish-embed" data-src="visualisation/10617361"></div>' + '<h3 class="contrib"></h3>' + '<a href="https://www.fieldready.org/" target="_blank">Field Ready</a> teamed up with HOT and <a href="https://needslist.co/" target="_blank">NeedsList</a> to help get PPE and other medical supplies to those frontline workers in four of the hardest-hit countries through our “Protecting the Frontline” program.' + '<br /><br />' + 'The project was supported by <a href="https://humanitariangrandchallenge.org/" target="_blank">Creating Hope in Conflict: a Humanitarian Grand Challenge</a> project. ',
             location: {
               center: [37.84560, 0.83084],
               zoom: 5,
@@ -534,10 +544,10 @@ var config = {
             hidden: false,
             title: 'Fighting GBV using OSM tools in Western Uganda',
             image: '',
-            description: '<h4 class="impact-head">Impact Area:</h4> <strong>Gender Equality</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/gender.png" height="35" width="35" />' + '<h3></h3>' + 'Center for Life Change Development (CLCD) developed a project to fight gender-based violence (GBV) using OSM tools in Bushenyi District, Western Uganda. The aims of the project were to reduce GBV in Bushenyi district through sensitization and awareness in communities, to introduce OSM tools to social workers, police and other stakeholders, and generate maps of administrative boundaries, police stations and health centers.' + '<br /><br />' + 'Sensitization activities took place in three sub counties of Bushenyi district, namely Nyabubare, Kakanju and Bumbaire. This was done via local village councils together with sub county community development officers, stakeholders, village health technicians (VHTs) and para-social workers. Sensitization included three radio talk shows about GBV and activities were further extended to churches where CLCD worked with religious leaders. CLCD also worked with Bushenyi HIV & AIDS Network forum and Bushenyi district local leaders on GBV sensitization and awareness in communities and extended activities to Sheema district where there are high rates of HIV & AIDS.' + '<img src="images/placeholder.jpg" />' + '<br /><br />' + 'CLCD collaborated with MapUganda to conduct online and in-person training for volunteers from Bushenyi district communities on GBV issues. Fifteen volunteers were trained to use ODK for data collection, iD Editor and JOSM for remote mapping as well as Maps.me to add points of interest on OSM, and as a navigation tool to respond to GBV calls, and all sub counties in Bushenyi were mapped. Twenty-five maps were printed and given to police police officials in Bushenyi.' + '<br /><br />' + 'Collaborations were formed with MapUganda in organizing mapathons and mobilizing volunteers to map remotely and CLCD was introduced to other OSM communities through events like the OSM Africa monthly mapathon that was key in completing the mapping and validation of the project.',
+            description: '<h4 class="impact-head">Impact Area:</h4> <strong>Gender Equality</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/gender.png" height="35" width="35" />' + '<h3></h3>' + 'Center for Life Change Development (CLCD) developed a project to fight gender-based violence (GBV) using OSM tools in Bushenyi District, Western Uganda. The aims of the project were to reduce GBV in Bushenyi district through sensitization and awareness in communities, to introduce OSM tools to social workers, police and other stakeholders, and generate maps of administrative boundaries, police stations and health centers.' + '<br /><br />' + 'Sensitization activities took place in three sub counties of Bushenyi district, namely Nyabubare, Kakanju and Bumbaire. This was done via local village councils together with sub county community development officers, stakeholders, village health technicians (VHTs) and para-social workers. Sensitization included three radio talk shows about GBV and activities were further extended to churches where CLCD worked with religious leaders. CLCD also worked with Bushenyi HIV & AIDS Network forum and Bushenyi district local leaders on GBV sensitization and awareness in communities and extended activities to Sheema district where there are high rates of HIV & AIDS.' + '<img src="images/placeholder.jpg" />',
             location: {
               center: [30.156900, -0.524528],
-              zoom: 12.40,
+              zoom: 12,
               pitch: 67,
               bearing: 16.80
             },
@@ -585,7 +595,7 @@ var config = {
             hidden: false,
             title: 'KEY RESULTS',
             image: '',
-            description: '<div class="flourish-embed" data-src="visualisation/10621260"></div>' + '<h3 class="contrib"></h3>' + 'This project was funded by a Facebook Community Impact Grant, managed by HOT.',
+            description: 'CLCD collaborated with MapUganda to conduct online and in-person training for volunteers from Bushenyi district communities on GBV issues. <span style="color: #D73F3F; font-weight: bold;">15 volunteers</span> were trained to use ODK for data collection, iD Editor and JOSM for remote mapping as well as Maps.me to add points of interest on OSM, and as a navigation tool to respond to GBV calls, and all sub counties in Bushenyi were mapped. <span style="color: #D73F3F; font-weight: bold;">25 maps</span> were printed and given to police police officials in Bushenyi.' + '<br /><br />' + 'Collaborations were formed with MapUganda in organizing mapathons and mobilizing volunteers to map remotely and CLCD was introduced to other OSM communities through events like the OSM Africa monthly mapathon that was key in completing the mapping and validation of the project.' + '<div class="flourish-embed" data-src="visualisation/10621260"></div>' + '<h3 class="contrib"></h3>' + 'This project was funded by a Facebook Community Impact Grant, managed by HOT.',
             location: {
               center: [30.113618, -0.555984],
               zoom: 12.40,
@@ -608,7 +618,7 @@ var config = {
             hidden: false,
             title: 'Mapping the Chepang Community',
             image: '',
-            description: '<h4 class="impact-head">Impact Areas:</h4> <strong>Sustainable Cities and communities, Disasters and climate resilence, Public Health</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/city.png" height="35" width="35" /><img style="width: auto; vertical-align: middle;" src="images/icons/disaster.png" height="35" width="35" /><img style="width: auto; vertical-align: middle;" src="images/icons/health.png" height="35" width="35" />' + '<h3></h3>' + 'The project centered around mapping in the remote hills of central Nepal and sought to generate data to assess the needs of the Chepang community. Chepangs are one of the most marginalized Indigenous communities in Nepal. Traditionally nomadic people who relied on hunting, fishing and the products of the forest, these  ways of life were brought to an end by the introduction of new government policies.' + '<br /><br />' + '<img src="images/placeholder.jpg" />' + 'Restrictions on hunting, gathering and clearing of forest patches have forced the Chepangs to adopt a settled way of life. This change of lifestyle has brought extreme poverty in their community and made it difficult for the Chepangs to access basic amenities such as nutritious food, proper housing, safe drinking water, education and healthcare.' + '<br /><br />' + 'During the mapping, validation, field verification, output and data dissemination, the Geomatics Engineering Society team was able to actively include the needs of the Chepang communities in the project design using surveys and direct conversations.' + '<br /><br />' + 'In line with the project’s poverty reduction and access to basic amenities, they engaged with various donor organizations and the local government. They simultaneously conducted several trainings on OSM to GES members and various OSM communities in Nepal. They also collaborated with Kathmandu Living Labs, Youth Innovation Lab, Naxa, Department of Geomatics Engineering,  Kathmandu University, and several governmental bodies. The team collaborated with 19 ward presidents and trained them locally to read and visualize the printed satellite imagery maps.',
+            description: '<h4 class="impact-head">Impact Areas:</h4> <strong>Sustainable Cities and communities</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/city.png" height="35" width="35" /><br /><strong>Disasters and climate resilence</strong><img style="width: auto; vertical-align: middle;" src="images/icons/disaster.png" height="35" width="35" /><br /><strong>Public Health</strong><img style="width: auto; vertical-align: middle;" src="images/icons/health.png" height="35" width="35" />' + '<h3></h3>' + 'The project centered around mapping in the remote hills of central Nepal and sought to generate data to assess the needs of the Chepang community. Chepangs are one of the most marginalized Indigenous communities in Nepal. Traditionally nomadic people who relied on hunting, fishing and the products of the forest, these  ways of life were brought to an end by the introduction of new government policies.' + '<br /><br />' + '<img src="images/placeholder.jpg" />' + 'Restrictions on hunting, gathering and clearing of forest patches have forced the Chepangs to adopt a settled way of life. This change of lifestyle has brought extreme poverty in their community and made it difficult for the Chepangs to access basic amenities such as nutritious food, proper housing, safe drinking water, education and healthcare.' + '<br /><br />' + 'During the mapping, validation, field verification, output and data dissemination, the Geomatics Engineering Society team was able to actively include the needs of the Chepang communities in the project design using surveys and direct conversations.' + '<br /><br />' + 'In line with the project’s poverty reduction and access to basic amenities, they engaged with various donor organizations and the local government. They simultaneously conducted several trainings on OSM to GES members and various OSM communities in Nepal. They also collaborated with Kathmandu Living Labs, Youth Innovation Lab, Naxa, Department of Geomatics Engineering,  Kathmandu University, and several governmental bodies. The team collaborated with 19 ward presidents and trained them locally to read and visualize the printed satellite imagery maps.',
             location: {
               center: [82.81188, 28.28352],
               zoom: 6.94,
@@ -976,13 +986,38 @@ var config = {
               }
             ]
           },
+          {
+              id: 'chapter-9b',
+              alignment: 'center',
+              hidden: false,
+              title: 'Key Results',
+              image: '',
+              description: 'Together they mapped and validated 74 projects across 12 countries including:' + '<br /><br />' + '<div class="flourish-embed" data-src="visualisation/10625782"></div>' + 'This involved working remotely in teams of 4-5 and coordinating approaches and sharing best practices.' + '<br /><br />' + 'The Data Quality Internship is part of HOT’s commitment to ensuring high quality data for humanitarian and development use and also recognizes our role in closing the digital divide, including acknowledging obstacles that certain groups, such as women, nationals of low and middle-income countries, and members of other underrepresented groups, face in developing skills needed for roles in the humanitarian & technology sectors.',
+              location: {
+                center: [-58.401371, 4.361681],
+                zoom: 2.75,
+                pitch: 0,
+                bearing: 0.00,
+                speed: 0.7,
+                curve: 1
+              },
+              mapAnimation: 'flyTo',
+              rotateAnimation: true,
+              callback: '',
+              onChapterEnter: [
+
+              ],
+              onChapterExit: [
+
+              ]
+            },
               {
                   id: 'chapter-10',
                   alignment: 'right',
                   hidden: false,
-                  title: 'Devolved Grantmaking',
-                  image: '',
-                  description: 'Part of HOT and the Open Mapping Hubs’ goal to support a movement of individuals and communities who create and use OSM data to improve lives and livelihoods in places vulnerable to crisis or experiencing poverty, is to move decision-making, resource allocation, support and engagement closer to these places.' + '<br /><br />' + 'One way of doing this is to entrust the awarding of grants to a local partner with a deeper understanding of the local context, and therefore the challenges, opportunities and constraints, in the countries where our OSM partners operate.' + '<br /><br />' + 'Modeled on HOT’s successful microgrants programme, a devolved community investment programme was piloted in Tanzania with OpenMap Development Tanzania (OMDTZ), an established organization and trusted partner with a significant focus on leveraging OSM data to improve lives and livelihoods. OMDTZ was free to design a programme of community support and investment that works for Tanzanian contributors, communities and organizations.' + '<br /><br />' + 'OMDTZ awarded microgrants to seven OSM communities in Tanzania from seven different regions — Kagera, Dodoma, Mara, Katavi, Mwanza, Morogoro, and Zanzibar. The grants supported these communities to leverage the use of OSM and mapping to help solve different community challenges, facilitate training/workshop, purchase tools and equipment, support staff and other logistics.' + '<br /><br />' + 'The selected communities implemented their projects over three to six months. The projects included mapping schools to improve the education system in Zanzibar, solid waste mapping for flood resilience, community mapping to improve nutrition status in Bukoba, community mapping for gender-based violence, community mapping for disease outbreaks such as. Ebola, Infrastructural mapping, and health facilities mapping.' + '<br /><br />' + 'The intention is to replicate or adapt a similar strategy in other countries with strong OSM community organizations so that the funds will be more accessible and have greater local reach, relevance and impact and that HOT and others can learn from OMDTZ’s experience.',
+                  title: 'Devolved Grantmaking (WORKING TITLE, NEW WORD TK)',
+                  image: 'images/technology_hot.jpg',
+                  description: 'Photo by: Agri Thamani Foundation — Improving nutritional status in Bukoba urban district using open mapped data.' + '<br /><br />' + 'Part of HOT and the Open Mapping Hubs’ goal to support a movement of individuals and communities who create and use OSM data to improve lives and livelihoods in places vulnerable to crisis or experiencing poverty, is to move decision-making, resource allocation, support and engagement closer to these places.' + '<br /><br />' + 'One way of doing this is to entrust the awarding of grants to a local partner with a deeper understanding of the local context, and therefore the challenges, opportunities and constraints, in the countries where our OSM partners operate.' + '<br /><br />' + 'Modeled on HOT’s successful microgrants programme, a devolved community investment programme was piloted in Tanzania with <a href="https://www.omdtz.or.tz/" target="_blank">OpenMap Development Tanzania (OMDTZ)</a>, an established organization and trusted partner with a significant focus on leveraging OSM data to improve lives and livelihoods. OMDTZ was free to design a programme of community support and investment that works for Tanzanian contributors, communities and organizations.' + '<br /><br />' + 'OMDTZ awarded microgrants to seven OSM communities in Tanzania from seven different regions — Kagera, Dodoma, Mara, Katavi, Mwanza, Morogoro, and Zanzibar. The grants supported these communities to leverage the use of OSM and mapping to help solve different community challenges, facilitate training/workshop, purchase tools and equipment, support staff and other logistics.' + '<br /><br />' + 'The selected communities implemented their projects over three to six months. The projects included mapping schools to improve the education system in Zanzibar, solid waste mapping for flood resilience, community mapping to improve nutrition status in Bukoba, community mapping for gender-based violence, community mapping for disease outbreaks such as. Ebola, Infrastructural mapping, and health facilities mapping.' + '<br /><br />' + 'The intention is to replicate or adapt a similar strategy in other countries with strong OSM community organizations so that the funds will be more accessible and have greater local reach, relevance and impact and that HOT and others can learn from OMDTZ’s experience.',
                   location: {
                     center: [42.655560, -7.451355],
                     zoom: 5.75,
@@ -1046,12 +1081,12 @@ var config = {
             hidden: false,
             title: 'The Galaxy Project',
             image: '',
-            description: 'HOT Tech aims to provide tools that enable anyone to edit and use open map data in an accessible and inclusive way.' + '<br /><br />' + 'The Galaxy project aims to get OSM map data and map data insights, like statistics and data quality, into the right hands at the right time.' + '<br /><br />' + 'For our least technical users, Galaxy delivers a lightweight web portal to map data customizable for download in multiple formats for any user, anywhere in the world.' + '<br /><br />' + 'Users can explore mapathon leaderboards, mapper statistics and data quality to track and motivate their own OSM journey.' + '<br /><br />' + 'The galaxy project also enables us to continuously improve existing tools, such as HOT’s Export tool. Most recently, components of Galaxy have contributed to faster results, seamless integrations and data that users can depend on.' + '<img src="images/placeholder.jpg" />',
+            description: 'HOT Tech aims to provide tools that enable anyone to edit and use open map data in an accessible and inclusive way. The Galaxy project aims to get OSM map data and map data insights, like statistics and data quality, into the right hands at the right time.' + '<br /><br />' + 'For our least technical users, Galaxy delivers a lightweight web portal to map data customizable for download in multiple formats for any user, anywhere in the world.' + '<br /><br />' + 'Users can explore mapathon leaderboards, mapper statistics and data quality to track and motivate their own OSM journey.' + '<br /><br />' + 'The galaxy project also enables us to continuously improve existing tools, such as HOT’s Export tool. Most recently, components of Galaxy have contributed to faster results, seamless integrations and data that users can depend on.' + '<img src="images/placeholder.jpg" />',
             location: {
-              center: [42.655560, -7.451355],
-              zoom: 5.75,
+              center: [-8.68740, 23.01151],
+              zoom: 2.5,
               pitch: 0,
-              bearing: 0.00,
+              bearing: 0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -1071,10 +1106,10 @@ var config = {
             image: '',
             description: 'The HOT tech team is committed to a future of more collective and localized technologies.To put our words into action we want to nurture and invest in the contributors, makers, tinkerers and users to maintain, evolve and grow just and collective humanitarian open mapping tech. By igniting a community of techies, we strive for better tools created for, with and by local mappers and map users. We work collectively with partners and communities globally, and emphasize collaboration with organizations and groups within HOT’s priority countries.' + '<br /><br />' + 'In 2021, Kathmandu Living Labs (KLL) joined us to pioneer this collective approach. KLL is a leading civic-tech company based out of Nepal and has been working in the Open Mapping movement since 2013. As a social enterprise, KLL provides data and technology solutions to governments, development partners, business and civil society. In collaboration with the HOT tech team and the Tasking Manager community, KLL contributes to the maintenance and evolution of HOT’s most well-known product, the HOT Tasking Manager. Each month, we sit down with KLL to identify and prioritize the issues the Tasking Manager collective feel will best stabilize, secure and  strengthen the product for its global community of mapping volunteers. These issues are publicly available for comment and conversation through a public project repository through github. KLL then tackles and resolves these issues to deliver fixes, features and enhancements before they are deployed for the Tasking Manager collective and the wider HOT and OSM communities.' + '<img src="images/placeholder.jpg" />',
             location: {
-              center: [42.655560, -7.451355],
-              zoom: 5.75,
+              center: [-8.68740, 23.01151],
+              zoom: 2.5,
               pitch: 0,
-              bearing: 0.00,
+              bearing: 0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -1092,12 +1127,12 @@ var config = {
             hidden: false,
             title: 'Partnerships',
             image: '',
-            description: '(CONTENT TK, PLACEHOLDER -- PLACEHOLDER) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            description: '(CONTENT TK, PLACEHOLDER -- PLACEHOLDER) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + '<h3>DONOR ACKNOWLEDGEMENT</h3>' + '<br /><br />' + '<h3>FINANCIALS</h3>',
             location: {
-              center: [42.655560, -7.451355],
-              zoom: 5.75,
+              center: [-8.68740, 23.01151],
+              zoom: 2.5,
               pitch: 0,
-              bearing: 0.00,
+              bearing: 0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,

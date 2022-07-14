@@ -425,6 +425,11 @@ p.footnote {
 	z-index: 5;
 }
 
+.mapboxgl-ctrl-top-right {
+    top: 1%;
+    right: 1%;
+}
+
 /* Chapter div overrides */
 
 #letter-0 {

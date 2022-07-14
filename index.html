@@ -73,12 +73,12 @@
 
   <div id="map"></div>
 
-  <div id='chapter4legend' class='legend'>
+  <div id='chapter9legend' class='legend'>
 	<h4>Legend</h4>
 	<ul class='legend-ul'>
-		<li><div><span style='background-color: #101820'></span>Legend item </div></li>
+		<li><div><span style='background-color: #e22c2c'></span>Home Countries of Interns </div></li>
 	</ul>
-	<h5><strong>Data</strong>: OSM, <a href='https://www.openstreetmap.org' target='_blank'>OSM</a></h5>
+	<!--<h5><strong>Data</strong>: OSM, <a href='https://www.openstreetmap.org' target='_blank'>OSM</a></h5>-->
 	</div>
 
   <div id="mapInset"></div>
@@ -311,10 +311,10 @@
           var chapter = config.chapters.find(chap => chap.id === response.element.id);
           var chapterid = chapter.id;
 
-          //if (chapterid == "chapter-4") {
-          //     $("#chapter4legend").show("slow");
-          //} else
-          //     $("#chapter4legend").hide("fast");
+          if (chapterid == "chapter-9") {
+               $("#chapter9legend").show("slow");
+          } else
+               $("#chapter9legend").hide("fast");
 
 
           response.element.classList.add('active');

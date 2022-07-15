@@ -113,6 +113,13 @@ a:visited {
   width: 35%;
 }
 
+.photocaption {
+	font-size: 0.8em;
+	line-height: 36px;
+	letter-spacing: .02em;
+	display: block;
+}
+
 @media (max-width: 425px) {
   #header h2, #dash-text, #dash-text2, #intro-text {
     width: 100%;

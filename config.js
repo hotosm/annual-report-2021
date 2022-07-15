@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/hot/cl5lvrrfs000114pb5sg38rcv',
+    style: 'mapbox://styles/hot/cl5mi02hh008o14ptm015i5wp',
     accessToken: 'pk.eyJ1IjoiaG90IiwiYSI6IlBtUmNiR1kifQ.dCS1Eu9DIRNZGktc24IwtA',
     showMarkers: false,
     inset: true,
@@ -268,9 +268,9 @@ var config = {
             id: 'chapter-1c',
             alignment: 'full',
             hidden: false,
-            title: 'Impact of the Mapping',
+            title: 'Impact of the Mapping in Uganda',
             image: '',
-            description: 'The HOT team collaborated with the district health team to design and produce village-level, book-sized maps. These book-sized maps were distributed to the village community health workers to help them navigate, locate, and record their movements even without using smartphones. The aim is to develop district-level gazetteers that will be shared with health centers across the district to assist in reducing the time spent on patient tracing.' + '<br /><br />' + '<img src="images/village_map.jpg" />' + '<span style="font-size: .8em;">Photo by Miriam Watsemba</span> Increased access to smartphones among Village Health Workers (VHWs) in Kisoro and Zombo districts improved digital access and through the data collection training and landmarks mapping, the VHWs acquired digital navigation and mapping skills that led them to acquire their own smartphones to continue mapping and sharing their locations with colleagues when in the field using free and open source software (OSMand) with OSM data offline on their phones.' + '<br /><br />' + 'As a part of the culmination of the scaling missing maps project, the HOT team created and shared <a href="https://drive.google.com/file/d/1Zcduoi0yT2ek3yjXDGGevxKiuIv02Qbb/view" target="_blank">4 Atlases</a> to the Zombo district health departments as well as the Ministry Health, Health information department. The health team at the district and ministry plan to use these atlases to improve health intervention planning and as a learning resource to replicate this work across the other priority districts in the country.' + '<br /><br />' + 'The team in Uganda is planning to work closer with the district health management team specifically with the Assistant District Health Officer to continue championing and training community health workers.',
+            description: 'The HOT team collaborated with the district health team to design and produce village-level, book-sized maps. These book-sized maps were distributed to the village community health workers to help them navigate, locate, and record their movements even without using smartphones. The aim is to develop district-level gazetteers that will be shared with health centers across the district to assist in reducing the time spent on patient tracing.' + '<br /><br />' + '<img src="images/village_map.jpg" />' + '<span class="photocaption">Village Health Technician, Happy Annah, Gasiza Village, Kisoro District, Uganda. | Photo by: Miriam Watsemba</span> Increased access to smartphones among Village Health Workers (VHWs) in Kisoro and Zombo districts improved digital access and through the data collection training and landmarks mapping, the VHWs acquired digital navigation and mapping skills that led them to acquire their own smartphones to continue mapping and sharing their locations with colleagues when in the field using free and open source software (OSMand) with OSM data offline on their phones.' + '<br /><br />' + 'As a part of the culmination of the scaling missing maps project, the HOT team created and shared <a href="https://drive.google.com/file/d/1Zcduoi0yT2ek3yjXDGGevxKiuIv02Qbb/view" target="_blank">4 Atlases</a> to the Zombo district health departments as well as the Ministry Health, Health information department. The health team at the district and ministry plan to use these atlases to improve health intervention planning and as a learning resource to replicate this work across the other priority districts in the country.' + '<br /><br />' + 'The team in Uganda is planning to work closer with the district health management team specifically with the Assistant District Health Officer to continue championing and training community health workers.',
             location: {
               center: [29.217162, 0.871755],
               zoom: 7,
@@ -292,8 +292,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Democratic Republic of the Congo',
-            image: 'images/drc.jpg',
-            description: 'HOT carried out four separate data collection activities which began in Kalungunta and continued in Beni, Butembo and Katwa. The fieldwork included the collection of geographic information of different amenities located in these four districts, including data on village locations, education facilities, health facilities, water points, places of worship, market places, and offices, including government and non-government offices.' + '<br /><br />' + '<img src="images/vax_map.jpg" /><span style="font-size:0.9em;>Map of vaccination points in Beni, North Kivu, DRC</span>' + 'Data collectors were paired with District Health Officers to ensure that local health staff would be trained, and ensure security of the HOT staff during data collection. At the end of the field mapping period, the data was reviewed, validated, and uploaded to the OSM platform.' + '<br /><br />' + 'Following data collection, data and maps were presented to the health officials and training were carried out. Over 400 district health officials were trained on data collection using OSM tools, and basic GIS.',
+            image: '',
+            description: 'HOT carried out four separate data collection activities which began in Kalungunta and continued in Beni, Butembo and Katwa. The fieldwork included the collection of geographic information of different amenities located in these four districts, including data on village locations, education facilities, health facilities, water points, places of worship, market places, and offices, including government and non-government offices.' + '<br /><br />' + '<img src="images/vax_map.jpg" /><span class="photocaption">Map of vaccination points in Beni, North Kivu, DRC</span>' + 'Data collectors were paired with District Health Officers to ensure that local health staff would be trained, and ensure security of the HOT staff during data collection. At the end of the field mapping period, the data was reviewed, validated, and uploaded to the OSM platform.' + '<br /><br />' + 'Following data collection, data and maps were presented to the health officials and training were carried out. Over 400 district health officials were trained on data collection using OSM tools, and basic GIS.',
             location: {
                 center: [9.369040, -4.818064],
                 zoom: 5.5,
@@ -334,7 +334,7 @@ var config = {
             hidden: false,
             title: 'Impact of the Mapping',
             image: '',
-            description: '<ul><li>The maps have improved disease surveillance planning and sensitization campaigns (Covid-19, Ebola, Malaria, Tuberculosis), with improved risk communication and more targeted messages.</li><li>Health workers are able to find patients through locally-defined and well-known landmarks.</li><li>Health workers use the maps for directions, measuring distances and planning routes. They can better plan activities as they understand why some people in a health district are able or not to access a particular health center.</li><li>The atlases and gazetteer documents provided to the health areas improved the ability to accurately trace patients, particularly for follow-up treatment.</li><li>In October 2021, a new wave of Ebola in the province of Beni, DRC during which health boundaries and points of interest data collected through this project were used to trace patient contacts. Data was directly distributed to the health area of Beni and <a href="https://data.humdata.org/dataset?groups=cod&organization=osm-rdc&q=&sort=if(gt(last_modified%2Creview_date)%2Clast_modified%2Creview_date)%20desc&ext_page_size=25" target="_blank">uploaded on HDX</a> with more than 100 downloads reported. International organizations such as OCHA and WHO were able use the data for their outbreak response.</li><li>In the Health zone of Butembo, DRC, the health areas of Vuvatsi and Kyangike were able to visualize the limits of their respective zones and found an area with 54 households not counted in either. Those households will now be counted in the health area of Vuvatsi, Mabuku and Kalunguta.</li></ul>',
+            description: '<ul><li>The maps have improved disease surveillance planning and sensitization campaigns (Covid-19, Ebola, Malaria, Tuberculosis), with improved risk communication and more targeted messages.</li><li>Health workers are able to find patients through locally-defined and well-known landmarks.</li><li>Health workers use the maps for directions, measuring distances and planning routes. They can better plan activities as they understand why some people in a health district are able or not to access a particular health center.</li><li>The atlases and gazetteer documents provided to the health areas improved the ability to accurately trace patients, particularly for follow-up treatment.</li><li>In October 2021, a new wave of Ebola in the province of Beni, DRC during which health boundaries and points of interest data collected through this project were used to trace patient contacts. Data was directly distributed to the health area of Beni and <a href="https://data.humdata.org/dataset?groups=cod&organization=osm-rdc&q=&sort=if(gt(last_modified%2Creview_date)%2Clast_modified%2Creview_date)%20desc&ext_page_size=25" target="_blank">uploaded on HDX</a> with more than 100 downloads reported. International organizations such as OCHA and WHO were able use the data for their outbreak response.</li><li>In the Health zone of Butembo, DRC, the health areas of Vuvatsi and Kyangike were able to visualize the limits of their respective zones and found an area with 54 households not counted in either. Those households will now be counted in the health area of Vuvatsi, Mabuku and Kalunguta.</li></ul>' + '<img src="images/drc.jpg" />',
             location: {
               center: [9.369040, -4.818064],
               zoom: 5.5,
@@ -653,10 +653,10 @@ var config = {
             image: 'images/nepal_school_map.jpg',
             description: 'Maps and data that include buildings, roads, land use, and other critical types of infrastructure will be used to access basic amenities for the Chepang and also to analyze areas vulnerable to disaster, agricultural areas, and to assess the need for schools and health posts in the community.' + '<br /><br />' + 'The data and maps generated from the project are being shared with various humanitarian agencies and stakeholders such as  Shanti Griha Nepal, Planete Enfants & Développement, Save the Children, Save Our Soul, Child Workers in Nepal (CWIN), USAID, Leo Club, the Rotaract Club, and various other local authorities for uplifting their communities.',
             location: {
-              center: [82.81188, 28.28352],
-              zoom: 6.94,
-              pitch: 1.67,
-              bearing: 0.00,
+              center: [84.892244, 27.573947],
+              zoom: 12.10,
+              pitch: 28.5,
+              bearing: 5,
               speed: .7
             },
             mapAnimation: 'flyTo',
@@ -664,24 +664,14 @@ var config = {
             callback: 'disableFreetime',
             onChapterEnter: [
                 {
-                  layer: 'nepal',
-                  opacity: 1,
-                  duration: 4000
-                },
-                {
-                  layer: 'nepal_label',
+                  layer: 'chepang_data',
                   opacity: 1,
                   duration: 4000
                 }
             ],
             onChapterExit: [
               {
-                layer: 'nepal',
-                opacity: 0,
-                duration: 1000
-              },
-              {
-                layer: 'nepal_label',
+                layer: 'chepang_data',
                 opacity: 0,
                 duration: 4000
               }
@@ -1019,7 +1009,7 @@ var config = {
                   hidden: false,
                   title: 'Devolved Grantmaking (WORKING TITLE, NEW WORD TK)',
                   image: 'images/technology_hot.jpg',
-                  description: '<span style="font-size: .8em;">Photo by: Agri Thamani Foundation — Improving nutritional status in Bukoba urban district using open mapped data.</span>' + '<br /><br />' + 'Part of HOT and the Open Mapping Hubs’ goal to support a movement of individuals and communities who create and use OSM data to improve lives and livelihoods in places vulnerable to crisis or experiencing poverty, is to move decision-making, resource allocation, support and engagement closer to these places.' + '<br /><br />' + 'One way of doing this is to entrust the awarding of grants to a local partner with a deeper understanding of the local context, and therefore the challenges, opportunities and constraints, in the countries where our OSM partners operate.' + '<br /><br />' + 'Modeled on HOT’s successful microgrants programme, a devolved community investment programme was piloted in Tanzania with <a href="https://www.omdtz.or.tz/" target="_blank">OpenMap Development Tanzania (OMDTZ)</a>, an established organization and trusted partner with a significant focus on leveraging OSM data to improve lives and livelihoods. OMDTZ was free to design a programme of community support and investment that works for Tanzanian contributors, communities and organizations.' + '<br /><br />' + 'OMDTZ awarded microgrants to seven OSM communities in Tanzania from seven different regions — Kagera, Dodoma, Mara, Katavi, Mwanza, Morogoro, and Zanzibar. The grants supported these communities to leverage the use of OSM and mapping to help solve different community challenges, facilitate training/workshop, purchase tools and equipment, support staff and other logistics.' + '<br /><br />' + 'The selected communities implemented their projects over three to six months. The projects included mapping schools to improve the education system in Zanzibar, solid waste mapping for flood resilience, community mapping to improve nutrition status in Bukoba, community mapping for gender-based violence, community mapping for disease outbreaks such as. Ebola, Infrastructural mapping, and health facilities mapping.' + '<br /><br />' + 'The intention is to replicate or adapt a similar strategy in other countries with strong OSM community organizations so that the funds will be more accessible and have greater local reach, relevance and impact and that HOT and others can learn from OMDTZ’s experience.',
+                  description: '<span class="photocaption">Photo by: Agri Thamani Foundation — Improving nutritional status in Bukoba urban district using open mapped data.</span>' + '<br /><br />' + 'Part of HOT and the Open Mapping Hubs’ goal to support a movement of individuals and communities who create and use OSM data to improve lives and livelihoods in places vulnerable to crisis or experiencing poverty, is to move decision-making, resource allocation, support and engagement closer to these places.' + '<br /><br />' + 'One way of doing this is to entrust the awarding of grants to a local partner with a deeper understanding of the local context, and therefore the challenges, opportunities and constraints, in the countries where our OSM partners operate.' + '<br /><br />' + 'Modeled on HOT’s successful microgrants programme, a devolved community investment programme was piloted in Tanzania with <a href="https://www.omdtz.or.tz/" target="_blank">OpenMap Development Tanzania (OMDTZ)</a>, an established organization and trusted partner with a significant focus on leveraging OSM data to improve lives and livelihoods. OMDTZ was free to design a programme of community support and investment that works for Tanzanian contributors, communities and organizations.' + '<br /><br />' + 'OMDTZ awarded microgrants to seven OSM communities in Tanzania from seven different regions — Kagera, Dodoma, Mara, Katavi, Mwanza, Morogoro, and Zanzibar. The grants supported these communities to leverage the use of OSM and mapping to help solve different community challenges, facilitate training/workshop, purchase tools and equipment, support staff and other logistics.' + '<br /><br />' + 'The selected communities implemented their projects over three to six months. The projects included mapping schools to improve the education system in Zanzibar, solid waste mapping for flood resilience, community mapping to improve nutrition status in Bukoba, community mapping for gender-based violence, community mapping for disease outbreaks such as. Ebola, Infrastructural mapping, and health facilities mapping.' + '<br /><br />' + 'The intention is to replicate or adapt a similar strategy in other countries with strong OSM community organizations so that the funds will be more accessible and have greater local reach, relevance and impact and that HOT and others can learn from OMDTZ’s experience.',
                   location: {
                     center: [42.655560, -7.451355],
                     zoom: 5.75,

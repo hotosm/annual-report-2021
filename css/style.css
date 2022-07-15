@@ -241,6 +241,7 @@ h3 {
 
 h4.impact-head {
 	margin-bottom: .1em;
+	text-transform: uppercase;
 }
 
 #separator {
@@ -318,10 +319,13 @@ h4.impact-head {
 .step div {
 	padding: 25px 50px;
 	font: 18px 'Archivo', sans-serif;
+  border-radius: 25px;
 }
 
 .step p {
-	line-height: 32px;
+	line-height: 36px;
+	letter-spacing: .03em;
+	font-size: 1.1em;
 }
 
 .step img {

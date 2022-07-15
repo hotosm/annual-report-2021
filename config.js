@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/hot/cl5lvlzlo000014pbmaohcp42',
+    style: 'mapbox://styles/hot/cl5lvrrfs000114pb5sg38rcv',
     accessToken: 'pk.eyJ1IjoiaG90IiwiYSI6IlBtUmNiR1kifQ.dCS1Eu9DIRNZGktc24IwtA',
     showMarkers: false,
     inset: true,
@@ -81,6 +81,11 @@ var config = {
                 duration: 2000
               },
               {
+                layer: 'lat_am_cs',
+                opacity: 1,
+                duration: 2000
+              },
+              {
                 layer: 'satellite',
                 opacity: .7,
                 duration: 2000
@@ -134,6 +139,11 @@ var config = {
               },
               {
                 layer: 'latam_intro',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'lat_am_cs',
                 opacity: 0,
                 duration: 2000
               },

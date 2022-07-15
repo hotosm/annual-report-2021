@@ -292,7 +292,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Democratic Republic of the Congo',
-            image: '',
+            image: 'images/drc.jpg',
             description: 'HOT carried out four separate data collection activities which began in Kalungunta and continued in Beni, Butembo and Katwa. The fieldwork included the collection of geographic information of different amenities located in these four districts, including data on village locations, education facilities, health facilities, water points, places of worship, market places, and offices, including government and non-government offices.' + '<br /><br />' + '<img src="images/vax_map.jpg" /><span style="font-size:0.9em;>Map of vaccination points in Beni, North Kivu, DRC</span>' + 'Data collectors were paired with District Health Officers to ensure that local health staff would be trained, and ensure security of the HOT staff during data collection. At the end of the field mapping period, the data was reviewed, validated, and uploaded to the OSM platform.' + '<br /><br />' + 'Following data collection, data and maps were presented to the health officials and training were carried out. Over 400 district health officials were trained on data collection using OSM tools, and basic GIS.',
             location: {
                 center: [9.369040, -4.818064],
@@ -628,27 +628,18 @@ var config = {
             hidden: false,
             title: 'Mapping the Chepang Community',
             image: '',
-            description: '<h4 class="impact-head">Impact Areas:</h4> <strong>Sustainable Cities and communities</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/city.png" height="35" width="35" /><br /><strong>Disasters and climate resilence</strong><img style="width: auto; vertical-align: middle;" src="images/icons/disaster.png" height="35" width="35" /><br /><strong>Public Health</strong><img style="width: auto; vertical-align: middle;" src="images/icons/health.png" height="35" width="35" />' + '<h3></h3>' + 'The project centered around mapping in the remote hills of central Nepal and sought to generate data to assess the needs of the Chepang community. Chepangs are one of the most marginalized Indigenous communities in Nepal. Traditionally nomadic people who relied on hunting, fishing and the products of the forest, these  ways of life were brought to an end by the introduction of new government policies.' + '<br /><br />' + '<img src="images/placeholder.jpg" />' + 'Restrictions on hunting, gathering and clearing of forest patches have forced the Chepangs to adopt a settled way of life. This change of lifestyle has brought extreme poverty in their community and made it difficult for the Chepangs to access basic amenities such as nutritious food, proper housing, safe drinking water, education and healthcare.' + '<br /><br />' + 'During the mapping, validation, field verification, output and data dissemination, the Geomatics Engineering Society team was able to actively include the needs of the Chepang communities in the project design using surveys and direct conversations.' + '<br /><br />' + 'In line with the project’s poverty reduction and access to basic amenities, they engaged with various donor organizations and the local government. They simultaneously conducted several trainings on OSM to GES members and various OSM communities in Nepal. They also collaborated with Kathmandu Living Labs, Youth Innovation Lab, Naxa, Department of Geomatics Engineering,  Kathmandu University, and several governmental bodies. The team collaborated with 19 ward presidents and trained them locally to read and visualize the printed satellite imagery maps.',
+            description: '<h4 class="impact-head">Impact Areas:</h4> <strong>Sustainable Cities and communities</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/city.png" height="35" width="35" /><br /><strong>Disasters and climate resilence</strong><img style="width: auto; vertical-align: middle;" src="images/icons/disaster.png" height="35" width="35" /><br /><strong>Public Health</strong><img style="width: auto; vertical-align: middle;" src="images/icons/health.png" height="35" width="35" />' + '<h3></h3>' + 'The project centered around mapping in the remote hills of central Nepal and sought to generate data to assess the needs of the Chepang community. Chepangs are one of the most marginalized Indigenous communities in Nepal. Traditionally nomadic people who relied on hunting, fishing and the products of the forest, these  ways of life were brought to an end by the introduction of new government policies.' + '<br /><img src="images/nepal_community.jpeg" /><br />' + 'Restrictions on hunting, gathering and clearing of forest patches have forced the Chepangs to adopt a settled way of life. This change of lifestyle has brought extreme poverty in their community and made it difficult for the Chepangs to access basic amenities such as nutritious food, proper housing, safe drinking water, education and healthcare.' + '<br /><br />' + '<img src="images/placeholder.jpg" />' + 'During the mapping, validation, field verification, output and data dissemination, the Geomatics Engineering Society team was able to actively include the needs of the Chepang communities in the project design using surveys and direct conversations.' + '<br /><br />' + 'In line with the project’s poverty reduction and access to basic amenities, they engaged with various donor organizations and the local government. They simultaneously conducted several trainings on OSM to GES members and various OSM communities in Nepal. They also collaborated with Kathmandu Living Labs, Youth Innovation Lab, Naxa, Department of Geomatics Engineering,  Kathmandu University, and several governmental bodies. The team collaborated with 19 ward presidents and trained them locally to read and visualize the printed satellite imagery maps.',
             location: {
-              center: [82.81188, 28.28352],
-              zoom: 6.94,
-              pitch: 1.67,
-              bearing: 0.00
+              center: [84.840127, 27.551346],
+              zoom: 16,
+              pitch: 75.50,
+              bearing: -51.60
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                {
-                  layer: 'nepal',
-                  opacity: 1,
-                  duration: 4000
-                },
-                {
-                  layer: 'nepal_label',
-                  opacity: 1,
-                  duration: 4000
-                }
+
             ],
             onChapterExit: [
 
@@ -665,7 +656,8 @@ var config = {
               center: [82.81188, 28.28352],
               zoom: 6.94,
               pitch: 1.67,
-              bearing: 0.00
+              bearing: 0.00,
+              speed: .7
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,

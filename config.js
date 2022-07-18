@@ -158,29 +158,6 @@ var config = {
             id: 'prelude-1',
             alignment: 'center',
             hidden: false,
-            title: 'Impact Areas (SECTION IN PROGRESS)',
-            image: '',
-            description: 'Impact Areas connect open mapping with real world applications through spatial data use in the humanitarian and development sectors. Each impact area at HOT provides a framework for technical and subject matter expertise for partnerships, grantee projects, and community support.',
-            location: {
-              center: [-8.68740, 23.01151],
-              zoom: 2.5,
-              pitch: 0,
-              bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: 'disableFreetime',
-            onChapterEnter: [
-
-            ],
-            onChapterExit: [
-
-            ]
-        },
-        {
-            id: 'prelude-2',
-            alignment: 'center',
-            hidden: false,
             title: 'Key Milestones (SECTION IN PROGRESS)',
             image: '',
             description: '# people living in an area where buildings and roads have been mapped and validated # of mappers # partner NGO staff (men and women) trained and received at least one follow up by HOT and partners # of downloads at HDX # Exports generated # of names of places mapped # of amenities mapped',
@@ -201,12 +178,35 @@ var config = {
             ]
         },
         {
+            id: 'prelude-2',
+            alignment: 'center',
+            hidden: false,
+            title: 'Impact Areas (SECTION IN PROGRESS)',
+            image: '',
+            description: 'Impact Areas connect open mapping with real world applications through spatial data use in the humanitarian and development sectors. Each impact area at HOT provides a framework for technical and subject matter expertise for partnerships, grantee projects, and community support.',
+            location: {
+              center: [-8.68740, 23.01151],
+              zoom: 2.5,
+              pitch: 0,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: 'disableFreetime',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+            ]
+        },
+        {
             id: 'chapter-1',
             alignment: 'left',
             hidden: false,
             title: 'Scaling Missing Maps in Africa’s Great Lakes Region',
             image: '',
-            description: '<h4 class="impact-head">Impact Area:</h4> <strong>Public Health</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/health.png" height="35" width="35" />' + '<h3></h3>' + 'Patient tracking is a crucial public health activity that contributes to reducing the spread of highly contagious diseases. However, patient tracing, tracking, and monitoring in low-and middle-income countries is a complex process as most of the geographical, navigational, and landmark features are not fully digitized. In 2019, with funding from the Humanitarian Grand Challenge, HOT embarked on a project to scale the <a href="https://www.missingmaps.org/" target="_blank">Missing Maps</a> initiative across the public health and disease surveillance sector in Uganda and the Democratic Republic of Congo (DRC).' + '<br /> <br />' + 'HOT partnered with district and community health teams to design a community participatory mapping exercise. In Uganda, HOT partnered with community health workers across Kisoro and Zombo districts; and in DRC, HOT partnered with community health workers in Kalunguta, Beni, Butembo and Katwa.  This mapping exercise included locating and mapping all geographical and human-made features within the districts that would enable community health workers to easily find, locate, and trace patients more quickly and efficiently.' + '<br /> <br />' + '<img src="images/placeholder.jpg" />',
+            description: '<h4 class="impact-head">Impact Area:</h4> <strong>Public Health</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/health.png" height="35" width="35" />' + '<h3></h3>' + 'Patient tracking is a crucial public health activity that contributes to reducing the spread of highly contagious diseases. However, patient tracing, tracking, and monitoring in low-and middle-income countries is a complex process as most of the geographical, navigational, and landmark features are not fully digitized. HOT embarked on a project to scale the <a href="https://www.missingmaps.org/" target="_blank">Missing Maps</a> initiative across the public health and disease surveillance sector in Uganda and the Democratic Republic of Congo (DRC).' + '<br /> <br />' + 'In Uganda, HOT partnered with community health workers across Kisoro and Zombo districts; and in DRC, HOT partnered with community health workers in Kalunguta, Beni, Butembo and Katwa.  This mapping exercise included locating and mapping all geographical and human-made features within the districts that would enable community health workers to easily find, locate, and trace patients more quickly and efficiently.' + '<br /> <br />' + '<img src="images/placeholder.jpg" />',
             location: {
                 center: [29.7219314, -1.3045366],
                 zoom: 16.48,

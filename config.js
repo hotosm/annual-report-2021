@@ -499,7 +499,7 @@ var config = {
             hidden: false,
             title: 'Health and Education in Kawempe Informal Settlements, Uganda',
             image: '',
-            description: '<h4 class="impact-head">Impact Area:</h4> <strong>Sustainable Cities and Communities</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/city.png" height="35" width="35" />' + '<h3></h3>' + 'Living in an informal settlement brings with it additional risks and hazards like poor standards of living, illiteracy and exposure to infectious diseases. Unplanned housing and community infrastructure means inadequate access to safe water,  health and education facilities, overcrowding and insecure residential status. In Kampala, Kawempe division, there are over 15 informal settlements in which the residents live with this reality. Building resilience for the citizens in these areas and strengthening sustainability of such settlements starts with identifying resources that are available and then, establishing and planning what is needed.' + '<br /><br />' + '<a href="https://www.facebook.com/RMappers/" target="_blank">Resilience Mappers</a>, a local GIS and mapping community in Uganda. They mapped out all the health facilities, education facilities and waste dumpsites in 11 of these settlements.  This information was shared with local leaders  to be used to levy for resources from the government, plan better for the settlement as well as make sanitation campaigns for proper waste disposal in the settlements.' + '<div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/lVCq18WW7Xs" frameBorder="0"></iframe></div>',
+            description: '<h4 class="impact-head">Impact Area:</h4> <strong>Sustainable Cities and Communities</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/city.png" height="35" width="35" />' + '<h3></h3>' + 'Living in an informal settlement brings with it additional risks and hazards like poor standards of living, illiteracy and exposure to infectious diseases. Unplanned housing and community infrastructure means inadequate access to safe water,  health and education facilities, overcrowding and insecure residential status. In Kampala, Kawempe division, there are over 15 informal settlements in which the residents live with this reality. Building resilience for the citizens in these areas and strengthening sustainability of such settlements starts with identifying resources that are available and then, establishing and planning what is needed.' + '<br /><br />' + '<a href="https://www.facebook.com/RMappers/" target="_blank">Resilience Mappers</a>, a local GIS and mapping community in Uganda mapped out all the health facilities, education facilities and waste dumpsites in 11 of these settlements.  This information was shared with local leaders  to be used to levy for resources from the government, plan better for the settlement as well as make sanitation campaigns for proper waste disposal in the settlements.' + '<div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/lVCq18WW7Xs" frameBorder="0"></iframe></div>',
             location: {
               center: [32.58118, 0.34707],
               zoom: 16.48,
@@ -909,7 +909,7 @@ var config = {
             hidden: false,
             title: 'West and Northern Africa Hub Launch',
             image: '',
-            description: 'Continuing the rolling out of its Regional Open Mapping Hubs, the West and Northern Africa Open Mapping Hub (the Hub) opened its doors in March 2022 to support open mapping activities in the region, led by Regional Director, Ibrahima Cisse.' + '<br /><br />' + '<div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/WBG-A4VNYpo" frameBorder="0"></iframe></div>' + '<br /><br />' + 'The Hub will focus on humanitarian and community development mapping and will work with humanitarian organizations, governments, civil society, private operators, institutions, and other actors on the use of OSM tools that support disaster risk reduction and response, gender equality, sustainable cities, public health, and displacement and safe migration.' + '<br /><br />' + 'The Hub will also support local mapping communities in the region by facilitating knowledge exchanges, distributing funding, and providing training and support with the goal of massively scaling local edits to OSM.',
+            description: 'Continuing the rolling out of its Regional Open Mapping Hubs, the West and Northern Africa Open Mapping Hub opened its doors in March 2022 to support open mapping activities in the region, led by Regional Director, Ibrahima Cisse.' + '<br /><br />' + '<div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/WBG-A4VNYpo" frameBorder="0"></iframe></div>' + '<br /><br />' + 'The Hub will focus on humanitarian and community development mapping and will work with humanitarian organizations, governments, civil society, private operators, institutions, and other actors on the use of OSM tools that support disaster risk reduction and response, gender equality, sustainable cities, public health, and displacement and safe migration.' + '<br /><br />' + 'The Hub will also support local mapping communities in the region by facilitating knowledge exchanges, distributing funding, and providing training and support with the goal of massively scaling local edits to OSM.',
             location: {
               center: [-1.701088, 13.784610],
               zoom: 4.1,
@@ -1051,7 +1051,7 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-            callback: 'disableFreetime',
+            callback: '',
             onChapterEnter: [
               {
                 layer: 'she_leads_10',
@@ -1063,6 +1063,98 @@ var config = {
                 opacity: 1,
                 duration: 2000
               }
+            ],
+            onChapterExit: [
+
+            ]
+        },
+        {
+            id: 'chapter-8c',
+            alignment: 'right',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<img style="float:right; width: auto; padding: 0 0 25px 25px;" src="images/she_leads/sri-lanka.jpg" />“I didn’t know and I never thought that mapping can do such amazing community work and can help a community this much through various challenges. It is actually inspiring and a great motivator to see how much strength we have as females. I am a happy mapper now!” <p style="text-align: right;">&dash; Fathima Ashfa Assaf, Sri Lanka</p>',
+            location: {
+              center: [80.705750, 7.699712],
+              zoom: 6,
+              pitch: 0,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+            ]
+        },
+        {
+            id: 'chapter-8d',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<img style="float:left; width: auto; padding: 0 25px 25px 0;" src="images/she_leads/vietnam.jpg" />“I am truly thrilled with the SLSI program from the beginning until now, because of its purpose as well as its series of activities. I gained so much experiences and opportunities. The most exciting part for me is the last proposal project. I can feel that this is a huge chance for not only me but also Vietnamese community of OSM. Since our community is not very big and well-connected, this can lead to a revolution for us.” <p style="text-align: right;">&dash; Huynh To Nga, Vietnam</p>',
+            location: {
+              center: [106.700343, 14.300999],
+              zoom: 6,
+              pitch: 0,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+            ]
+        },
+        {
+            id: 'chapter-8e',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<img style="float:left; width: auto; padding: 0 25px 25px 0;" src="images/she_leads/indonesia.jpg" />“This program changed my life, I believe that in the future I can become an inspiring leader. From the bottom of my heart thank you to all the committee, staff, mentors and all friends from all over Asia Pacific” <p style="text-align: right;">&dash; Aesya Nida Avrila, Indonesia</p>',
+            location: {
+              center: [117.638721, -1.662231],
+              zoom: 3.5,
+              pitch: 0,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+
+            ],
+            onChapterExit: [
+
+            ]
+        },
+        {
+            id: 'chapter-8f',
+            alignment: 'right',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<img style="float:right; width: auto; padding: 0 0 25px 25px;" src="images/she_leads/nepal.jpg" />“I am very grateful to have been selected because I got to be a part of a program that made every effort to amplify the voices of women in geospatial data and technology. Going through the community project ideas of fellow participants where each had addressed their community needs; showcased that when you believe; she will lead and she will inspire.” <p style="text-align: right;">&dash; Avashana Pant, Nepal</p>',
+            location: {
+              center: [84.500739, 30.247060],
+              zoom: 5.75,
+              pitch: 0,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: 'disableFreetime',
+            onChapterEnter: [
+
             ],
             onChapterExit: [
               {
@@ -1136,7 +1228,7 @@ var config = {
               hidden: false,
               title: 'Key Results',
               image: '',
-              description: 'Together they mapped and validated 74 projects across 12 countries including:' + '<br /><br />' + '<div class="flourish-embed" data-src="visualisation/10625782"></div>' + 'This involved working remotely in teams of 4-5 and coordinating approaches and sharing best practices.' + '<br /><br />' + 'The Data Quality Internship is part of HOT’s commitment to ensuring high quality data for humanitarian and development use and also recognizes our role in closing the digital divide, including acknowledging obstacles that certain groups, such as women, nationals of low and middle-income countries, and members of other underrepresented groups, face in developing skills needed for roles in the humanitarian & technology sectors.',
+              description: 'Together, the interns mapped and validated 74 projects across 12 countries including:' + '<br /><br />' + '<div class="flourish-embed" data-src="visualisation/10625782"></div>' + 'This involved working remotely in teams of 4-5 and coordinating approaches and sharing best practices.',
               location: {
                 center: [-58.401371, 4.361681],
                 zoom: 2.75,
@@ -1271,7 +1363,7 @@ var config = {
             hidden: false,
             title: 'Partnerships',
             image: '',
-            description: '(CONTENT TK, PLACEHOLDER -- PLACEHOLDER) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + '<h3>DONOR ACKNOWLEDGEMENT</h3>' + '<br /><br />' + '<h3>FINANCIALS</h3>',
+            description: '(CONTENT TK, PLACEHOLDER -- PLACEHOLDER) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '<br /><br />' + '<h3>DONOR ACKNOWLEDGEMENT</h3>' + '<br /><br />' + '<h3>ANNUAL EXPENDITURES</h3>' + '<div class="flourish-embed flourish-chart" data-src="visualisation/10779166"></div>',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,

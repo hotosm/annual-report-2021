@@ -461,6 +461,23 @@
     }
   }
 
+  // Setup traditional map rotation for data views
+
+  function rotateData() {
+    map.once('moveend', () => {
+            const rotateNumber = map.getBearing();
+            map.rotateTo(rotateNumber + 180, {
+                duration: 50000, easing: function (t) {
+                    return t;
+                }
+            });
+    });
+  }
+
+
+  // Regular map rotateAnimation
+
+
   // Setup preloader animations
 
   function customizeChapters(chap) {

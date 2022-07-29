@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/hot/cl5mi02hh008o14ptm015i5wp',
+    style: 'mapbox://styles/hot/cl66txb4p000z14lq0w8hh8o7',
     accessToken: 'pk.eyJ1IjoiaG90IiwiYSI6IlBtUmNiR1kifQ.dCS1Eu9DIRNZGktc24IwtA',
     showMarkers: false,
     inset: false,
@@ -19,7 +19,89 @@ var config = {
             hidden: false,
             title: 'A Letter From Tyler Radford, HOT’s Executive Director',
             image: '',
-            description: '<img style="float:right; width: auto; padding: 0 0 25px 25px;" src="images/tyler2.jpg" /><span style="font-weight: bold; color: #D73F3F;">When I make any opening remarks, my initial thoughts are always that of gratitude.</span> The commitment of everyone engaged in this mapping movement is nothing short of extraordinary. Perhaps that’s the real theme here, an exploration of the extraordinary. The last 12 months through mid-2022 was another extraordinary period. Despite the world witnessing the highest levels of displacement on record, extreme inequalities exacerbated by Covid-19, climate, and conflict, and a reversal of gains on a number of SDGs, the open mapping community maintained a sense of optimism, that collaboration across organizational and national boundaries is possible even in the most difficult of times. We, the people who make up the open mapping movement, came together to make data available on some of the world’s toughest issues, from climate impact, to access to healthcare in the face of the pandemic, to basic service delivery in cities and rural villages. The unique power of open mapping is that data is proximate to people and proximate to the issue: it is generated locally, created by community members experiencing the problem, and it is timely and relevant to inform action that gives people and organizations the power to combat those issues head-on.' + '<br /><br />' + 'However, this is only true if everyone who wants to participate is able to do so. A major focus of this year has been putting in place the support structures and tools that enable a key part of our vision: <span style="font-weight: bold; color: #D73F3F;">everyone can access and contribute to the map</span>. I am proud to share with you just a few highlights of how that is happening:' + '<br /><br />' + '<ul><li><span style="font-weight: bold; color: #D73F3F;">Localization</span>: HOT launched the third of four regional open mapping hubs in Dakar, Senegal, for stronger support, unity, and collaboration with open mapping communities across West and Northern Africa.</li><li><span style="font-weight: bold; color: #D73F3F;">Support for the people and organizations</span> that fuel the movement: Grants were provided to community partners leading open mapping work in 22 countries. More than 100 emerging leaders in mapping participated in HOT’s “She Leads, She Inspires” leadership development program.</li><li><span style="font-weight: bold; color: #D73F3F;">Movement growth</span>: More than 585,000 people have now contributed to building the map across 94 priority countries, as we journey toward supporting 1 million to contribute by 2025.</li></ul>' + '<br /><br />' + 'Our 2021-22 Annual Report highlights just a small portion of the work of a massive global movement. This work would not be possible without support from our Audacious Project donors, a group of donors who believed in and committed to the promise of an open map of our world and placed incredible trust in the movement making it a reality. We remain grateful to all contributors and supporters who enable us to deliver effective results in our five impact areas: Climate Change, Gender Equality, Migration, Global Health, Sustainable Cities and Communities.' + '<br /><br />' + 'To showcase the work of the movement, join us on this virtual world tour from Democratic Republic of Congo to Kenya, Uganda and Nepal. We’ll also make stops in more than 40 other countries where the open mapping movement is touching people’s lives.  This feeds into our long term vision, as a global catalyst, where we further explore the intersection between technology and the mapping movement. Together, we will continue to make an extraordinary impact in global communities. <br /><p style="text-align: right;">Enjoy the journey! <br />&dash; Tyler</p>' + '<h3 class="contrib"></h3>' + '<strong>Explore the globe by clicking and dragging your pointer, or use the controls in the top right.</strong> &#8594;',
+            description: '<img style="float:right; width: auto; padding: 0 0 25px 25px;" src="images/tyler2.jpg" /><span style="font-weight: bold; color: #D73F3F;">When I make any opening remarks, my initial thoughts are always that of gratitude.</span> The commitment of everyone engaged in this mapping movement is nothing short of extraordinary. Perhaps that’s the real theme here, an exploration of the extraordinary. The last 12 months through mid-2022 was another extraordinary period. Despite the world witnessing the highest levels of displacement on record, extreme inequalities exacerbated by Covid-19, climate, and conflict, and a reversal of gains on a number of SDGs, the open mapping community maintained a sense of optimism, that collaboration across organizational and national boundaries is possible even in the most difficult of times. We, the people who make up the open mapping movement, came together to make data available on some of the world’s toughest issues, from climate impact, to access to healthcare in the face of the pandemic, to basic service delivery in cities and rural villages. The unique power of open mapping is that data is proximate to people and proximate to the issue: it is generated locally, created by community members experiencing the problem, and it is timely and relevant to inform action that gives people and organizations the power to combat those issues head-on.' + '<br /><br />' + 'However, this is only true if everyone who wants to participate is able to do so. A major focus of this year has been putting in place the support structures and tools that enable a key part of our vision: <span style="font-weight: bold; color: #D73F3F;">everyone can access and contribute to the map</span>. I am proud to share with you just a few highlights of how that is happening:' + '<br /><br />' + '<ul><li><span style="font-weight: bold; color: #D73F3F;">Localization</span>: HOT launched the third of four regional open mapping hubs in Dakar, Senegal, for stronger support, unity, and collaboration with open mapping communities across West and Northern Africa.</li><li><span style="font-weight: bold; color: #D73F3F;">Support for the people and organizations</span> that fuel the movement: Grants were provided to community partners leading open mapping work in 22 countries. More than 100 emerging leaders in mapping participated in HOT’s “She Leads, She Inspires” leadership development program.</li><li><span style="font-weight: bold; color: #D73F3F;">Movement growth</span>: More than 585,000 people have now contributed to building the map across 94 priority countries, as we journey toward supporting 1 million to contribute by 2025.</li></ul>' + '<br /><br />' + 'Our 2021-22 Annual Report highlights just a small portion of the work of a massive global movement. This work would not be possible without support from our Audacious Project donors, a group of donors who believed in and committed to the promise of an open map of our world and placed incredible trust in the movement making it a reality. We remain grateful to all contributors and supporters who enable us to deliver effective results in our five impact areas: Climate Change, Gender Equality, Migration, Global Health, Sustainable Cities and Communities.' + '<br /><br />' + 'To showcase the work of the movement, join us on this virtual world tour from Democratic Republic of Congo to Kenya, Uganda and Nepal. We’ll also make stops in more than 40 other countries where the open mapping movement is touching people’s lives.  This feeds into our long term vision, as a global catalyst, where we further explore the intersection between technology and the mapping movement. Together, we will continue to make an extraordinary impact in global communities. <br /><p style="text-align: right;">Enjoy the journey! <br />&dash; Tyler</p>',
+            location: {
+              center: [-8.68740, 23.01151],
+              zoom: 2.5,
+              pitch: 0,
+              bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: 'disableFreetime',
+            onChapterEnter: [
+              {
+                layer: 'latam',
+                opacity: .8,
+                duration: 2000
+              },
+              {
+                layer: 'asiapac',
+                opacity: .8,
+                duration: 2000
+              },
+              {
+                layer: 'asiapac2',
+                opacity: .8,
+                duration: 2000
+              },
+              {
+                layer: 'wnaf',
+                opacity: .8,
+                duration: 2000
+              },
+              {
+                layer: 'esaf',
+                opacity: .8,
+                duration: 2000
+              },
+              {
+                layer: 'esaf2',
+                opacity: .8,
+                duration: 2000
+              },
+              {
+                layer: 'asiapac_intro',
+                opacity: 1,
+                duration: 2000
+              },
+              {
+                layer: 'eaf_intro',
+                opacity: 1,
+                duration: 2000
+              },
+              {
+                layer: 'waf_intro',
+                opacity: 1,
+                duration: 2000
+              },
+              {
+                layer: 'latam_intro',
+                opacity: 1,
+                duration: 2000
+              },
+              {
+                layer: 'lat_am_cs',
+                opacity: 1,
+                duration: 2000
+              },
+              {
+                layer: 'satellite',
+                opacity: .7,
+                duration: 2000
+              }
+            ],
+            onChapterExit: [
+
+            ]
+        },
+        {
+            id: 'letter-explore',
+            alignment: 'left',
+            hidden: false,
+            title: 'Explore the world’s HOT Initiatives',
+            image: '',
+            description: '<strong>Rotate the globe by clicking and dragging your pointer, or use the controls in the top right. Throughout our story, you can freely explore the maps where there is a the right arrow.</strong> &#8594;' + '<br /><br />' + 'Otherwise, scroll down to continue. &#8595;',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,
@@ -160,7 +242,7 @@ var config = {
             hidden: false,
             title: 'Key Milestones',
             image: '',
-            description: '<div class="flourish-embed flourish-chart" data-src="visualisation/10754046"></div>In addition, HOT made these other major achievements: <ul><li><strong>2,106</strong> NGO/partner staff trained and using HOT maps</li><li><strong>55,181</strong> downloads from HDX</li><li><strong>1.6 million</strong> place names mapped</li><li><strong>2.7</strong> million amenities mapped</li></ul>',
+            description: '<div class="flourish-embed flourish-chart" data-src="visualisation/10754046"></div><h4>Key achievements July 2021-June 2022</h4><ul><li><span style="font-weight: bold; color: #D73F3F;">2,106</span> NGO/partner staff trained and using HOT maps</li><li><span style="font-weight: bold; color: #D73F3F;">55,181</span> downloads from HDX</li></ul><h4>Cumulative progress</h4><ul><li><span style="font-weight: bold; color: #D73F3F;">1.6 million</span> place names mapped</li><li><span style="font-weight: bold; color: #D73F3F;">2.7 million</span> amenities mapped</li></ul>',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,
@@ -210,17 +292,37 @@ var config = {
             location: {
                 center: [29.7219314, -1.3045366],
                 zoom: 16.48,
-                pitch: 75,
-                bearing: 35
+                pitch: 55,
+                bearing: 35,
+                curve: 1,
+                speed: 3
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-            callback: '',
+            callback: 'rotateData',
             onChapterEnter: [
-
+              {
+                layer: 'buildings',
+                opacity: .7,
+                duration: 10000
+              },
+              {
+                layer: 'roads',
+                opacity: 1,
+                duration: 12000
+              }
             ],
             onChapterExit: [
-
+              {
+                layer: 'buildings',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'roads',
+                opacity: 0,
+                duration: 3000
+              }
             ]
         },
         {
@@ -370,7 +472,8 @@ var config = {
                 center: [9.369040, -4.818064],
                 zoom: 4.6,
                 pitch: 0,
-                bearing: 0
+                bearing: 0,
+                speed: .6
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -406,9 +509,7 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [
-
-            ],
+            onChapterEnter: [],
             onChapterExit: []
         },
         {
@@ -428,7 +529,6 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-
             ],
             onChapterExit: []
         },
@@ -447,14 +547,32 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-            callback: '',
+            callback: 'rotateData',
             onChapterEnter: [
-
+              {
+                layer: 'buildings',
+                opacity: .6,
+                duration: 2000
+              },
+              {
+                layer: 'roads',
+                opacity: 1,
+                duration: 4000
+              }
             ],
-            onChapterExit: []
+            onChapterExit: [{
+              layer: 'buildings',
+              opacity: 0,
+              duration: 2000
+            },
+            {
+              layer: 'roads',
+              opacity: 0,
+              duration: 2000
+            }]
         },
         {
-            id: 'chapter-2c',
+            id: 'chapter-2d',
             alignment: 'left',
             hidden: false,
             title: 'KEY RESULTS',
@@ -463,8 +581,9 @@ var config = {
             location: {
               center: [32.58118, 0.34707],
               zoom: 16.48,
-              pitch: 27.00,
-              bearing: -12.80
+              pitch: 68,
+              bearing: 165,
+              speed: .4
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -641,7 +760,9 @@ var config = {
               center: [84.840127, 27.551346],
               zoom: 16,
               pitch: 75.50,
-              bearing: -51.60
+              bearing: -51.60,
+              speed: 0.5,
+              curve: 1
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,

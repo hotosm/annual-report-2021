@@ -101,7 +101,7 @@ var config = {
             hidden: false,
             title: 'Explore the world’s HOT Initiatives',
             image: '',
-            description: '<strong>Rotate the globe by clicking and dragging your pointer, or use the controls in the top right. Throughout our story, you can freely explore the maps where there is a the right arrow.</strong> &#8594;' + '<br /><br />' + 'Otherwise, scroll down to continue. &#8595;',
+            description: '<strong>Rotate the globe by clicking and dragging your pointer, or use the controls in the top right. Throughout our story, you can freely explore the maps where there is a right arrow.</strong> &#8594;' + '<br /><br />' + 'Otherwise, scroll down to continue. &#8595;',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,

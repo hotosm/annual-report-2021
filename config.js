@@ -10,7 +10,7 @@ var config = {
     title: '<a href="https://www.hotosm.org/" target="_blank"><img style="padding:25px;" src="images/logo_white.png" width="356" height="88" /></a><br /><div id="separator"></div><h1>ANNUAL REPORT</h1><p id="dash-text">Humanitarian OpenStreetMap Team</p><p id="dash-text2">July 2021 &dash; June 2022</p><h2>Improving the wellbeing of people and the health of our planet through growing and sustaining an open mapping movement.</h2><p id="intro-text">Humanitarian OpenStreetMap Team (HOT) and the Regional Open Mapping Hubs support, motivate and enable people to contribute to OpenStreetMap (OSM); an open-source, free, and a digital public good and ensure map data is accessible and used in decisions that save and improve lives in countries at high risk of disaster, humanitarian crises, or experiencing multidimensional poverty, while making sure communities are visible on the map in the way they choose and included in decisions that affect their lives.</p><p style="font-size: .9em;">Cover image: <em>An urban center in Kampala, Uganda</em>&nbsp;&nbsp;|&nbsp;&nbsp;© Mapbox Satellite</p><br /><a id="freeExplore" href="#letter-0"> BEGIN &nbsp;&nbsp; &#8595; </a>',
     subtitle: '',
     byline: '',
-    mobileview: '<div id="rotate-mobile"><strong>For optimal viewing of this report on a mobile device, rotate to a landscape orientation. &#8405;</strong></div>',
+    mobileview: '<div id="rotate-mobile"><strong>For optimal viewing of this report on a mobile device, rotate to a landscape orientation. &#8634;</strong></div>',
     footer: '<a href="https://www.hotosm.org/" target="_blank"><img src="images/logo.png" width="150" height="50" /></a><br /><h4>Credits</h4><strong>Visualizations</strong>: <a href="https://www.linkedin.com/in/pkfranz/" target="_blank">Paul Franz</a><br /><br /><h4>Special Thanks</h4> <div class="data-sources">Mikel Maron and the <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /> </div>',
     chapters: [
         {
@@ -1427,7 +1427,7 @@ var config = {
               bearing: 0.00
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
 

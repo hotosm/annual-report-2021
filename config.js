@@ -11,7 +11,7 @@ var config = {
     subtitle: '',
     byline: '',
     mobileview: '<div id="rotate-mobile"><strong>For optimal viewing of this report on a mobile device, rotate to a landscape orientation. &#8405;</strong></div>',
-    footer: '<a href="https://www.hotosm.org/" target="_blank"><img src="images/logo.png" width="150" height="50" /></a><br /><h4>Credits</h4><strong>Visualizations</strong>: Paul Franz<br /><br /><h4>Special Thanks</h4> <div class="data-sources"><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>',
+    footer: '<a href="https://www.hotosm.org/" target="_blank"><img src="images/logo.png" width="150" height="50" /></a><br /><h4>Credits</h4><strong>Visualizations</strong>: <a href="https://www.linkedin.com/in/pkfranz/" target="_blank">Paul Franz</a><br /><br /><h4>Special Thanks</h4> <div class="data-sources">Mikel Maron and the <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /> </div>',
     chapters: [
         {
             id: 'letter-0',
@@ -1219,8 +1219,8 @@ var config = {
                 image: '',
                 description: '<img style="float:left; width: auto; padding: 0 25px 25px 0;" src="images/dataqual/peter_kenya.jpg" />“What has inspired me is that the data we create and fine tune will be used for addressing societal problems and natural disasters.” <p style="text-align: right;">&dash; Peter Agenga, Kenya</p>',
                 location: {
-                  center: [77.84487, 18.18425],
-                  zoom: 5,
+                  center: [36.97530, 0.30348],
+                  zoom: 6,
                   pitch: 26,
                   bearing: 0.00
                 },
@@ -1265,8 +1265,8 @@ var config = {
                 image: '',
                 description: '<img style="float:left; width: auto; padding: 0 25px 25px 0;" src="images/dataqual/choolwe_zambia.jpg" />“I have learned a lot of advanced tricks in JOSM such as how to draw multi-polygons. These techniques will help me map features accurately and improve the quality of data I add on maps. I also intend to share all the techniques I have learned so far with the local youth mappers in my country.” <p style="text-align: right;">&dash; Choolwe Hamama, Zambia</p>',
                 location: {
-                  center: [77.84487, 18.18425],
-                  zoom: 5,
+                  center: [27.50826, -14.41302],
+                  zoom: 6,
                   pitch: 26,
                   bearing: 0.00
                 },
@@ -1417,7 +1417,7 @@ var config = {
             id: 'letter-end',
             alignment: 'center',
             hidden: false,
-            title: 'A Letter From Tyler Radford, HOT’s Executive Director',
+            title: 'Signing Off',
             image: '',
             description: '<img style="float:right; width: auto; padding: 0 0 25px 25px;" src="images/tyler2.jpg" /><span style="font-weight: bold; color: #D73F3F;">As a global open mapping movement</span>, we are doing something that’s never been done before: a map of our world by and for the people of our world. If our combined efforts over the past 12 months demonstrates what we can do in the worst of times, l remain optimistic about what the global open mapping movement can accomplish together in the years ahead.' + '<br /><br />' + 'HOT’s Living Strategy envisions a world where: <ul><li>Community needs are addressed through mapping</li><li>Everyone can access and contribute to the map</li><li>Open map data is available and used for impact</li><li>We see our role going forward as that of a catalyst: improving the wellbeing of people and the health of our planet through growing and sustaining the open mapping movement.</li></ul>' + 'The distributed open mapping community is at the heart of local problems; living and breathing the daily challenges of people living in so many locations globally and spotting the specific opportunities where mapping can deliver transformative change to their lives. This understanding enables HOT to launch initiatives centered on their needs that are innovative and lead to tangible impact. By connecting organizations and people with shared ambitions across the complex OpenStreetMap ecosystem, we ensure that open mapping has a positive impact by collectively solving problems quickly and at scale.' + '<br /><br />' + 'To support the movement, HOT has some exciting things happening in 2022-23.  This year, we’ll launch regional support and grantmaking in Latin America and the Caribbean that is driven by the needs and demand of community groups in the region. We’ll also dramatically scale up support in Africa and Asia Pacific in the form of grants, events, open training curricula, and more accessible mobile mapping tools.' + '<br /><br />' + 'To be successful, we need you to join us on this journey toward locally-led solutions to local (and global) challenges through open mapping. Give mapping a try, teach mapping to your children and family members, organize an event in your community, introduce mapping in your workplace. Whether you are an individual, or affiliated with a community group, NGO, school, company, government agency, or international organization, the open mapping movement needs you.' + '<br /><br />' + '<p style="text-align: right;">Let’s keep mapping our world together! <br />&dash; Tyler</p>',
             location: {

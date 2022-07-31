@@ -11,7 +11,7 @@ var config = {
     subtitle: '',
     byline: '',
     mobileview: '<div id="rotate-mobile"><strong>For optimal viewing of this report on a mobile device, rotate to a landscape orientation. &#8634;</strong></div>',
-    footer: '<a href="https://www.hotosm.org/" target="_blank"><img src="images/logo.png" width="150" height="50" /></a><br /><h4>Credits</h4><strong>Visualizations</strong>: <a href="https://www.linkedin.com/in/pkfranz/" target="_blank">Paul Franz</a><br /><br /><h4>Special Thanks</h4> <div class="data-sources">Mikel Maron and the <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /> </div>',
+    footer: '<a href="https://www.hotosm.org/" target="_blank"><img src="images/logo_white.png" width="200" height="50" /></a><br /><h4>Credits</h4><strong>Visualizations</strong>: <a href="https://www.paul-franz.com" target="_blank">Paul Franz</a><br /><br /><h4>Special Thanks</h4> <div class="data-sources">Mikel Maron and the <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /> </div>',
     chapters: [
         {
             id: 'letter-0',

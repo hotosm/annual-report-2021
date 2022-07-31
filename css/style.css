@@ -271,8 +271,8 @@ h4.impact-head {
 	font-size: 13px;
 	position: relative;
 	z-index: 5;
-	background: #fff;
-	color: #68707F;
+	background: #101820;
+	color: #E1E0E0;
 }
 
 #features {
@@ -468,6 +468,10 @@ p.footnote {
 
 #chapter-12 h3:after {
 	margin: 12px auto;
+}
+
+#letter-end {
+	padding-bottom: 0;
 }
 
 /* Mobile fallback */

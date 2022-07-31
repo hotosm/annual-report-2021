@@ -455,6 +455,20 @@ p.footnote {
    background-size: cover;
 }
 
+#chapter-12 p {
+	text-align: center;
+}
+
+#chapter-12 h3 {
+	font-size: 1.8em;
+	color: #E1E0E0;
+	text-align: center;
+}
+
+#chapter-12 h3:after {
+	margin: 12px auto;
+}
+
 /* Mobile fallback */
 
 @media (min-width: 450px) {

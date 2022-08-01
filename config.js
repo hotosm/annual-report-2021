@@ -1178,7 +1178,7 @@ var config = {
               hidden: false,
               title: 'Key Results',
               image: '',
-              description: 'Together, the interns mapped and validated 74 projects across 12 countries including:' + '<br /><br />' + '<div class="flourish-embed" data-src="visualisation/10625782"></div>' + 'This involved working remotely in teams of 4-5 and coordinating approaches and sharing best practices.' + '<h3></h3>' + 'The HOT Data Quality Internship supported by <a href="https://www.meta.com/" target="_blank">Meta</a>. Special thanks to <a href="https://www.mapbox.com/" target="_blank">Mapbox</a>, The <a href="https://www.osgeo.org/" target="_blank">Open Source Geospatial Foundation</a> and <a href="https://www.kontur.io/" target="_blank">Kontur</a> for providing training',
+              description: 'Together, the interns mapped and validated 74 projects across 12 countries including:' + '<br /><br />' + '<div class="flourish-embed" data-src="visualisation/10625782"></div>' + 'This involved working remotely in teams of 4-5 and coordinating approaches and sharing best practices.' + '<h3></h3>' + 'The HOT Data Quality Internship was  supported by <a href="https://www.meta.com/" target="_blank">Meta</a>. Special thanks to <a href="https://www.mapbox.com/" target="_blank">Mapbox</a>, The <a href="https://www.osgeo.org/" target="_blank">Open Source Geospatial Foundation</a> and <a href="https://www.kontur.io/" target="_blank">Kontur</a> for providing training',
               location: {
                 center: [-58.401371, 4.361681],
                 zoom: 2.75,
@@ -1261,7 +1261,7 @@ var config = {
             },
             {
                 id: 'chapter-9e',
-                alignment: 'left',
+                alignment: 'right',
                 hidden: false,
                 title: '',
                 image: '',
@@ -1391,7 +1391,7 @@ var config = {
             hidden: false,
             title: 'The Galaxy Project',
             image: '',
-            description: '<a href="https://galaxy.hotosm.org//" target="_blank">HOT Tech</a> aims to provide tools that enable anyone to edit and use open map data in an accessible and inclusive way. The Galaxy project aims to get OSM map data and map data insights, like statistics and data quality, into the right hands at the right time.' + '<br /><br />' + 'For our least technical users, Galaxy delivers a lightweight web portal to map data customizable for download in multiple formats for any user, anywhere in the world.' + '<br /><br />' + 'Users can explore mapathon leaderboards, mapper statistics and data quality to track and motivate their own OSM journey.' + '<br /><br />' + 'The galaxy project also enables us to continuously improve existing tools, such as HOT’s Export tool. Most recently, components of Galaxy have contributed to faster results, seamless integrations and data that users can depend on.' + '<div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/5NNlMv0ClBM" frameBorder="0"></iframe></div>',
+            description: 'HOT Tech aims to provide tools that enable anyone to edit and use open map data in an accessible and inclusive way. <a href="https://galaxy.hotosm.org/" target="_blank">The Galaxy project</a> aims to get OSM map data and map data insights, like statistics and data quality, into the right hands at the right time.' + '<br /><br />' + 'For our least technical users, Galaxy delivers a lightweight web portal to map data customizable for download in multiple formats for any user, anywhere in the world.' + '<br /><br />' + 'Users can explore mapathon leaderboards, mapper statistics and data quality to track and motivate their own OSM journey.' + '<br /><br />' + 'The galaxy project also enables us to continuously improve existing tools, such as HOT’s Export tool. Most recently, components of Galaxy have contributed to faster results, seamless integrations and data that users can depend on.' + '<div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/5NNlMv0ClBM" frameBorder="0"></iframe></div>',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,

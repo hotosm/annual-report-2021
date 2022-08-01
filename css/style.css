@@ -175,7 +175,7 @@ h2.liftout {
 h3 {
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
-	color: #D73F3F;
+	color: #E1E0E0;
 }
 
 .step.active h3:after {
@@ -446,6 +446,50 @@ p.footnote {
 
 #letter-0 {
 	margin-top: 20%;
+}
+
+#chapter-1 h3 {
+	color: #D73F3F;
+}
+
+#chapter-2 h3 {
+	color: #D73F3F;
+}
+
+#chapter-3 h3 {
+	color: #D73F3F;
+}
+
+#chapter-4 h3 {
+	color: #D73F3F;
+}
+
+#chapter-5 h3 {
+	color: #D73F3F;
+}
+
+#chapter-6 h3 {
+	color: #D73F3F;
+}
+
+#chapter-7 h3 {
+	color: #D73F3F;
+}
+
+#chapter-8 h3 {
+	color: #D73F3F;
+}
+
+#chapter-9 h3 {
+	color: #D73F3F;
+}
+
+#chapter-10 h3 {
+	color: #D73F3F;
+}
+
+#chapter-11 h3 {
+	color: #D73F3F;
 }
 
  #chapter-12 .dark {

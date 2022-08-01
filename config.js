@@ -1368,7 +1368,7 @@ var config = {
             ]
         },
         {
-            id: 'chapter-11',
+            id: 'chapter-11b',
             alignment: 'center',
             hidden: false,
             title: 'Tasking Manager &dash; a Collective Effort',

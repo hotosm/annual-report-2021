@@ -62,6 +62,15 @@
                 }, 1000);
             });
         });
+
+        $(document).ready(function() {
+            $("a.anchorLink").click(function(event) {
+                event.preventDefault();
+                $("html, body").animate({
+                    scrollTop: $($(this).attr("href")).offset().top-200
+                  }, 3000);
+              });
+          });
     </script>
 
 
@@ -71,6 +80,15 @@
 
   <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
+</div>
+
+<div class="header-nav-bar">
+  <ul>
+    <li><a class="anchorLink" href="#header">Home&nbsp;&nbsp;| </a></li>
+    <li><a class="anchorLink" href="#chapter-1">Mapping for Impact&nbsp;&nbsp;| </a></li>
+    <li><a class="anchorLink" href="#spacer-1">Collaboration Spaces&nbsp;&nbsp;| </a></li>
+    <li><a class="anchorLink" href="#chapter-12">Our Supporters & Financials</a></li>
+  </ul>
 </div>
 
   <div id="map"></div>

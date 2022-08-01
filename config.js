@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/hot/cl66txb4p000z14lq0w8hh8o7',
+    style: 'mapbox://styles/hot/cl6ax8vhx006v14m80qjueo12',
     accessToken: 'pk.eyJ1IjoiaG90IiwiYSI6IlBtUmNiR1kifQ.dCS1Eu9DIRNZGktc24IwtA',
     showMarkers: false,
     inset: false,
@@ -7,7 +7,7 @@ var config = {
     projection: 'globe',
     theme: 'dark',
     use3dTerrain: true,
-    title: '<a href="https://www.hotosm.org/" target="_blank"><img style="padding:25px;" src="images/logo_white.png" width="356" height="88" /></a><br /><div id="separator"></div><h1>ANNUAL REPORT</h1><p id="dash-text">Humanitarian OpenStreetMap Team</p><p id="dash-text2">July 2021 &dash; June 2022</p><h2>Improving the wellbeing of people and the health of our planet through growing and sustaining an open mapping movement.</h2><p id="intro-text">Humanitarian OpenStreetMap Team (HOT) and the Regional Open Mapping Hubs support, motivate and enable people to contribute to OpenStreetMap (OSM); an open-source, free, and a digital public good. We ensure map data is accessible and used in decisions that save and improve lives in countries at high risk of disaster, humanitarian crises, or experiencing multidimensional poverty, while making sure communities are visible on the map in the way they choose and included in decisions that affect their lives.</p><p style="font-size: .9em;">Cover image: <em>An urban center in Kampala, Uganda</em>&nbsp;&nbsp;|&nbsp;&nbsp;© Mapbox Satellite</p><br /><a id="freeExplore" href="#letter-0"> BEGIN &nbsp;&nbsp; &#8595; </a>',
+    title: '<a href="https://www.hotosm.org/" target="_blank"><img style="padding:25px;" src="images/logo_white.png" width="356" height="88" /></a><br /><div id="separator"></div><h1>ANNUAL REPORT</h1><p id="dash-text">Humanitarian OpenStreetMap Team</p><p id="dash-text2">July 2021 &dash; June 2022</p><h2>Improving the wellbeing of people and the health of our planet through growing and sustaining an open mapping movement.</h2><p id="intro-text">Humanitarian OpenStreetMap Team (HOT) and the Regional Open Mapping Hubs support, motivate and enable people to contribute to OpenStreetMap (OSM); an open-source, free, and digital public good. We ensure map data is accessible and used in decisions that save and improve lives in countries at high risk of disaster, humanitarian crises, or experiencing multidimensional poverty, while making sure communities are visible on the map in the way they choose and included in decisions that affect their lives.</p><p style="font-size: .9em;">Cover image: <em>An urban center in Kampala, Uganda</em>&nbsp;&nbsp;|&nbsp;&nbsp;© Mapbox Satellite</p><br /><a id="freeExplore" href="#letter-0"> BEGIN &nbsp;&nbsp; &#8595; </a>',
     subtitle: '',
     byline: '',
     mobileview: '<div id="rotate-mobile"><strong>For optimal viewing of this report on a mobile device, rotate to a landscape orientation. &#8634;</strong></div>',
@@ -42,7 +42,7 @@ var config = {
             hidden: false,
             title: 'REGIONAL OPEN MAPPING HUBS',
             image: '',
-            description: 'The Open Mapping Hubs engage with local mapping communities, facilitate knowledge exchanges, distribute funding, and provide training and support with the goal of massively scaling local edits to <a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a> in 94 countries' + '<br /><br />' + '<h3 class=""></h3>' + 'Rotate the globe by clicking and dragging your pointer, or use the controls in the top right. Throughout our story, you can freely explore the maps where there is a right arrow. &#8594;' + '<br /><br />' + 'Scroll down to continue. &#8595;',
+            description: 'The Open Mapping Hubs engage with local mapping communities, facilitate knowledge exchanges, distribute funding, and provide training and support with the goal of massively scaling local edits to <a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a> in 94 countries. In March 2022, The <a class="anchorLink" href="#chapter-7">Open Mapping Hub - West and Northern Africa</a> was launched.' + '<br /><br />' + 'In early 2022, we started an “Alpha” phase to learn and co-design what an Open Mapping Hub serving Latin America could be and do. This effort and mandate was the result of multiple consultations and conversations that took place with the open mapping communities in Latin America during the previous year. The Alpha Team managed to kick-start 16 projects in 9 countries in under 5 months and a transition period to full Hub will take place over the coming months.' + '<h3 class=""></h3>' + '<span style="font-size:0.8em;">Rotate the globe by clicking and dragging your pointer, or use the controls in the top right. Throughout our story, you can freely explore the maps where there is a right arrow.</span> &#8594;' + '<br /><br />' + 'Scroll down to continue. &#8595;',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,
@@ -313,7 +313,7 @@ var config = {
             hidden: false,
             title: 'Impact of the Mapping in Uganda',
             image: '',
-            description: 'The HOT team collaborated with the district health team to design and produce village-level, book-sized maps. These book-sized maps were distributed to the village community health workers to help them navigate, locate, and record their movements even without using smartphones. The aim is to develop district-level gazetteers that will be shared with health centers across the district to assist in reducing the time spent on patient tracing.' + '<br /><br />' + '<img src="images/village_map.jpg" />' + '<span class="photocaption">Village Health Technician, Happy Annah, Gasiza Village, Kisoro District, Uganda. | Photo by: Miriam Watsemba</span> Increased access to smartphones among Village Health Workers (VHWs) in Kisoro and Zombo districts improved digital access and through the data collection training and landmarks mapping, the VHWs acquired digital navigation and mapping skills that led them to acquire their own smartphones to continue mapping and sharing their locations with colleagues when in the field using free and open source software (OSMand) with OSM data offline on their phones.' + '<br /><br />' + 'As a part of the culmination of the scaling missing maps project, the HOT team created and shared <a href="https://drive.google.com/file/d/1Zcduoi0yT2ek3yjXDGGevxKiuIv02Qbb/view" target="_blank">four Atlases</a> to the Zombo district health departments as well as the Ministry Health, Health information department. The health team at the district and ministry plan to use these atlases to improve health intervention planning and as a learning resource to replicate this work across the other priority districts in the country. The team in Uganda is planning to work closer with the district health management team specifically with the Assistant District Health Officer to continue championing and training community health workers.',
+            description: 'The HOT team collaborated with the district health team to design and produce village-level, book-sized maps. These book-sized maps were distributed to the village community health workers to help them navigate, locate, and record their movements even without using smartphones. The aim is to develop district-level gazetteers that will be shared with health centers across the district to assist in reducing the time spent on patient tracing.' + '<br /><br />' + '<img src="images/village_map.jpg" />' + '<span class="photocaption">Village Health Technician, Happy Annah, Gasiza Village, Kisoro District, Uganda. | Photo by: Miriam Watsemba</span> Increased access to smartphones among Village Health Workers (VHWs) in Kisoro and Zombo districts improved digital access and through the data collection training and landmarks mapping, the VHWs acquired digital navigation and mapping skills that led them to acquire their own smartphones to continue mapping and sharing their locations with colleagues when in the field using free and open source software (OSMand) with OSM data offline on their phones.' + '<br /><br />' + 'As a part of the culmination of the scaling missing maps project, the HOT team created and shared <a href="https://drive.google.com/file/d/1Plv93pd42y9wLEmbCl4PaE_gfILUDDhO/view?usp=sharing" target="_blank">four Atlases</a> to the Zombo district health departments as well as the Ministry Health, Health information department. The health team at the district and ministry plan to use these atlases to improve health intervention planning and as a learning resource to replicate this work across the other priority districts in the country. The team in Uganda is planning to work closer with the district health management team specifically with the Assistant District Health Officer to continue championing and training community health workers.',
             location: {
               center: [29.217162, 0.871755],
               zoom: 7,
@@ -591,7 +591,7 @@ var config = {
             hidden: false,
             title: 'KEY RESULTS',
             image: '',
-            description: '<div class="flourish-embed" data-src="visualisation/10617361"></div>' + '<h3 class="contrib"></h3>' + '<a href="https://www.fieldready.org/" target="_blank">Field Ready</a> teamed up with HOT and <a href="https://needslist.co/" target="_blank">NeedsList</a> to help get PPE and other medical supplies to those frontline workers in four of the hardest-hit countries through our “Protecting the Frontline” program.' + '<br /><br />' + 'The project was supported by <a href="https://humanitariangrandchallenge.org/" target="_blank">Creating Hope in Conflict: a Humanitarian Grand Challenge</a> project. ',
+            description: '<div class="flourish-embed" data-src="visualisation/10617361"></div>' + '<h3 class="contrib"></h3>' + 'The project was supported by <a href="https://humanitariangrandchallenge.org/" target="_blank">Creating Hope in Conflict: a Humanitarian Grand Challenge</a> project. ',
             location: {
               center: [37.84560, 0.83084],
               zoom: 5,
@@ -664,8 +664,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'KEY RESULTS',
-            image: '',
-            description: 'CLCD collaborated with MapUganda to conduct online and in-person training for volunteers from Bushenyi district communities on GBV issues. <span style="color: #D73F3F; font-weight: bold;">15 volunteers</span> were trained to use ODK for data collection, iD Editor and JOSM for remote mapping as well as Maps.me to add points of interest on OSM, and as a navigation tool to respond to GBV calls, and all sub counties in Bushenyi were mapped. <span style="color: #D73F3F; font-weight: bold;">25 maps</span> were printed and given to police officials in Bushenyi.' + '<br /><br />' + 'Collaborations were formed with MapUganda in organizing mapathons and mobilizing volunteers to map remotely and CLCD was introduced to other OSM communities through events like the OSM Africa monthly mapathon that was key in completing the mapping and validation of the project.' + '<div class="flourish-embed" data-src="visualisation/10621260"></div>' + '<h3 class="contrib"></h3>' + 'This project was funded by a <a href="https://www.meta.com/" target="_blank">Meta</a> Community Impact Grant, managed by HOT.',
+            image: 'images/police.jpg',
+            description: 'CLCD collaborated with <a href="https://mapuganda.org/" target="_blank">MapUganda</a> to conduct online and in-person training for volunteers from Bushenyi district communities on GBV issues. <span style="color: #D73F3F; font-weight: bold;">15 volunteers</span> were trained to use ODK for data collection, iD Editor and JOSM for remote mapping as well as Maps.me to add points of interest on OSM, and as a navigation tool to respond to GBV calls, and all sub counties in Bushenyi were mapped. <span style="color: #D73F3F; font-weight: bold;">25 maps</span> were printed and given to police officials in Bushenyi.' + '<br /><br />' + 'Collaborations were formed with MapUganda in organizing mapathons and mobilizing volunteers to map remotely and CLCD was introduced to other OSM communities through events like the OSM Africa monthly mapathon that was key in completing the mapping and validation of the project.' + '<div class="flourish-embed" data-src="visualisation/10621260"></div>' + '<h3 class="contrib"></h3>' + 'This project was funded by a <a href="https://www.meta.com/" target="_blank">Meta</a> Community Impact Grant, managed by HOT.',
             location: {
               center: [30.131918, -0.561879],
               zoom: 12,
@@ -721,7 +721,7 @@ var config = {
             hidden: false,
             title: '',
             image: 'images/nepal_hot.jpg',
-            description: '<span class="photocaption">Photo by Geomatics Engineering Society (GES), Kathmandu University, Nepal</span>During the mapping, validation, field verification, output and data dissemination, the Geomatics Engineering Society team was able to actively include the needs of the Chepang communities in the project design using surveys and direct conversations.' + '<br /><br />' + 'In line with the project’s poverty reduction and access to basic amenities, they engaged with various donor organizations and the local government. They simultaneously conducted several trainings on OSM to GES members and various OSM communities in Nepal. They also collaborated with Kathmandu Living Labs, Youth Innovation Lab, Naxa, Department of Geomatics Engineering,  Kathmandu University, and several governmental bodies. The team collaborated with 19 ward presidents and trained them locally to read and visualize the printed satellite imagery maps.',
+            description: '<span class="photocaption">Photo by Geomatics Engineering Society (GES), Kathmandu University, Nepal</span>During the mapping, validation, field verification, output and data dissemination, the Geomatics Engineering Society team was able to actively include the needs of the Chepang communities in the project design using surveys and direct conversations.' + '<br /><br />' + 'In line with the project’s poverty reduction and access to basic amenities, they engaged with various donor organizations and the local government. They simultaneously conducted several trainings on OSM to GES members and various OSM communities in Nepal. They also collaborated with <a href="https://www.kathmandulivinglabs.org/" target="_blank">Kathmandu Living Labs</a>, Youth Innovation Lab, Naxa, Department of Geomatics Engineering,  Kathmandu University, and several governmental bodies. The team collaborated with 19 ward presidents and trained them locally to read and visualize the printed satellite imagery maps.',
             location: {
               center: [84.840127, 27.551346],
               zoom: 16,
@@ -983,7 +983,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Out of the 99 women trained, 74 completed the program and 19 will be carrying out 10 projects in 10 countries. The projects will address local challenges related to Disaster Resilience, Environment, Gender Equality, Health, Heritage, Inclusion, and Sustainable Cities, adding value to local action in Asia Pacific.' + '<br /><br />' + '<img src="images/she_leads.jpg" /><span class="photocaption">SLSI participants from Bhutan.</span>' + '<br /><br />' + 'The project confirmed what we already knew; that there is a lack of female representation in the geospatial sector. It also became clear that it is important to connect women in the OSM ecosystem to experienced project coordinators/experts to further expand and implement their project ideas. The project also helped us learn about the need to include men allies for sustainable growth and empowerment. She Leads and She Inspires is a first of many initiatives planned by HOT and the Open Mapping Hubs and demonstrates our commitment to helping women carve out their own destinies as inspiring OSM leaders.',
+            description: 'Out of the 99 women trained, 74 completed the program and 19 will be carrying out 10 projects in 10 countries. The projects will address local challenges related to Disaster Resilience, Environment, Gender Equality, Health, Heritage, Inclusion, and Sustainable Cities, adding value to local action in Asia Pacific.' + '<br /><br />' + '<img src="images/she_leads.jpg" /><span class="photocaption">SLSI participants from Bhutan.</span>' + 'The project confirmed what we already knew; that there is a lack of female representation in the geospatial sector. It also became clear that it is important to connect women in the OSM ecosystem to experienced project coordinators/experts to further expand and implement their project ideas. The project also helped us learn about the need to include men allies for sustainable growth and empowerment. She Leads and She Inspires is a first of many initiatives planned by HOT and the Open Mapping Hubs and demonstrates our commitment to helping women carve out their own destinies as inspiring OSM leaders.',
             location: {
               center: [111.499644, 16.932757],
               zoom: 3.35,
@@ -1095,7 +1095,11 @@ var config = {
             rotateAnimation: false,
             callback: 'disableFreetime',
             onChapterEnter: [
-
+              {
+                layer: 'nepal',
+                opacity: 1,
+                duration: 2000
+              }
             ],
             onChapterExit: [
               {
@@ -1105,6 +1109,11 @@ var config = {
               },
               {
                 layer: 'she_leads_10-ALT',
+                opacity: 0,
+                duration: 2000
+              },
+              {
+                layer: 'nepal',
                 opacity: 0,
                 duration: 2000
               }
@@ -1205,10 +1214,18 @@ var config = {
                 rotateAnimation: false,
                 callback: '',
                 onChapterEnter: [
-
+                  {
+                    layer: 'india',
+                    opacity: 1,
+                    duration: 2000
+                  }
                 ],
                 onChapterExit: [
-
+                  {
+                    layer: 'india',
+                    opacity: 0,
+                    duration: 2000
+                  }
                 ]
             },
             {
@@ -1228,10 +1245,18 @@ var config = {
                 rotateAnimation: false,
                 callback: '',
                 onChapterEnter: [
-
+                  {
+                    layer: 'kenya',
+                    opacity: 1,
+                    duration: 2000
+                  }
                 ],
                 onChapterExit: [
-
+                  {
+                    layer: 'kenya',
+                    opacity: 0,
+                    duration: 2000
+                  }
                 ]
             },
             {
@@ -1251,10 +1276,18 @@ var config = {
                 rotateAnimation: false,
                 callback: '',
                 onChapterEnter: [
-
+                  {
+                    layer: 'ghana',
+                    opacity: 1,
+                    duration: 2000
+                  }
                 ],
                 onChapterExit: [
-
+                  {
+                    layer: 'ghana',
+                    opacity: 0,
+                    duration: 2000
+                  }
                 ]
             },
             {
@@ -1263,7 +1296,7 @@ var config = {
                 hidden: false,
                 title: '',
                 image: '',
-                description: '<img style="float:left; width: auto; padding: 0 25px 25px 0;" src="images/dataqual/choolwe_zambia.jpg" />“I have learned a lot of advanced tricks in JOSM such as how to draw multi-polygons. These techniques will help me map features accurately and improve the quality of data I add on maps. I also intend to share all the techniques I have learned so far with the local youth mappers in my country.” <p style="text-align: right;">&dash; Choolwe Hamama, Zambia</p>',
+                description: '<img style="float:left; width: auto; padding: 0 25px 25px 0;" src="images/dataqual/choolwe_zambia.jpg" />“I have learned a lot of advanced tricks in JOSM such as how to draw multi-polygons. These techniques will help me map features accurately and improve the quality of data I add on maps. I also intend to share all the techniques I have learned so far with the local youth mappers in my country.” <p style="text-align: right;">&dash; Choolwe Hamama, Zambia</p>' + '<h3></h3>' + 'The HOT Data Quality Internship supported by <a href="https://www.meta.com/" target="_blank">Meta</a>. Special thanks to <a href="https://www.mapbox.com/" target="_blank">Mapbox</a>, The <a href="https://www.osgeo.org/" target="_blank">Open Source Geospatial Foundation</a> and <a href="https://www.kontur.io/" target="_blank">Kontur</a> for providing training',
                 location: {
                   center: [27.50826, -14.41302],
                   zoom: 6,
@@ -1274,10 +1307,18 @@ var config = {
                 rotateAnimation: false,
                 callback: '',
                 onChapterEnter: [
-
+                  {
+                    layer: 'zambia',
+                    opacity: 1,
+                    duration: 2000
+                  }
                 ],
                 onChapterExit: [
-
+                  {
+                    layer: 'zambia',
+                    opacity: 0,
+                    duration: 2000
+                  }
                 ]
             },
               {
@@ -1371,9 +1412,9 @@ var config = {
             id: 'chapter-11b',
             alignment: 'center',
             hidden: false,
-            title: 'Tasking Manager &dash; a Collective Effort',
+            title: 'Tasking Manager - a Collective Effort',
             image: '',
-            description: 'The Tasking Manager is HOT’s flagship mapping tool It allows division of a large mapping project into smaller tasks that can be completed rapidly and collaboratively, with many people contributing to a collective project goal.' + '<br /><br />' + 'The HOT tech team is committed to a future of more collective and localized technologies.To put our words into action we want to nurture and invest in the contributors, makers, tinkerers and users to maintain, evolve and grow just and collective humanitarian open mapping tech. By igniting a community of techies, we strive for better tools created for, with and by local mappers and map users. We work collectively with partners and communities globally, and emphasize collaboration with organizations and groups within HOT’s priority countries.' + '<br /><br />' + 'In 2021, Kathmandu Living Labs (KLL) joined us to pioneer this collective approach. KLL is a leading civic-tech company based out of Nepal and has been working in the Open Mapping movement since 2013. As a social enterprise, KLL provides data and technology solutions to governments, development partners, business and civil society. In collaboration with the HOT tech team and the Tasking Manager community, KLL contributes to the maintenance and evolution of HOT’s most well-known product, the HOT Tasking Manager. Each month, we sit down with KLL to identify and prioritize the issues the Tasking Manager collective feel will best stabilize, secure and  strengthen the product for its global community of mapping volunteers. These issues are publicly available for comment and conversation through a public project repository through github. KLL then tackles and resolves these issues to deliver fixes, features and enhancements before they are deployed for the Tasking Manager collective and the wider HOT and OSM communities.' + '<div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/JPTjsYBQ0Uk" frameBorder="0"></iframe></div>',
+            description: 'The Tasking Manager is HOT’s flagship mapping tool. It allows division of a large mapping project into smaller tasks that can be completed rapidly and collaboratively, with many people contributing to a collective project goal.' + '<br /><br />' + 'The HOT tech team is committed to a future of more collective and localized technologies.To put our words into action we want to nurture and invest in the contributors, makers, tinkerers and users to maintain, evolve and grow just and collective humanitarian open mapping tech. By igniting a community of techies, we strive for better tools created for, with and by local mappers and map users. We work collectively with partners and communities globally, and emphasize collaboration with organizations and groups within HOT’s priority countries.' + '<br /><br />' + 'In 2021, Kathmandu Living Labs (KLL) joined us to pioneer this collective approach. KLL is a leading civic-tech company based out of Nepal and has been working in the Open Mapping movement since 2013. As a social enterprise, KLL provides data and technology solutions to governments, development partners, business and civil society. In collaboration with the HOT tech team and the Tasking Manager community, KLL contributes to the maintenance and evolution of HOT’s most well-known product, the HOT Tasking Manager. Each month, we sit down with KLL to identify and prioritize the issues the Tasking Manager collective feel will best stabilize, secure and  strengthen the product for its global community of mapping volunteers. These issues are publicly available for comment and conversation through a public project repository through github. KLL then tackles and resolves these issues to deliver fixes, features and enhancements before they are deployed for the Tasking Manager collective and the wider HOT and OSM communities.' + '<div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/JPTjsYBQ0Uk" frameBorder="0"></iframe></div>',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,
@@ -1396,7 +1437,7 @@ var config = {
             hidden: false,
             title: 'SPECIAL THANKS TO OUR 2021-2022 MISSION CRITICAL PARTNERS*',
             image: '',
-            description: '<h4>HUMANITARIAN IMPACT PARTNERS</h4><img src="images/human_impact_partners.jpg" style="width: 50%; text-align: center;" />' + '<br /><br />' + '<h4>CORPORATE PARTNERS</h4><img src="images/corporate-logos.jpg" style="width: 50%; text-align: center;" />' + '<br /><br />' + '<h4>WITH SPECIAL THANKS TO OUR AUDACIOUS DONORS</h4><img src="images/individuals.jpg" style="width: 50%; text-align: center;" /><p class="photocaption"><sup>*</sup> - Based on the size of data contributions, and/or funding support</p>' + '<br /><br />' + '<h3>ANNUAL EXPENDITURES</h3>' + '<div class="flourish-embed flourish-chart" data-src="visualisation/10779166"></div>',
+            description: '<h4>HUMANITARIAN IMPACT PARTNERS</h4><img src="images/human_impact_partners.jpg" style="width: 70%; text-align: center;" />' + '<br /><br />' + '<h4>CORPORATE PARTNERS</h4><img src="images/corporate-logos.jpg" style="width: 70%; text-align: center;" />' + '<br /><br />' + '<h4>WITH SPECIAL THANKS TO OUR AUDACIOUS DONORS</h4><img src="images/individuals.jpg" style="width: 70%; text-align: center;" /><p class="photocaption" style="font-size:0.7em;"><sup>*</sup> - Based on the size of data contributions, and/or funding support</p>' + '<br /><br />' + '<h3>ANNUAL EXPENDITURES</h3>' + '<div class="flourish-embed flourish-chart" data-src="visualisation/10779166"></div>',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,

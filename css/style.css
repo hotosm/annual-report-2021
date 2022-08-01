@@ -60,7 +60,20 @@ a:visited {
 	background-opacity: .1;
 	background-size: cover;
 	color: #E1E0E0;
+	padding-top: 3%;
 	/* padding: 1vh 2vw; */
+}
+
+@media (max-width: 1440px) {
+	#header {
+	padding-top: 6%;
+}
+}
+
+@media (max-width: 425px) {
+	#header {
+	padding-top: 10%;
+}
 }
 
 #header img {
@@ -358,6 +371,51 @@ h4.impact-head {
 	position: fixed;
 }
 
+/* Fixed header nav */
+
+.header-nav-bar {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 4px;
+	z-index:9999;
+	background: #E1E0E0;
+	background-opacity: 0.8;
+	text-transform: uppercase;
+	font-family: 'Barlow Condensed', sans-serif;
+	letter-spacing: .075em;
+	font-size: 1.4em;
+}
+
+@media (max-width: 768px) {
+.header-nav-bar
+	{
+	font-size: 1em;
+}
+}
+
+.header-nav-bar a {
+	text-decoration: none;
+	color: #D73F3F;
+}
+
+.header-nav-bar ul {
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+.header-nav-bar ul
+	{
+	margin-top: 15px;
+}
+}
+
+.header-nav-bar li {
+	display: inline;
+	margin-right: 5px;
+}
+
 @media (max-width: 750px) {
 
 	.centered,
@@ -488,7 +546,7 @@ p.footnote {
 	color: #D73F3F;
 }
 
-#chapter-11 h3 {
+#spacer-2 h3 {
 	color: #D73F3F;
 }
 

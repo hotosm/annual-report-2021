@@ -390,7 +390,14 @@ h4.impact-head {
 @media (max-width: 768px) {
 .header-nav-bar
 	{
-	font-size: 1em;
+	font-size: 0.9em;
+}
+}
+
+@media (max-width: 425px) {
+.header-nav-bar
+	{
+	display: none;
 }
 }
 
@@ -408,6 +415,12 @@ h4.impact-head {
 .header-nav-bar ul
 	{
 	margin-top: 15px;
+}
+}
+@media (max-width: 425px) {
+.header-nav-bar ul
+	{
+	display: none;
 }
 }
 

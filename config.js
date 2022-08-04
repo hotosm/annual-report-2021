@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/hot/cl6ax8vhx006v14m80qjueo12',
+    style: 'mapbox://styles/hot/cl6fibrxh001614tm2e3qfhf3',
     accessToken: 'pk.eyJ1IjoiaG90IiwiYSI6IlBtUmNiR1kifQ.dCS1Eu9DIRNZGktc24IwtA',
     showMarkers: false,
     inset: false,
@@ -7,7 +7,7 @@ var config = {
     projection: 'globe',
     theme: 'dark',
     use3dTerrain: true,
-    title: '<a href="https://www.hotosm.org/" target="_blank"><img style="padding:25px;" src="images/logo_white.png" width="356" height="88" /></a><br /><div id="separator"></div><h1>ANNUAL REPORT</h1><p id="dash-text">Humanitarian OpenStreetMap Team</p><p id="dash-text2">July 2021 &dash; June 2022</p><h2>Improving the wellbeing of people and the health of our planet through growing and sustaining an open mapping movement.</h2><p id="intro-text">Humanitarian OpenStreetMap Team (HOT) and the Regional Open Mapping Hubs support, motivate and enable people to contribute to OpenStreetMap (OSM); an open-source, free, and digital public good. We ensure map data is accessible and used in decisions that save and improve lives in countries at high risk of disaster, humanitarian crises, or experiencing multidimensional poverty, while making sure communities are visible on the map in the way they choose and included in decisions that affect their lives.</p><p style="font-size: .9em;">Cover image: <em>An urban center in Kampala, Uganda</em>&nbsp;&nbsp;|&nbsp;&nbsp;© Mapbox Satellite</p><br /><a id="freeExplore" href="#letter-0"> BEGIN &nbsp;&nbsp; &#8595; </a>',
+    title: '<a href="https://www.hotosm.org/" target="_blank"><img style="padding:25px;" src="images/logo_white.png" width="356" height="88" /></a><br /><div id="separator"></div><h1>IMPACT REPORT</h1><p id="dash-text2">July 2021 &dash; June 2022</p><h2>Improving the wellbeing of people and the health of our planet through growing and sustaining an open mapping movement.</h2><p id="intro-text">Humanitarian OpenStreetMap Team (HOT) and the Regional Open Mapping Hubs support, motivate and enable people to contribute to OpenStreetMap (OSM); an open-source, free, and digital public good.</p><p id="intro-text">We ensure map data is accessible and used in decisions that save and improve lives in countries at high risk of disaster, humanitarian crises, or experiencing multidimensional poverty, while making sure communities are visible on the map in the way they choose and included in decisions that affect their lives.</p><p style="font-size: .9em;">Cover image: <em>An urban center in Kampala, Uganda</em>&nbsp;&nbsp;|&nbsp;&nbsp;© Mapbox Satellite</p><br /><a id="freeExplore" href="#letter-0"> BEGIN &nbsp;&nbsp; &#8595; </a>',
     subtitle: '',
     byline: '',
     mobileview: '<div id="rotate-mobile"><strong>For optimal viewing of this report on a mobile device, rotate to a landscape orientation. &#8634;</strong></div>',
@@ -19,7 +19,7 @@ var config = {
             hidden: false,
             title: 'A Letter From Tyler Radford, HOT’s Executive Director',
             image: '',
-            description: '<img style="float:right; width: auto; padding: 0 0 25px 25px;" src="images/tyler2.jpg" /><span style="font-weight: bold; color: #D73F3F;">When I make any opening remarks, my initial thoughts are always that of gratitude.</span> The commitment of everyone engaged in this mapping movement is nothing short of extraordinary. Perhaps that’s the real theme here, an exploration of the extraordinary. The last 12 months through mid-2022 was another extraordinary period. Despite the world witnessing the highest levels of displacement on record, extreme inequalities exacerbated by Covid-19, climate, and conflict, and a reversal of gains on a number of SDGs, the open mapping community maintained a sense of optimism, that collaboration across organizational and national boundaries is possible even in the most difficult of times. We, the people who make up the open mapping movement, came together to make data available on some of the world’s toughest issues, from climate impact, to access to healthcare in the face of the pandemic, to basic service delivery in cities and rural villages. The unique power of open mapping is that data is proximate to people and proximate to the issue: it is generated locally, created by community members experiencing the problem, and it is timely and relevant to inform action that gives people and organizations the power to combat those issues head-on.' + '<br /><br />' + 'However, this is only true if everyone who wants to participate is able to do so. A major focus of this year has been putting in place the support structures and tools that enable a key part of our vision: <span style="font-weight: bold; color: #D73F3F;">everyone can access and contribute to the map</span>. I am proud to share with you just a few highlights of how that is happening:' + '<br /><br />' + '<ul><li><span style="font-weight: bold; color: #D73F3F;">Localization</span>: HOT launched the third of four regional open mapping hubs in Dakar, Senegal, for stronger support, unity, and collaboration with open mapping communities across West and Northern Africa.</li><li><span style="font-weight: bold; color: #D73F3F;">Support for the people and organizations</span> that fuel the movement: Grants were provided to community partners leading open mapping work in 22 countries. More than 100 emerging leaders in mapping participated in HOT’s “She Leads, She Inspires” leadership development program.</li><li><span style="font-weight: bold; color: #D73F3F;">Movement growth</span>: More than 585,000 people have now contributed to building the map across 94 priority countries, as we journey toward supporting 1 million to contribute by 2025.</li></ul>' + '<br /><br />' + 'Our 2021-22 Annual Report highlights just a small portion of the work of a massive global movement. This work would not be possible without support from our Audacious Project donors, a group of donors who believed in and committed to the promise of an open map of our world and placed incredible trust in the movement making it a reality. We remain grateful to all contributors and supporters who enable us to deliver effective results in our five impact areas: Climate Change, Gender Equality, Migration, Global Health, Sustainable Cities and Communities.' + '<br /><br />' + 'To showcase the work of the movement, join us on this virtual world tour from Democratic Republic of Congo to Kenya, Uganda and Nepal. We’ll also make stops in more than 40 other countries where the open mapping movement is touching people’s lives.  This feeds into our long term vision, as a global catalyst, where we further explore the intersection between technology and the mapping movement. Together, we will continue to make an extraordinary impact in global communities. <br /><p style="text-align: right;">Enjoy the journey! <br />&dash; Tyler</p>',
+            description: '<img style="float:right; width: auto; padding: 0 0 25px 25px;" src="images/tyler2.jpg" /><span style="font-weight: bold; color: #D73F3F;">When I make any opening remarks, my initial thoughts are always that of gratitude.</span> The commitment of everyone engaged in the open mapping movement is nothing short of extraordinary. Perhaps that’s the real theme here, an exploration of the extraordinary. The last 12 months through mid-2022 was another extraordinary period. Despite the world witnessing the highest levels of displacement on record, extreme inequalities exacerbated by Covid-19, climate, and conflict, and a reversal of gains on a number of SDGs, the open mapping community maintained a sense of optimism, that collaboration across organizational and national boundaries is possible even in the most difficult of times. We, the people who make up the open mapping movement, came together to make data available on some of the world’s toughest issues, from climate impact, to access to healthcare in the face of the pandemic, to basic service delivery in cities and rural villages. The unique power of open mapping is that data is proximate to people and proximate to the issue: it is generated locally, created by community members experiencing the problem, and it is timely and relevant to inform action that gives people and organizations the power to combat those issues head-on.' + '<br /><br />' + 'However, this is only true if everyone who wants to participate is able to do so. A major focus of this year has been putting in place the support structures and tools that enable a key part of our vision: <span style="font-weight: bold; color: #D73F3F;">everyone can access and contribute to the map</span>. I am proud to share with you just a few highlights of how that is happening:' + '<br /><br />' + '<ul><li><span style="font-weight: bold; color: #D73F3F;">Localization</span>: HOT launched the third of four regional open mapping hubs in Dakar, Senegal, for stronger support, unity, and collaboration with open mapping communities across West and Northern Africa.</li><li><span style="font-weight: bold; color: #D73F3F;">Support for the people and organizations</span> that fuel the movement: Grants were provided to community partners leading open mapping work in 22 countries. More than 100 emerging leaders in mapping participated in HOT’s “She Leads, She Inspires” leadership development program.</li><li><span style="font-weight: bold; color: #D73F3F;">Movement growth</span>: More than 585,000 people have now contributed to building the map across 94 priority countries, as we journey toward supporting 1 million to contribute by 2025.</li></ul>' + '<br /><br />' + 'Our 2021-22 Annual Report highlights just a small portion of the work of a massive global movement. This work would not be possible without support from our Audacious Project donors, a group of donors who believed in and committed to the promise of an open map of our world and placed incredible trust in the movement making it a reality. We remain grateful to all contributors and supporters who enable us to deliver effective results in our five impact areas: Climate Change, Gender Equality, Migration, Global Health, Sustainable Cities and Communities.' + '<br /><br />' + 'To showcase the work of the movement, join us on this virtual world tour from Democratic Republic of Congo to Kenya, Uganda and Nepal. We’ll also make stops in more than 40 other countries where the open mapping movement is touching people’s lives.  This feeds into our long term vision, as a global catalyst, where we further explore the intersection between technology and the mapping movement. Together, we will continue to make an extraordinary impact in global communities. <br /><p style="text-align: right;">Enjoy the journey! <br />&dash; Tyler</p>',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,
@@ -181,9 +181,9 @@ var config = {
             id: 'prelude-1',
             alignment: 'center',
             hidden: false,
-            title: 'Key Milestones',
+            title: '',
             image: '',
-            description: '<div class="flourish-embed flourish-chart" data-src="visualisation/10754046"></div><h4>Key achievements July 2021-June 2022</h4><ul><li><span style="font-weight: bold; color: #D73F3F;">2,106</span> NGO/partner staff trained and using HOT maps</li><li><span style="font-weight: bold; color: #D73F3F;">55,181</span> downloads from HDX</li></ul><h4>Cumulative progress</h4><ul><li><span style="font-weight: bold; color: #D73F3F;">1.6 million</span> place names mapped</li><li><span style="font-weight: bold; color: #D73F3F;">2.7 million</span> amenities mapped</li></ul>',
+            description: '<h2 class="liftout">Key Milestones</h2><div class="flourish-embed flourish-chart" data-src="visualisation/10754046"></div><h2 class="liftout">Key achievements July 2021-June 2022</h2><ul class="keystats"><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/school.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">2,106</span> NGO/partner staff trained and using HOT maps</li><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/download.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">55,181</span> downloads from HDX</li></ul><h2 class="liftout">Cumulative progress</h2><ul class="keystats"><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/marker.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">1.6 million</span> place names mapped</li><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/commercial.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">2.7 million</span> amenities mapped</li></ul>',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,
@@ -206,7 +206,7 @@ var config = {
             hidden: false,
             title: 'Impact Areas',
             image: '',
-            description: 'Impact Areas connect open mapping with real world applications through spatial data use in the humanitarian and development sectors. Each impact area at HOT provides a framework for technical and subject matter expertise for partnerships, grantee projects, and community support.' + '<br /><br />' + '<div class="flourish-embed flourish-cards" data-src="visualisation/10759157"></div>',
+            description: 'Solving global challenges require an understanding of our physical environment that is grounded in the day-to-day realities of people experiencing those challenges. Open mapping helps us co-develop that understanding together, which enables humanitarian, development, and community organizations to take more informed and locally-appropriate action. Each Impact Area  describes one of the major global challenges the open mapping movement is taking on.” Impact Areas ensure all efforts across HOT - partnerships, grantmaking, and community support - are focused on contributing to one of five major issue areas.' + '<br /><br />' + '<div class="flourish-embed flourish-cards" data-src="visualisation/10759157"></div>' + '<div style="background: #D73F3F;"><img style="display: inline; width: 172px; height: 150px;" src="images/icons/gender.png" /> <p><strong>Gender Equality</strong></p><p style="vertical-align: middle;">Equal rights, equal participation, and improved understanding of gendered issues through digital inclusion</p></div>',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,
@@ -229,7 +229,7 @@ var config = {
             hidden: false,
             title: 'Scaling Missing Maps in Africa’s Great Lakes Region',
             image: '',
-            description: '<h4 class="impact-head">Impact Area:</h4> <strong>Public Health</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/health.png" height="35" width="35" />' + '<h3></h3>' + 'Patient tracking is a crucial public health activity that contributes to reducing the spread of highly contagious diseases. However, patient tracing, tracking, and monitoring in low-and middle-income countries is a complex process as most of the geographical, navigational, and landmark features are not fully digitized. HOT embarked on a project to scale the <a href="https://www.missingmaps.org/" target="_blank">Missing Maps</a> initiative across the public health and disease surveillance sector in Uganda and the Democratic Republic of Congo (DRC).' + '<br /> <br />' + 'In Uganda, HOT partnered with community health workers across Kisoro and Zombo districts; and in DRC, HOT partnered with community health workers in Kalunguta, Beni, Butembo and Katwa.  This mapping exercise included locating and mapping all geographical and human-made features within the districts that would enable community health workers to easily find, locate, and trace patients more quickly and efficiently.' + '<br /> <br />' + '<div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Ulf5qOKXouo" frameBorder="0"></iframe></div>',
+            description: '<h4 class="impact-head">Impact Area:</h4><img style="width: auto; vertical-align: middle;" src="images/icons/health.png" height="150" width="150" />' + '<h3></h3>' + 'Patient tracking is a crucial public health activity that contributes to reducing the spread of highly contagious diseases. However, patient tracing, tracking, and monitoring in low-and middle-income countries is a complex process as most of the geographical, navigational, and landmark features are not fully digitized. HOT embarked on a project to scale the <a href="https://www.missingmaps.org/" target="_blank">Missing Maps</a> initiative across the public health and disease surveillance sector in Uganda and the Democratic Republic of Congo (DRC).' + '<br /> <br />' + 'In Uganda, HOT partnered with community health workers across Kisoro and Zombo districts; and in DRC, HOT partnered with community health workers in Kalunguta, Beni, Butembo and Katwa.  This mapping exercise included locating and mapping all geographical and human-made features within the districts that would enable community health workers to easily find, locate, and trace patients more quickly and efficiently.' + '<br /> <br />' + '<div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Ulf5qOKXouo" frameBorder="0"></iframe></div>',
             location: {
               center: [29.217162, 0.871755],
               zoom: 7,
@@ -270,7 +270,7 @@ var config = {
             hidden: false,
             title: 'Uganda',
             image: '',
-            description: 'HOT carried out two separate data collection activities, which began in Kisoro district and continued to Zombo District.' + '<br /><br />' + 'The fieldwork included the collection of geographic and data collection on village locations, education facilities, health facilities, water points, places of worship, market places, and offices, including government and non-government offices. Over 2.5 million building footprints were added to OSM.' + '<br /><br />' + '<img src="images/ed_map.jpg" />',
+            description: 'HOT carried out two separate data collection activities, which began in Kisoro district and continued to Zombo District.' + '<br /><br />' + 'The fieldwork included the collection of geographic and data collection on village locations, education facilities, health facilities, water points, places of worship, market places, and offices, including government and non-government offices. Over 2.5 million building footprints were added to OSM.',
             location: {
               center: [29.7219314, -1.3045366],
               zoom: 16.48,
@@ -336,11 +336,11 @@ var config = {
             hidden: false,
             title: 'Democratic Republic of the Congo',
             image: '',
-            description: 'HOT carried out four separate data collection activities which began in Kalungunta and continued in Beni, Butembo and Katwa. The fieldwork included the collection of geographic information of different amenities located in these four districts, including data on village locations, education facilities, health facilities, water points, places of worship, market places, and offices, including government and non-government offices.' + '<br /><br />' + '<img src="images/vax_map.jpg" /><span class="photocaption">Map of vaccination points in Beni, North Kivu, DRC</span>' + 'Data collectors were paired with District Health Officers to ensure that local health staff would be trained, and ensure security of the HOT staff during data collection. At the end of the field mapping period, the data was reviewed, validated, and uploaded to the OSM platform.' + '<br /><br />' + 'Following data collection, data and maps were presented to the health officials and training were carried out. Over 400 district health officials were trained on data collection using OSM tools, and basic GIS.',
+            description: 'HOT carried out four separate data collection activities which began in Kalungunta and continued in Beni, Butembo and Katwa. The fieldwork included the collection of geographic information of different amenities located in these four districts, including data on village locations, education facilities, health facilities, water points, places of worship, market places, and offices, including government and non-government offices.' + '<br /><br />' + 'Data collectors were paired with District Health Officers to ensure that local health staff would be trained, and ensure security of the HOT staff during data collection. At the end of the field mapping period, the data was reviewed, validated, and uploaded to the OSM platform.' + '<br /><br />' + 'Following data collection, data and maps were presented to the health officials and training were carried out. Over 400 district health officials were trained on data collection using OSM tools, and basic GIS.',
             location: {
-                center: [15.89038, -5.50412],
-                zoom: 5.5,
-                pitch: 0,
+                center: [29.241322, 0.269078],
+                zoom: 10.84,
+                pitch: 31,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -348,24 +348,14 @@ var config = {
             callback: '',
             onChapterEnter: [
               {
-                layer: 'drc-outline',
-                opacity: 1,
-                duration: 2000
-              },
-              {
-                layer: 'drc_label',
+                layer: 'vax-sites',
                 opacity: 1,
                 duration: 2000
               }
             ],
             onChapterExit: [
               {
-                layer: 'drc-outline',
-                opacity: 0,
-                duration: 2000
-              },
-              {
-                layer: 'drc_label',
+                layer: 'vax-sites',
                 opacity: 0,
                 duration: 2000
               }
@@ -1347,6 +1337,11 @@ var config = {
                       layer: 'tanzania_label',
                       opacity: 1,
                       duration: 2000
+                    },
+                    {
+                      layer: 'tanzania',
+                      opacity: .6,
+                      duration: 2000
                     }
                   ],
                   onChapterExit: [
@@ -1357,6 +1352,11 @@ var config = {
                     },
                     {
                       layer: 'tanzania_label',
+                      opacity: 0,
+                      duration: 2000
+                    },
+                    {
+                      layer: 'tanzania',
                       opacity: 0,
                       duration: 2000
                     }

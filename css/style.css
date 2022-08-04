@@ -122,8 +122,10 @@ a:visited {
 }
 
 #intro-text {
-  font-size: 1.2em;
+  font-size: 1.4em;
   width: 35%;
+	line-height: 1.7em;
+	letter-spacing: .02em;
 }
 
 .photocaption {
@@ -132,6 +134,15 @@ a:visited {
 	letter-spacing: .02em;
 	padding-bottom: 20px;
 	display: block;
+}
+
+ul.keystats {
+	list-style-type: none;
+	font-size: 1.8em;
+}
+
+ul.keystats li {
+	line-height: 1em;
 }
 
 @media (max-width: 425px) {

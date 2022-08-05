@@ -190,6 +190,16 @@ h2.liftout {
 	font-weight: 300;
 }
 
+h3.liftout-minor {
+	font-size: 1.6em;
+	font-family: 'Archivo', sans-serif;
+	letter-spacing: 1px;
+	line-height: 1.6em;
+	text-align: left;
+	font-weight: 300;
+	text-transform: none;
+}
+
 @media (max-width: 1350px) {
   h2.liftout {
     font-size: 1.6em

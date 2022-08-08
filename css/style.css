@@ -450,15 +450,6 @@ h4.impact-head {
 	margin-right: 5px;
 }
 
-ul#genderimpact {
-	list-style-type: none;
-}
-
-li#genderimpact {
-	display: inline;
-	margin-right: 5px;
-}
-
 
 @media (max-width: 750px) {
 

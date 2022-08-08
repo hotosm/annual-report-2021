@@ -42,7 +42,7 @@ var config = {
             hidden: false,
             title: 'REGIONAL OPEN MAPPING HUBS',
             image: '',
-            description: 'The Open Mapping Hubs engage with local mapping communities, facilitate knowledge exchanges, distribute funding, and provide training and support with the goal of massively scaling local edits to <a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a> in 94 countries. In March 2022, The <a class="anchorLink" href="#chapter-7">Open Mapping Hub - West and Northern Africa</a> was launched.' + '<br /><br />' + 'In early 2022, we started an “Alpha” phase to learn and co-design what an Open Mapping Hub serving Latin America could be and do. This effort and mandate was the result of multiple consultations and conversations that took place with the open mapping communities in Latin America during the previous year. The Alpha Team managed to kick-start 16 projects in 9 countries in under 5 months and a transition period to full Hub will take place over the coming months.' + '<h3 class=""></h3>' + '<span style="font-size:0.8em;">Rotate the globe by clicking and dragging your pointer, or use the controls in the top right. Throughout our story, you can freely explore the maps where there is a right arrow.</span> &#8594;' + '<br /><br />' + 'Scroll down to continue. &#8595;',
+            description: 'The Open Mapping Hubs engage with local mapping communities, facilitate knowledge exchanges, distribute funding, and provide training and support with the goal of massively scaling local edits to <a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a> in 94 countries. In March 2022, The <a class="anchorLink" href="#chapter-7">Open Mapping Hub - West and Northern Africa</a> was launched.' + '<br /><br />' + 'In early 2022, we started an “<a href="https://www.hotosm.org/updates/open-mapping-hub-in-latam-december-2021-update/" target="_blank">Alpha</a>” phase to learn and co-design what an Open Mapping Hub serving Latin America could be and do. This effort and mandate was the result of multiple consultations and conversations that took place with the open mapping communities in Latin America during the previous year. The Alpha Team managed to kick-start 16 projects in 9 countries in under 5 months and a transition period to full Hub will take place over the coming months.' + '<h3 class=""></h3>' + '<span style="font-size:0.8em;">Rotate the globe by clicking and dragging your pointer, or use the controls in the top right. Throughout our story, you can freely explore the maps where there is a right arrow.</span> &#8594;' + '<br /><br />' + 'Scroll down to continue. &#8595;',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,
@@ -183,7 +183,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2 class="liftout">Key Milestones</h2><div class="flourish-embed flourish-chart" data-src="visualisation/10754046"></div><h2 class="liftout">Key achievements July 2021-June 2022</h2><ul class="keystats"><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/school.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">2,106</span> NGO/partner staff trained and using HOT maps</li><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/download.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">55,181</span> downloads from HDX</li></ul><h2 class="liftout">Cumulative progress</h2><ul class="keystats"><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/marker.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">1.6 million</span> place names mapped</li><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/commercial.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">2.7 million</span> amenities mapped</li></ul>',
+            description: '<h2 class="liftout">KEY MILESTONES</h2><div class="flourish-embed flourish-chart" data-src="visualisation/10754046"></div><h2 class="liftout">Key achievements July 2021-June 2022</h2><ul class="keystats"><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/school.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">2,106</span> NGO/partner staff trained and using HOT maps</li><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/download.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">55,181</span> downloads from HDX</li></ul><h2 class="liftout">Cumulative progress</h2><ul class="keystats"><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/marker.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">1.6 million</span> place names mapped</li><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/commercial.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">2.7 million</span> amenities mapped</li></ul>',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,
@@ -797,7 +797,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2 class="liftout">To scale and sustain the movement, we need to create the space to <span style="color: #D73F3F; font-weight: bold;">connect, convene, and amplify</span> community and partner work; providing excellent collaboration spaces and virtuous circles for Partner to Community and Community to Community sharing and learning.</h2>',
+            description: '<h2 class="liftout">To scale and sustain the movement, we need to create the space to <span style="color: #D73F3F; font-weight: bold;">connect, convene, and amplify</span> community and partner work; providing excellent collaboration spaces and virtuous circles for <span style="color: #D73F3F; font-weight: bold;">partner to community</span> and <span style="color: #D73F3F; font-weight: bold;">community to community</span> sharing and learning.</h2>',
             location: {
               center: [-58.401371, 4.361681],
               zoom: 2.5,
@@ -902,7 +902,7 @@ var config = {
             hidden: false,
             title: 'She Leads and She Inspires',
             image: '',
-            description: '<h4 class="impact-head">Impact Area:</h4> <strong>Gender Equality</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/gender.png" height="35" width="35" />' + '<h3></h3>' + 'The She Leads and She Inspires Project is an initiative of the OpenMapping Hub - Asia Pacific and was designed to increase women’s representation in the geospatial ecosystem by supporting the emergence and evolution of women leaders within the OSM ecosystem and beyond. The long term vision is that the participants will continue to grow, get more deeply involved and champion similar initiatives in their communities beyond the scope of the project.' + '<br /><br />' + 'Over the course of six months, women from Nepal, India, Philippines, Bangladesh, Bhutan, Tajikistan, Indonesia, Pakistan, Sri Lanka, Cambodia, Fiji, Kiribati, Vietnam, Papua New Guinea were led through a structured program supporting them to become OSM community leaders by gaining skills in geospatial data and technologies, decision making, digital leadership, needs identification and networking.',
+            description: '<h4 class="impact-head">Impact Area:</h4> <strong>Gender Equality</strong> <img style="width: auto; vertical-align: middle;" src="images/icons/gender.png" height="35" width="35" />' + '<h3></h3>' + 'The <a href="https://stories.hotosm.org/she-leads-and-she-inspires/" target="_blank">She Leads and She Inspires Project</a> is an initiative of the OpenMapping Hub - Asia Pacific and was designed to increase women’s representation in the geospatial ecosystem by supporting the emergence and evolution of women leaders within the OSM ecosystem and beyond. The long term vision is that the participants will continue to grow, get more deeply involved and champion similar initiatives in their communities beyond the scope of the project.' + '<br /><br />' + 'Over the course of six months, women from Nepal, India, Philippines, Bangladesh, Bhutan, Tajikistan, Indonesia, Pakistan, Sri Lanka, Cambodia, Fiji, Kiribati, Vietnam, Papua New Guinea were led through a structured program supporting them to become OSM community leaders by gaining skills in geospatial data and technologies, decision making, digital leadership, needs identification and networking.',
             location: {
               center: [85.403328, 5.058386],
               zoom: 3.5,
@@ -1078,6 +1078,11 @@ var config = {
                 layer: 'nepal',
                 opacity: 1,
                 duration: 2000
+              },
+              {
+                layer: 'data_intern_labels',
+                opacity: 0,
+                duration: 2000
               }
             ],
             onChapterExit: [
@@ -1148,11 +1153,6 @@ var config = {
                 layer: 'data_intern_countries2',
                 opacity: 0,
                 duration: 2000
-              },
-              {
-                layer: 'data_intern_labels',
-                opacity: 0,
-                duration: 2000
               }
             ]
           },
@@ -1162,7 +1162,7 @@ var config = {
               hidden: false,
               title: 'Key Results',
               image: '',
-              description: 'Together, the interns mapped and validated 74 projects across 12 countries including:' + '<br /><br />' + '<div class="flourish-embed" data-src="visualisation/10625782"></div>' + 'This involved working remotely in teams of 4-5 and coordinating approaches and sharing best practices.' + '<h3></h3>' + 'The HOT Data Quality Internship was  supported by <a href="https://www.meta.com/" target="_blank">Meta</a>. Special thanks to <a href="https://www.mapbox.com/" target="_blank">Mapbox</a>, The <a href="https://www.osgeo.org/" target="_blank">Open Source Geospatial Foundation</a> and <a href="https://www.kontur.io/" target="_blank">Kontur</a> for providing training',
+              description: 'Together, the interns mapped and validated 74 projects across 12 countries including:' + '<br /><br />' + '<div class="flourish-embed" data-src="visualisation/10625782"></div>' + '<h3></h3>' + 'The HOT Data Quality Internship was supported by <a href="https://www.meta.com/" target="_blank">Meta</a>. Special thanks to <a href="https://www.mapbox.com/" target="_blank">Mapbox</a>, The <a href="https://www.osgeo.org/" target="_blank">Open Source Geospatial Foundation</a> and <a href="https://www.kontur.io/" target="_blank">Kontur</a> for providing training',
               location: {
                 center: [-58.401371, 4.361681],
                 zoom: 2.75,
@@ -1175,7 +1175,6 @@ var config = {
               rotateAnimation: true,
               callback: 'disableFreetime',
               onChapterEnter: [
-
               ],
               onChapterExit: [
 
@@ -1300,6 +1299,11 @@ var config = {
                 onChapterExit: [
                   {
                     layer: 'zambia',
+                    opacity: 0,
+                    duration: 2000
+                  },
+                  {
+                    layer: 'data_intern_labels',
                     opacity: 0,
                     duration: 2000
                   }

@@ -183,7 +183,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2 class="liftout">KEY MILESTONES</h2><div class="flourish-embed flourish-chart" data-src="visualisation/10754046"></div><h2 class="liftout">Key achievements July 2021-June 2022</h2><ul class="keystats"><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/school.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">2,106</span> NGO/partner staff trained and using HOT maps</li><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/download.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">55,181</span> downloads from HDX</li></ul><h2 class="liftout">Cumulative progress</h2><ul class="keystats"><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/marker.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">1.6 million</span> place names mapped</li><li><img style="display: inline; width: 50px; height: 50px;" src="images/icons/commercial.svg" height="50" width="50" /><span style="font-weight: bold; color: #D73F3F;">2.7 million</span> amenities mapped</li></ul>',
+            description: '<h2 class="liftout"><strong>KEY MILESTONES</strong></h2><div class="flourish-embed flourish-chart" data-src="visualisation/10754046"></div><img style="text-align:center;" src="images/key_stats.jpg" />',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,
@@ -206,7 +206,7 @@ var config = {
             hidden: false,
             title: 'Impact Areas',
             image: '',
-            description: 'Solving global challenges require an understanding of our physical environment that is grounded in the day-to-day realities of people experiencing those challenges. Open mapping helps us co-develop that understanding together, which enables humanitarian, development, and community organizations to take more informed and locally-appropriate action. Each Impact Area  describes one of the major global challenges the open mapping movement is taking on.” Impact Areas ensure all efforts across HOT - partnerships, grantmaking, and community support - are focused on contributing to one of five major issue areas.' + '<br /><br />' + '<div class="flourish-embed flourish-cards" data-src="visualisation/10759157"></div>' + '<img style="width: 80%; text-align:center;" src="images/gender_equal_ia.jpg" />',
+            description: 'Solving global challenges require an understanding of our physical environment that is grounded in the day-to-day realities of people experiencing those challenges. Open mapping helps us co-develop that understanding together, which enables humanitarian, development, and community organizations to take more informed and locally-appropriate action. Each Impact Area  describes one of the major global challenges the open mapping movement is taking on.” Impact Areas ensure all efforts across HOT - partnerships, grantmaking, and community support - are focused on contributing to one of five major issue areas.' + '<br /><br />' + '<img style="text-align:center;" src="images/issue_areas.jpg" />',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,

@@ -85,6 +85,8 @@
 <div class="header-nav-bar">
   <ul>
     <li><a class="anchorLink" href="#header">Home&nbsp;&nbsp;| </a></li>
+    <li><a class="anchorLink" href="#letter-explore">Regional Open Mapping Hubs&nbsp;&nbsp;| </a></li>
+    <li><a class="anchorLink" href="#prelude-2">Impact Areas&nbsp;&nbsp;| </a></li>
     <li><a class="anchorLink" href="#chapter-1">Mapping for Impact&nbsp;&nbsp;| </a></li>
     <li><a class="anchorLink" href="#spacer-1">Collaboration Spaces&nbsp;&nbsp;| </a></li>
     <li><a class="anchorLink" href="#chapter-12">Our Supporters & Financials</a></li>
@@ -92,6 +94,14 @@
 </div>
 
   <div id="map"></div>
+
+  <div id='chapter1dlegend' class='legend'>
+  <h4>Legend</h4>
+  <ul class='legend-ul'>
+    <li><div><span style='background-color: #e22c2c'></span>Vaccination Sites </div></li>
+  </ul>
+  <!--<h5><strong>Data</strong>: OSM, <a href='https://www.openstreetmap.org' target='_blank'>OSM</a></h5>-->
+  </div>
 
   <div id='chapter9legend' class='legend'>
 	<h4>Legend</h4>
@@ -330,6 +340,11 @@
       .onStepEnter(async response => {
           var chapter = config.chapters.find(chap => chap.id === response.element.id);
           var chapterid = chapter.id;
+
+          if (chapterid == "chapter-1d") {
+               $("#chapter1dlegend").show("slow");
+          } else
+               $("#chapter1dlegend").hide("fast");
 
           if (chapterid == "chapter-9") {
                $("#chapter9legend").show("slow");

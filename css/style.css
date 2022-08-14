@@ -408,10 +408,31 @@ h4.impact-head {
 	font-size: 1.4em;
 }
 
+@media (max-width: 1400px) {
+.header-nav-bar
+	{
+	font-size: 1.3em;
+}
+}
+
+@media (max-width: 1304px) {
+.header-nav-bar
+	{
+	font-size: 1.1em;
+}
+}
+
+@media (max-width: 1024px) {
+.header-nav-bar
+	{
+	font-size: 1em;
+}
+}
+
 @media (max-width: 768px) {
 .header-nav-bar
 	{
-	font-size: 0.9em;
+	font-size: 0.73em;
 }
 }
 
@@ -432,12 +453,20 @@ h4.impact-head {
 	margin-top: 10px;
 }
 
+@media (max-width: 1024px) {
+.header-nav-bar ul
+	{
+	margin-top: 15px;
+}
+}
+
 @media (max-width: 768px) {
 .header-nav-bar ul
 	{
 	margin-top: 15px;
 }
 }
+
 @media (max-width: 425px) {
 .header-nav-bar ul
 	{
@@ -479,11 +508,12 @@ h4.impact-head {
 	padding: 10px;
 	display: none;
 	z-index: 1;
-	margin-left: 25vw;
 	border-radius: 5px;
 	font-family: 'Archivo', sans-serif;
 	font-weight: 400;
 	font-size: small;
+	right: 0;
+  margin-right: 22vw;
 }
 
 .legend h4 {

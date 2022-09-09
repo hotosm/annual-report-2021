@@ -1017,7 +1017,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<img style="float:left; width: auto; padding: 0 89px 25px 0;" src="images/she_leads/vietnam.jpg" /><h3 class="liftout-minor">“I am truly thrilled with the SLSI program from the beginning until now, because of its purpose as well as its series of activities. I gained so many experiences and opportunities. The most exciting part for me is the last proposal project. I can feel that this is a huge chance for not only me but also the Vietnamese OSM community. Since our community is not very big and well-connected, this can lead to a revolution for us.”</h3> <p style="text-align: right;">&dash; Huynh To Nga, Vietnam</p>',
+            description: '<img style="float:left; width: auto; padding: 0 10px 25px 0;" src="images/she_leads/vietnam.jpg" /><h3 class="liftout-minor">“I am truly thrilled with the SLSI program from the beginning until now, because of its purpose as well as its series of activities. I gained so many experiences and opportunities. The most exciting part for me is the last proposal project. I can feel that this is a huge chance for not only me but also the Vietnamese OSM community. Since our community is not very big and well-connected, this can lead to a revolution for us.”</h3> <p style="text-align: right;">&dash; Huynh To Nga, Vietnam</p>',
             location: {
               center: [106.700343, 14.300999],
               zoom: 6,

@@ -78,6 +78,8 @@
 </head>
 <body>
 
+  <div id="optout-form" ></div>
+
   <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
 </div>
@@ -540,30 +542,7 @@
     }
   }
 
-// GDPR box behavior
-
-$(document).ready(function(){
-  $("#cn-accept-cookie").click(function(){
-    $("#cookie-notice").hide("slow");
-  });
-	$("#cn-close-notice").click(function(){
-		$("#cookie-notice").hide("slow");
-	});
-});
-
   </script>
-
-  <div id="cookie-notice" role="dialog" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom" aria-label="Cookie Notice" style="background-color: #68707F;">
-  	<div class="cookie-notice-container" style="color: #fff;">
-  		<span id="cn-notice-text" class="cn-text-container">This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies. Review our privacy policy for more details.</span>
-
-  		<span id="cn-notice-buttons" class="cn-buttons-container"><a id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button" aria-label="YES, I AGREE" style="background-color: #6C2020">YES, I AGREE</a>
-  			<a href="https://www.hotosm.org/privacy" target="_blank" id="cn-more-info" class="cn-more-info cn-button" aria-label="PRIVACY POLICY" style="background-color: #6C2020">PRIVACY POLICY</a>
-  		</span>
-
-  		<span id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" title="No"></span>
-  	</div>
-  </div>
 
 </body>
 </html>

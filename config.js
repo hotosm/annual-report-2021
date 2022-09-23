@@ -1435,7 +1435,7 @@ var config = {
             hidden: false,
             title: 'SPECIAL THANKS TO OUR 2021-2022 MISSION CRITICAL PARTNERS*',
             image: '',
-            description: '<h4>HUMANITARIAN IMPACT PARTNERS</h4><img src="images/impact-partners2.jpg" style="width: 70%; text-align: center;" />' + '<br /><br />' + '<h4>CORPORATE PARTNERS</h4><img src="images/corporate-logos.jpg" style="width: 70%; text-align: center;" />' + '<br /><br />' + '<h4>WITH SPECIAL THANKS TO OUR AUDACIOUS DONORS</h4><img src="images/individuals.jpg" style="width: 70%; text-align: center;" /><p class="photocaption" style="font-size:0.7em;"><sup>*</sup> Based on the size of data contributions, and/or funding support</p>' + '<br /><br />' + '<h3>ANNUAL EXPENDITURES</h3>' + '<div class="video-container"><iframe src="https://flo.uri.sh/visualisation/10917144/embed" frameborder="0" scrolling="no"></iframe></div>',
+            description: '<h4>HUMANITARIAN IMPACT PARTNERS</h4><img src="images/impact-partners3.jpg" style="width: 70%; text-align: center;" />' + '<br /><br />' + '<h4>CORPORATE PARTNERS</h4><img src="images/corporate-logos.jpg" style="width: 70%; text-align: center;" />' + '<br /><br />' + '<h4>WITH SPECIAL THANKS TO OUR AUDACIOUS DONORS</h4><img src="images/individuals.jpg" style="width: 70%; text-align: center;" /><p class="photocaption" style="font-size:0.7em;"><sup>*</sup> Based on the size of data contributions, and/or funding support</p>' + '<br /><br />' + '<h3>ANNUAL EXPENDITURES</h3>' + '<div class="video-container"><iframe src="https://flo.uri.sh/visualisation/10917144/embed" frameborder="0" scrolling="no"></iframe></div>',
             location: {
               center: [-8.68740, 23.01151],
               zoom: 2.5,
